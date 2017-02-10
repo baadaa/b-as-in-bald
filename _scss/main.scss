@@ -1,0 +1,1125 @@
+//==========================================================================
+//   Key variables
+//==========================================================================
+
+// Colors
+$cyan: #00A2D9;
+$berry: #B7295A;
+$green: #7AB800;
+$yellow: #F2AF00;
+$accentColor: $green;
+$bgColor: #FFF;
+
+// Logo Set
+$logoWidth: 140px;
+$baseUnit: $logoWidth / 2;
+$backEase: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+$animDelay: 0s;
+$logoTextSize: $baseUnit / 2;
+
+// 404 Logo
+$logo404Width: 80px;
+$base404Unit: $logo404Width / 2;
+$logo404TextSize: $base404Unit;
+
+
+// Sizes
+$minSize: 400px;
+$midSize: 600px;
+$bigSize: 1000px;
+
+@import 'flex';
+@import 'logo';
+@import '404';
+
+// ==========================================================================
+// Base styles: opinionated defaults
+// ========================================================================== */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #000;
+  padding-bottom: 2rem;
+}
+
+.ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+[aria-hidden="true"]  { display: none; }
+[aria-hidden="false"] { display: block; }
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.black {
+  color: #000!important;
+}
+
+.shadow {
+  text-shadow: 1px 3px 3px rgba(0,0,0,0.7);
+}
+
+.container {
+  display: block;
+  margin-bottom: -1rem; // same as footer height
+  &::after {
+    content:"";
+    display: block;
+    height: 1rem;
+    width: 4rem;
+  }
+}
+
+footer {
+  display: block;
+  text-align: right;
+  font-size: 0.6rem;
+  background: #808080;
+  color: #FFF;
+  padding: 0.2rem 1rem;
+  height: 1rem;
+}
+
+// ==========================================================================
+// Home page logo elements
+// ========================================================================== */
+
+header.nav-bar {
+  background: $berry;
+  position: fixed;
+  height: 3rem;
+  width: 100%;
+  z-index: 999;
+  @include flexbox;
+  @include align-items(center);
+  @include justify-content(space-between);
+
+
+  .letter-b {
+    margin-left: 0.7em;
+    display: block;
+    font: {
+      size: 1.9em;
+      weight: 700;
+    }
+    color: #FFF;
+    a {
+      text-decoration: none;
+      color: #FFF;
+    }
+  }
+
+  .menu-btn {
+    margin-right: 1em;
+    background: url('../img/menu-collapsed.svg') no-repeat center;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    &.open {
+      background: url('../img/menu-expanded.svg') no-repeat center;
+    }
+  }
+
+
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  @include flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+  &.container {
+    min-height: calc(100% - 3rem);
+    padding-bottom: 1.7rem;
+  }
+}
+
+@media screen and (max-width:$midSize) {
+  .logo-container, .logo-404-container {
+    margin-top: -3rem;
+  }
+  .logo-404-container {
+    width: $logo404Width*3;
+  }
+  .logo-container {
+    // margin: 0 auto;
+    width:$logoWidth;
+  }
+  .logo-column {
+    width: 100%;
+    @include flex-wrap(wrap);
+  }
+  .logo-404-column {
+    width:33%;
+    @include flex-wrap(wrap);
+    // margin-left: 1.5rem;
+
+  }
+  .logo-phrase, .logo-404-phrase {
+    margin-left:0.5em;
+    &:nth-child(1) {
+      padding-top: 0.5em;
+    }
+  }
+
+}
+
+// ==========================================================================
+// Home page bio section
+// ========================================================================== */
+.intro-bio {
+  padding: 1rem;
+
+  header.basic-info {
+    @include flexbox;
+    img {
+      border-radius: 50%;
+      margin-right: 1rem;
+      @media screen and (min-width: $midSize) {
+        margin: 0 0 0 auto;
+        text-align: left;
+      }
+    }
+    div {
+      @include flexbox;
+      @include flex-direction(column);
+      @include align-self(center);
+      @include justify-content(center);
+      span {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.3rem;
+        margin: 0;
+        padding: 0;
+
+        &.name {
+          font-weight: 700;
+        }
+        &.aka, &.email {
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+          color: #4A4A4A;
+          font-style: italic;
+        }
+        &.email a {
+          color: #4A4A4A
+        }
+      }
+      @media screen and (min-width: $midSize) {
+        margin: 0 auto 0 1rem;
+        text-align: left;
+      }
+
+    }
+    @media screen and (min-width: $midSize) {
+      margin-bottom: 1rem;
+    }
+  }
+  @media screen and (min-width: $midSize) {
+    text-align: center;
+  }
+}
+.intro-line {
+  display: block;
+  margin: 0.5rem 0 0.5rem 0;
+  @media screen and (min-width: $midSize) {
+    margin-bottom: 1rem;
+  }
+}
+.tag {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  margin: 0 0.3rem 0.3rem 0;
+  white-space: nowrap;
+  background: #E7E7E7;
+  font-size: 0.7rem;
+  border-radius: 0.4rem;
+  color: #4A4A4A;
+}
+.resume {
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @media screen and (min-width: $midSize) {
+    @include flex-wrap(nowrap);
+    @include justify-content(space-between);
+    margin: 0.5rem auto;
+    width: $midSize;
+  }
+}
+.resume-section {
+  @include flex(1, 1, 90vw);
+  color: #333333;
+  h4 {
+    color: $berry;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+  }
+  .hint {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #777777;
+  }
+  .company, .title, .major, .school {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .company, .school {
+    font-style: italic;
+    margin-bottom: 0.4rem;
+  }
+  @media screen and (min-width: $midSize) {
+    text-align: left;
+    width: 280px;
+    padding: {
+      left: 0.8rem;
+    }
+  }
+}
+
+.buttons {
+  @include flexbox;
+  @include justify-content(center);
+  width: 100%;
+  span {
+    @include flex(1, 1, 3rem);
+    border-radius: 0.5rem;
+    display: block;
+    text-align: center;
+    background: $yellow;
+    margin: 1rem 0.7rem 1rem 0;
+    padding: 0.5rem;
+    color: #FFF;
+    font: {
+      size: 0.9rem;
+      weight: 700;
+    }
+
+    &:last-of-type{
+      background: $green;
+      margin-right: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #FFF;
+      display: block;
+    }
+    img {
+      width: 1.1rem;
+      margin-right: 0.5rem;
+    }
+  }
+  @media screen and (min-width: $midSize) {
+    @include align-self(flex-end);
+    @include flex-wrap(wrap);
+    width: $midSize;
+    margin: 0 auto;
+  }
+}
+
+
+// ==========================================================================
+//  Nav overlay
+// ========================================================================== */
+#overlay-bg {
+  background: rgba(0,0,0,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 3rem;
+  z-index: 999;
+  transition: 0.4s;
+  color:#FFF;
+  @include flexbox;
+  @include align-items(center);
+  @include flex-direction(column);
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color:#FFF;
+    }
+
+    &.menu {
+
+      font-size: 1.4rem;
+      line-height: 3rem;
+      user-select: none;
+      @include flex(5, 5, auto);
+      @include flexbox;
+      @include flex-direction(column);
+      @include justify-content(center);
+    }
+    &.social-links {
+      @include flexbox;
+      @include align-items(center);
+      @include flex(2, 2, 3rem);
+      li {
+        margin-right: 1rem;
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+      }
+    }
+    &.langs{
+      @include flexbox;
+      @include align-items(flex-end);
+      @include flex(2, 2, 3rem);
+      width: 100%;
+      margin-bottom: 3em;
+      li {
+        @include flexbox;
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex(3, 3, 5rem);
+        padding: 0.7em;
+        background: #5C5C5C;
+      }
+      li.ko {
+        border-left: solid 1px #333;
+      }
+    }
+
+  }
+}
+
+// ==========================================================================
+// Portfolio page
+// ========================================================================== */
+.thumbnails {
+
+  &.container {
+    min-height: 100%;
+  }
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  padding: {
+    top: 3rem;
+    left: 4vw;
+    right: 4vw;
+    bottom: 2rem;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+  }
+
+  .filters {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .selected-filter {
+    background: $green;
+    color: #FFF;
+  }
+  .thumb-box {
+    width: 42vw;
+    height: 38vw;
+    margin-bottom: 1.2vw;
+    // margin-right: 0.001vw;
+    // margin-left: 0.001vw;
+    @include flexbox;
+    @include flex-direction(column);
+    @include flex(0, 0, auto);
+
+    @media screen and (min-width: $midSize) {
+      width: 29vw;
+      height: 24.93vw;
+    }
+
+    span {
+      display: block;
+    }
+    .thumb-img {
+      // @include flex(4, 4, auto);
+    }
+    .thumb-caption {
+      // @include flex(1, 1, 1rem);
+      // height: 10vw;
+      @include flexbox;
+      @include justify-content(center);
+      @include align-items(center);
+      font-size: 0.7rem;
+
+      @media screen and (min-width: 730px) {
+        font-size: 1rem;
+      }
+    }
+    img {
+      width: 100%;
+      display: block;
+    }
+
+  }
+}
+
+
+// ==========================================================================
+// Blog List page
+// ========================================================================== */
+.blog-list {
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  @include align-items(center);
+  padding: {
+    top: 3rem;
+    left: 4vw;
+    right: 4vw;
+  }
+  &.container {
+    min-height: calc(100% - 3rem);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  .blog-intro {
+    @include flexbox;
+    @include justify-content(flex-start);
+    min-height: 5rem;
+    width: 100%;
+    padding-top: 1rem;
+    border-top: #DDD 1px solid;
+    margin-bottom: 1rem;
+    &:last-of-type {
+      border-bottom: #DDD 1px solid;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    span {
+      display: block;
+    }
+    @media screen and (min-width: $bigSize) {
+      @include justify-content(center);
+      width: auto;
+    }
+
+    .blog-intro-thumb {
+      @include flex(0, 0, 6rem);
+      // @include justify-content(center);
+      width: 6rem;
+      height: 6rem;
+      text-align: center;
+      overflow: hidden;
+      img {
+        height: 6rem;
+        margin-left: -2rem;
+      }
+
+      @media screen and (min-width: $midSize) {
+        @include flex(0,0,8rem);
+        width: 8rem;
+        height: 8rem;
+        img {
+          height: 8rem;
+          margin-left: -3rem;
+        }
+      }
+    }
+    .blog-intro-detail {
+      padding-left: 1rem;
+      @include flexbox;
+      @include flex-direction(column);
+      @include justify-content(center);
+      .blog-intro-title {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        color:#555;
+      }
+      .blog-intro-date {
+        font-size: 0.7rem;
+        color:#AAA;
+      }
+      @media screen and (min-width: $midSize) {
+        .blog-intro-title {
+          font-size: 1.2rem;
+          line-height: 1.7rem;
+        }
+        .blog-intro-date {
+          font-size: 0.9rem;
+          color:#AAA;
+        }
+      }
+    }
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+  }
+  .blog-pagination {
+    color: #777;
+    letter-spacing: 0.2rem;
+    margin-bottom: 3rem;
+    strong {
+      color:#000;
+    }
+  }
+}
+
+// ==========================================================================
+// Blog & Portfolio Entry pages
+// ========================================================================== */
+
+.blog-entry, .portfolio-entry {
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+
+  .thumbnails {
+    padding-top: 1rem;
+
+    .thumb-box {
+      margin-bottom: -1vw;
+    }
+  }
+
+  .blog-header, .portfolio-header {
+    position: relative;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    background: {
+      color: #6bdaed;
+      image: url(../img/fpo-blog-header.png);
+      repeat: no-repeat;
+      position: center bottom;
+      size: 562px 315px;
+    }
+  }
+  .portfolio-header {
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .title-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: {
+      left: 2rem;
+      right: 2rem;
+    }
+    text-align: center;
+
+    span.breadcrumb {
+      font-size: 0.8rem;
+      a {
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0.5);
+      }
+    }
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-weight: 400;
+      font-size: 1.9rem;
+      line-height: 2.2rem;
+      color: #FFFFFF;
+      padding-top: 0.3rem;
+    }
+    p.post-date {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #FFF;
+      text-align: center;
+      padding-bottom: 18rem;
+    }
+  }
+  .portfolio-header .title-container h1 {
+    padding-bottom: 18rem;
+  }
+  .portfolio-body .buttons {
+    margin-top: -1rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+  }
+  .blog-body, .portfolio-body {
+    max-width: 900px;
+    padding: {
+      left: 4vw;
+      right: 4vw;
+    }
+    .category {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1rem;
+      margin-top: 1.4rem;
+    }
+    .project-info {
+      color:#777;
+      line-height: 1.5rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      span {
+        font-weight: 700;
+        color: #000;
+        &::before {
+          content:"";
+          display: block;
+        }
+      }
+    }
+
+
+    p {
+      display: block;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: #777;
+      margin-top: 0;
+      margin-bottom: 1rem;
+
+      &.excerpt {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        color: #AAA;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    blockquote {
+      display: none;
+      float: right;
+      -webkit-margin-before: 1rem;
+      -webkit-margin-after: 1rem;
+      vertical-align: text-top;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      border: none;
+      color:#CCC;
+      border-left: $green 5px solid;
+      &.ql {
+        float: left;
+      }
+      &.qr {
+        float: right;
+
+      }
+    }
+
+
+    @media screen and (min-width: $midSize){
+      h2 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin-bottom: 1.8rem;
+        &.excerpt {
+          font-size: 1.5rem;
+          line-height: 2rem;
+          color: #AAA;
+          margin-top: 0.8rem;
+          margin-bottom: 0.8rem;
+        }
+      }
+      blockquote {
+        display: block;
+        width: 30%;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        padding-left: 2.5rem;
+        &.qr {
+          margin-left: 4rem;
+        }
+        &.ql {
+          margin-left: 0rem;
+          padding-right: 2.5rem;
+        }
+      }
+    }
+
+    @media screen and (min-width: $bigSize) {
+      blockquote {
+        display: block;
+        width: 30%;
+        &.qr {
+          margin-left: 5rem;
+        }
+        &.ql {
+          margin-left: -3rem;
+        }
+      }
+
+    }
+  }
+  .post-nav {
+    width: 100%;
+    @include flexbox;
+    @include justify-content(space-between);
+    @include flex-wrap(wrap);
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    a {
+      text-decoration: none;
+      color: #999;
+      border-radius: 1rem;
+      width: 100%;
+      padding: 0.5rem 2rem;
+      border: #999 1px solid;
+      margin: 0rem 0 1rem 0;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.2rem;
+
+      &:first-of-type {
+        text-align:left;
+        &::before {
+          font-family: Helvetica, Arial, sans-serif;
+          content: "\2190 ";
+          margin-right: 0.5rem;
+        }
+      }
+
+      &:last-of-type {
+        text-align:right;
+        &::after {
+          font-family: Helvetica, Arial, sans-serif;
+          content: "\2192";
+          margin-left: 0.5rem;
+          text-align: right;
+        }
+      }
+      @media screen and (min-width: $midSize) {
+        width: auto;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// ==========================================================================
+// About and Contact pages
+// ========================================================================== */
+.contact, .about {
+  // @include flexbox;
+  // @include flex-wrap(wrap);
+  // @include align-items(flex-start);
+  // @include justify-content(flex-start);
+  padding: {
+    top: 3rem;
+    left: 4vw;
+    right: 4vw;
+    bottom: 2rem;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+  }
+  &.container {
+    min-height: calc(100% - 5.3rem);
+  }
+  p {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+}
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+    transition: 0.4;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
