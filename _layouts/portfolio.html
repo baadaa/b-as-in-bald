@@ -1,0 +1,28 @@
+{% include head.html %}
+{% include nav.html %}
+
+    <article class="portfolio-entry">
+      <section class="portfolio-header" style="background-image: url('/img/portfolio/{{ page.header_image }}'); background-color:#FFF;">
+        <div class="title-container">
+          <span class="breadcrumb"><a class="shadow" href="/portfolio/">Portfolio</a></span>
+          <h1 class="shadow">{{ page.title }}</h1>
+        </div>
+      </section>
+      <section class="portfolio-body">
+        <section class="category">
+          {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </section>
+
+        {{ content }}
+
+      </section>
+      <section class="thumbnails container">
+
+        {% include image-grid.html %}
+
+      </section>
+    </article>
+
+{% include footer-portfolio.html %}

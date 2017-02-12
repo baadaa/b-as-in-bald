@@ -3,7 +3,6 @@
 ;( function ( window, document, $, undefined ) {
 
 	$.swipebox = function( elem, options ) {
-
 		// Default options
 		var ui,
 			defaults = {

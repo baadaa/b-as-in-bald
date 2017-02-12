@@ -1,0 +1,27 @@
+---
+layout: default
+title: B. Portfolio
+permalink: "/portfolio/"
+---
+    <section class="thumbnails container">
+
+      <h1>Portfolio</h1>
+      <section class="filters">
+        <span class="tag selected-filter">all</span>
+        <span class="tag">motion</span>
+        <span class="tag">interactive</span>
+        <span class="tag">identity</span>
+        <span class="tag">infographic</span>
+        <span class="tag">visual design</span>
+      </section>
+      {% for work in site.portfolio %}
+      <section class="thumb-box">
+        <span class="thumb-img">
+          <a href="{{ work.url }}">
+            <img src="/img/portfolio/{{ work.tile_image }}">
+          </a>
+        </span>
+        <span class="thumb-caption">{{ work.title }}</span>
+      </section>
+      {% endfor %}
+    </section>

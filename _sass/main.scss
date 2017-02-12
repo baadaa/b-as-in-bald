@@ -138,14 +138,10 @@ header.nav-bar {
 .logo {
   width: 100%;
   height: 100%;
-  min-height: 100%;
+  // min-height: 100%;
   @include flexbox;
   @include align-items(center);
   @include justify-content(center);
-  &.container {
-    min-height: calc(100% - 3rem);
-    padding-bottom: 1.7rem;
-  }
 }
 
 @media screen and (max-width:$midSize) {
@@ -408,18 +404,22 @@ header.nav-bar {
 // Portfolio page
 // ========================================================================== */
 .thumbnails {
-
+  margin: 0 auto;
+  width: 95vw;
   &.container {
     min-height: 100%;
   }
   @include flexbox;
   @include flex-wrap(wrap);
-  @include justify-content(space-between);
+  @include flex-direction(row);
+  @include align-self(center);
+  // @include justify-content(space-around);
   padding: {
     top: 3rem;
-    left: 4vw;
-    right: 4vw;
+    // left: 2vw;
+    // right: 2vw;
     bottom: 2rem;
+
   }
 
   h1 {
@@ -444,15 +444,16 @@ header.nav-bar {
     width: 42vw;
     height: 38vw;
     margin-bottom: 1.2vw;
-    // margin-right: 0.001vw;
-    // margin-left: 0.001vw;
+    // margin-right: 0.5vw;
+    margin-left: 3vw;
     @include flexbox;
     @include flex-direction(column);
     @include flex(0, 0, auto);
 
     @media screen and (min-width: $midSize) {
       width: 29vw;
-      height: 24.93vw;
+      height: 26.23vw;
+      margin-left: 2vw;
     }
 
     span {
@@ -468,9 +469,14 @@ header.nav-bar {
       @include justify-content(center);
       @include align-items(center);
       font-size: 0.7rem;
+      line-height: 0.8rem;
+      text-align: center;
+      margin-top: 0.2rem;
 
       @media screen and (min-width: 730px) {
         font-size: 1rem;
+        line-height: 1.1rem;
+        margin-top: 0.4rem;
       }
     }
     img {
@@ -485,7 +491,13 @@ header.nav-bar {
 // ==========================================================================
 // Blog List page
 // ========================================================================== */
+
+
 .blog-list {
+  &.container {
+    min-height: 100%;
+  }
+
   @include flexbox;
   @include flex-direction(column);
   @include justify-content(flex-start);
@@ -494,11 +506,8 @@ header.nav-bar {
     top: 3rem;
     left: 4vw;
     right: 4vw;
+    // bottom: -2rem;
   }
-  &.container {
-    min-height: calc(100% - 3rem);
-  }
-
   a {
     text-decoration: none;
     color: inherit;
@@ -523,8 +532,8 @@ header.nav-bar {
       display: block;
     }
     @media screen and (min-width: $bigSize) {
-      @include justify-content(center);
-      width: auto;
+      // @include justify-content(center);
+      width: 750px;
     }
 
     .blog-intro-thumb {
@@ -584,7 +593,7 @@ header.nav-bar {
   }
   .blog-pagination {
     color: #777;
-    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
     margin-bottom: 3rem;
     strong {
       color:#000;
@@ -831,6 +840,10 @@ header.nav-bar {
 // About and Contact pages
 // ========================================================================== */
 .contact, .about {
+  &.container {
+    // min-height: calc(100% - 5.3rem);
+    min-height: 100%;
+  }
   // @include flexbox;
   // @include flex-wrap(wrap);
   // @include align-items(flex-start);
@@ -839,7 +852,7 @@ header.nav-bar {
     top: 3rem;
     left: 4vw;
     right: 4vw;
-    bottom: 2rem;
+    // bottom: 2rem;
   }
 
   h1 {
@@ -848,9 +861,6 @@ header.nav-bar {
     font-weight: 400;
     font-size: 1.5rem;
     color: #4A4A4A;
-  }
-  &.container {
-    min-height: calc(100% - 5.3rem);
   }
   p {
     display: block;

@@ -1,0 +1,35 @@
+---
+layout: default
+title: B. Blog
+---
+    <section class="blog-list container">
+      <h1>Blog</h1>
+        {% for post in paginator.posts %}
+        <div class="blog-intro">
+          <span class="blog-intro-thumb">
+            <a href="{{ post.url }}">
+              <img src="/img/blog/{{ post.header_image }}">
+            </a>
+          </span>
+          <span class="blog-intro-detail">
+            <a href="{{ post.url }}">
+            <span class="blog-intro-title">{{ post.title }}</span>
+            <span class="blog-intro-date"><time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+            </a>
+          </span>
+        </div>
+        {% endfor %}
+        <section class="blog-pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}">&lt; </a>
+          {% else %}
+            &lt;
+          {% endif %}
+           Page <strong>{{ paginator.page }}</strong> of {{ paginator.total_pages }}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}"> &gt;</a>
+            {% else %}
+             &gt;
+           {% endif %}
+        </section>
+    </section>

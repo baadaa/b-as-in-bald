@@ -1,0 +1,27 @@
+{% include head.html %}
+{% include nav.html %}
+
+    <article class="blog-entry">
+      <section class="blog-header" style="background-image: url('/img/blog/{{ page.header_image }}'); background-color: {{ page.bg_color }}">
+        <div class="title-container">
+          <span class="breadcrumb"><a style="color: {{ page.header_color }}" href="/blog/">Blog</a></span>
+          <h1 style="color: {{ page.header_color }}">{{ page.title }}</h1>
+          <p class="post-date" style="color: {{ page.header_color }}"><time datetime="{{ page.date }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+        </div>
+      </section>
+      <section class="blog-body">
+        <section class="category">
+          {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </section>
+
+        {{ content }}
+        <section class="post-nav">
+          <a href="#">Don't Be Interesting</a>
+          <a href="#">Yet Another Longer Title Post</a>
+        </section>
+      </section>
+    </article>
+
+{% include footer.html %}
