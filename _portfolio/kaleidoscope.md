@@ -15,7 +15,9 @@ images:
   - thumb: "fpo_442x330.png"
     link: "fpo_442x330.png"
     alt: "another alt"
-foo: "test"
+category:
+  - motion
+  - visual
 ---
 <div class="project-info">
   <span>Role:</span> design, develop

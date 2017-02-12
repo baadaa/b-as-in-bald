@@ -408,12 +408,14 @@ header.nav-bar {
   width: 95vw;
   &.container {
     min-height: 100%;
+    @include flex(0, 0, auto);
   }
   @include flexbox;
   @include flex-wrap(wrap);
   @include flex-direction(row);
   @include align-self(center);
-  // @include justify-content(space-around);
+  @include align-content(flex-start);
+  // @include justify-content(flex-start);
   padding: {
     top: 3rem;
     // left: 2vw;
@@ -428,13 +430,23 @@ header.nav-bar {
     font-weight: 400;
     font-size: 1.5rem;
     color: #4A4A4A;
+    @include flex(0, 0, auto);
   }
 
-  .filters {
+  ul.filters {
+    @include flex(0, 0, auto);
     width: 100%;
-    margin-bottom: 1rem;
+    margin:0;
+    padding:0;
+    margin-bottom: 2rem;
     text-align: center;
     cursor: pointer;
+    list-style: none;
+
+    li {
+      margin: 0;
+      display: inline-block;
+    }
   }
   .selected-filter {
     background: $green;
@@ -442,7 +454,7 @@ header.nav-bar {
   }
   .thumb-box {
     width: 42vw;
-    height: 38vw;
+    height: 36vw;
     margin-bottom: 1.2vw;
     // margin-right: 0.5vw;
     margin-left: 3vw;
@@ -452,7 +464,7 @@ header.nav-bar {
 
     @media screen and (min-width: $midSize) {
       width: 29vw;
-      height: 26.23vw;
+      height: 24.85vw;
       margin-left: 2vw;
     }
 

@@ -1,21 +1,21 @@
 ---
-layout: default
+layout: portfolio-grid
 title: B. Portfolio
 permalink: "/portfolio/"
 ---
     <section class="thumbnails container">
 
       <h1>Portfolio</h1>
-      <section class="filters">
-        <span class="tag selected-filter">all</span>
-        <span class="tag">motion</span>
-        <span class="tag">interactive</span>
-        <span class="tag">identity</span>
-        <span class="tag">infographic</span>
-        <span class="tag">visual design</span>
-      </section>
+      <ul class="filters">
+        <li><span class="tag selected-filter" data-filter="all">all</span></li>
+        <li><span class="tag" data-filter=".motion">motion</span></li>
+        <li><span class="tag" data-filter=".interactive">interactive</span></li>
+        <li><span class="tag" data-filter=".identity">identity</span></li>
+        <li><span class="tag" data-filter=".infographic">infographic</span></li>
+        <li><span class="tag" data-filter=".visual">visual design</span></li>
+      </ul>
       {% for work in site.portfolio %}
-      <section class="thumb-box">
+      <section class="thumb-box mix {% for cat in work.category %}{{ cat }} {% endfor %}">
         <span class="thumb-img">
           <a href="{{ work.url }}">
             <img src="/img/portfolio/{{ work.tile_image }}">

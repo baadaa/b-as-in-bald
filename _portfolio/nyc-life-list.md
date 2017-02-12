@@ -14,15 +14,16 @@ images:
   - thumb: "fpo_442x330.png"
     link: "fpo_442x330.png"
     alt: "another alt"
+category:
+  - interactive
 ---
-{% for p in site.portfolio %}
-{{ p }}
-{% endfor %}
 <div class="project-info">
   <span>Role:</span> design, develop
   <span>Languages:</span> HTML, JavaScript
 </div>
-  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
+
+  Find three most needed things in New York Life: *WiFi hotspots, subway entrances, and restrooms*. Have peace of mind with this responsive, single-page web application.
+
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
