@@ -4,6 +4,8 @@ title: "Married in Seoul dot com"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14
+lang: en
+ref: married
 tags:
   - UX/UI design
   - front-end development

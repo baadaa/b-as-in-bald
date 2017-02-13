@@ -1,15 +1,15 @@
 ---
 layout: portfolio
-title: "Plan a Movie Night App"
+title: "NYC Life List App"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
-date: 2017-01-14
-lang: en
-ref: pamn
+tile_image: "fpo_442x330.png"
+lang: ko
+ref: lifelist
+permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design
   - front-end development
-tile_image: "fpo_442x330.png"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"
@@ -19,13 +19,14 @@ images:
     alt: "another alt"
 category:
   - interactive
-  - visual
 ---
 <div class="project-info">
-  <span>Role:</span> design, develop
-  <span>Languages:</span> HTML, JavaScript
+  <span>책임:</span> 디자인, 코딩
+  <span>언어:</span> HTML, JavaScript
 </div>
-  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
+
+  뉴욕 길거리에서 가장 절실히 필요한 3가지의 주요 자원을 찾아주는 웹 애플리케이션. *WiFi hotspots, subway entrances, and restrooms*. Have peace of mind with this responsive, single-page web application.
+
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>

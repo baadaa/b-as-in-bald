@@ -811,10 +811,14 @@ header.nav-bar {
     margin-top: 4rem;
     margin-bottom: 3rem;
     a {
+      @include flexbox;
+      @include align-items(center);
       text-decoration: none;
       color: #999;
       border-radius: 1rem;
       width: 100%;
+      // max-width: 30%;
+      // @include flex(1, 1, auto);
       padding: 0.5rem 2rem;
       border: #999 1px solid;
       margin: 0rem 0 1rem 0;
@@ -822,26 +826,40 @@ header.nav-bar {
       font-size: 1rem;
       line-height: 1.2rem;
 
-      &:first-of-type {
+      &.previous {
+        padding-left: 1rem;
         text-align:left;
+        margin-right: auto;
         &::before {
+          @include flexbox;
+          @include align-items(center);
           font-family: Helvetica, Arial, sans-serif;
           content: "\2190 ";
           margin-right: 0.5rem;
+          height: 100%;
         }
       }
 
-      &:last-of-type {
+      &.next {
+        padding-right: 1rem;
         text-align:right;
+        @include justify-content(flex-end);
+        // @include align-content(flex-end);
+        margin-left: auto;
+
         &::after {
+          @include flexbox;
+          @include align-items(center);
           font-family: Helvetica, Arial, sans-serif;
           content: "\2192";
           margin-left: 0.5rem;
           text-align: right;
+          height: 100%;
         }
       }
       @media screen and (min-width: $midSize) {
         width: auto;
+        max-width: 40%;
         text-align: center;
       }
     }

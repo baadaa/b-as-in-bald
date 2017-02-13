@@ -3,6 +3,8 @@ layout: portfolio
 title: "Young & Rubicam Group"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
+lang: en
+ref: yrg
 tags:
   - UX/UI design
   - front-end development

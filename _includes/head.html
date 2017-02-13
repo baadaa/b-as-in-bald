@@ -1,12 +1,20 @@
 <!doctype html>
-<html class="no-js" lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+{% assign postsTrans = site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% if postsTrans.size == 0 %}
+  {% assign postsTrans = site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% endif %}
+{% if page.lang == "en" %}
+  {% assign prefix = "/" %}
+{% else %} {% assign prefix = "/k/" %}
+{% endif %}
+<html class="no-js" lang="{{ page.lang }}" xml:lang="{{ page.lang }}" xmlns= "http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ page.title }}</title>
     <meta name="description" content="Bumhan Yu is a NYC-based visual designer and developer with backgrounds in psychology, linguistics, translation, and communications design.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Language" content="{{ page.lang }}">
 
     <link rel="apple-touch-icon" href="/img/headshot.jpg">
     <link rel="shortcut icon" href="/favicon.ico" type="image/icon">
@@ -22,11 +30,11 @@
   </head>
   <body>
     <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browserupgrade"><strong>완전 낡은</strong> 브라우저를 쓰고 계시네요. 당장 <a href="http://browsehappy.com/">무료로 업그레이드</a>하시지요!</p>
     <![endif]-->
     <header class="nav-bar">
-
-      <div class="letter-b"><a class="go-home" href="/" title="home">
+      <div class="letter-b"><a class="go-home" href="{{ prefix }}" title="home">
         B<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 20 20">
         <circle cx="10" cy="15" r="5" fill="#FFF"></circle></svg></a>
       </div>

@@ -1,11 +1,12 @@
 ---
 layout: portfolio
-title: "Plan a Movie Night App"
+title: "Married in Seoul dot com"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14
-lang: en
-ref: pamn
+lang: ko
+ref: married
+permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design
   - front-end development
@@ -22,10 +23,10 @@ category:
   - visual
 ---
 <div class="project-info">
-  <span>Role:</span> design, develop
-  <span>Languages:</span> HTML, JavaScript
+  <span>책임:</span> 디자인, 코딩
+  <span>언어:</span> HTML, JavaScript
 </div>
-  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
+  어쩌구 저쩌구 이러쿵 저러쿵 <em>뭐라, 뭐라뭐라, 그래그래</em>. 으싸으싸 쿵쿵쿵.
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>

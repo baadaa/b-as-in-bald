@@ -1,20 +1,5 @@
 # B as in Bald 2017
 
-# Portfolio collection
-collections:
-  tests:
-    output: false
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
-    title: portfolio
-defaults:
-  - scope:
-      path: ""
-      type: "portfolio"
-    values:
-      layout: "portfolio"
-
 # Site settings
 title: "Bumhan Yu, aka B as in Bald"
 email: bumhan.yu@gmail.com
@@ -22,19 +7,43 @@ description: Bumhan Yu is a developer/designer, based in New York City.
 baseurl: ""
 url: ""
 
+# Portfolio collection
+collections:
+  portfolio:
+    output: true
+    permalink: "/portfolio/:title/"
+    title: portfolio
 
 include: ["_pages"]
 permalink: /blog/:title/
-
 
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: _sass
+  style: compressed
 future: true
 
+# Nav Translations
+nav:
+    home:
+        en: "Home"
+        ko: "처음"
+    about:
+        en: "About"
+        ko: "소개"
+    portfolio:
+        en: "Portfolio"
+        ko: "작업물"
+    blog:
+        en: "Blog"
+        ko: "블로그"
+    contact:
+        en: "Contact"
+        ko: "연락처"
+
 # Pagination settings
-gems:
-  [jekyll-paginate]
-paginate: 7
-paginate_path: "/blog/page:num/"
+# gems:
+#   [jekyll-paginate] -- this is not being used, for it messes up with multilingual support
+# paginate: 7
+# paginate_path: "/blog/page:num/"

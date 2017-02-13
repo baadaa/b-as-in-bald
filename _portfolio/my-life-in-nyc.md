@@ -4,6 +4,8 @@ title: "My Life in NYC"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14
+lang: en
+ref: lifenyc
 tags:
   - UX/UI design
   - front-end development

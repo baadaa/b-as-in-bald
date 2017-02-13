@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Something to write about. Not a good title here. Perhaps a Longer title that wraps."
+title: "December post."
 date: 2016-12-17
 header_image: "fpo-blog-header.png"
+lang: en
+ref: dec
 tags:
   - life
   - letter to myself

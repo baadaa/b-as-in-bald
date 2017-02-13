@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Something to write about. Not a good title here. Perhaps a Longer title that wraps."
+title: "Strong test post here."
 date: 2017-01-14
 header_image: "fpo-blog-header.png"
+lang: en
+ref: stp
 tags:
   - letter to myself
   - another tag

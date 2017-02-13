@@ -1,10 +1,14 @@
 ---
 layout: default
 title: B. Blog
+permalink: "/k/blog/"
+lang: ko
+ref: blog
 ---
+{% assign posts = site.posts | where: "lang", page.lang %}
     <section class="blog-list container">
-      <h1>Blog</h1>
-        {% for post in paginator.posts %}
+      <h1>블로그</h1>
+        {% for post in posts %}
         <div class="blog-intro">
           <span class="blog-intro-thumb">
             <a href="{{ post.url }}">
@@ -14,12 +18,12 @@ title: B. Blog
           <span class="blog-intro-detail">
             <a href="{{ post.url }}">
             <span class="blog-intro-title">{{ post.title }}</span>
-            <span class="blog-intro-date"><time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+            <span class="blog-intro-date"><time datetime="{{ post.date }}">{{ post.date | date: "%Y년 %-m월 %-d일" }}</time></span>
             </a>
           </span>
         </div>
         {% endfor %}
-        <section class="blog-pagination">
+        <!-- <section class="blog-pagination">
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}">&lt; </a>
           {% else %}
@@ -31,5 +35,5 @@ title: B. Blog
             {% else %}
              &gt;
            {% endif %}
-        </section>
+        </section> -->
     </section>

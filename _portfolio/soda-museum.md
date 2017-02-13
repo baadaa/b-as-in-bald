@@ -4,6 +4,8 @@ title: "SODA: Space of Design and Architecture"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14
+lang: en
+ref: soda
 tags:
   - UX/UI design
   - front-end development

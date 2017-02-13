@@ -4,6 +4,8 @@ title: "Kaleidoscope Teaser"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14
+lang: en
+ref: kaleidoscope
 tags:
   - UX/UI design
   - front-end development

@@ -1,14 +1,15 @@
 ---
 layout: portfolio
-title: "Plan a Movie Night App"
+title: "Young & Rubicam Group"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
-date: 2017-01-14
-lang: en
-ref: pamn
+lang: ko
+ref: yrg
+permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design
   - front-end development
+  - prepress
 tile_image: "fpo_442x330.png"
 images:
   - thumb: "fpo_442x330.png"
@@ -17,8 +18,14 @@ images:
   - thumb: "fpo_442x330.png"
     link: "fpo_442x330.png"
     alt: "another alt"
+  - thumb: "fpo_442x330.png"
+    link: "fpo_442x330.png"
+    alt: "another alt"
+  - thumb: "fpo_442x330.png"
+    link: "fpo_442x330.png"
+    alt: "another alt"
 category:
-  - interactive
+  - identity
   - visual
 ---
 <div class="project-info">

@@ -4,9 +4,15 @@
     <article class="blog-entry">
       <section class="blog-header" style="background-image: url('/img/blog/{{ page.header_image }}'); background-color: {{ page.bg_color }}">
         <div class="title-container">
-          <span class="breadcrumb"><a style="color: {{ page.header_color }}" href="/blog/">Blog</a></span>
+          <span class="breadcrumb"><a style="color: {{ page.header_color }}"
+            {% if page.lang == "en" %} href="/blog/">Blog
+            {% else %} href="/k/blog/">블로그{% endif %}
+            </a></span>
           <h1 style="color: {{ page.header_color }}">{{ page.title }}</h1>
-          <p class="post-date" style="color: {{ page.header_color }}"><time datetime="{{ page.date }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+          <p class="post-date" style="color: {{ page.header_color }}"><time datetime="{{ page.date }}">
+            {% if page.lang == "en" %}{{ page.date | date: "%B %-d, %Y" }}
+            {% else %}{{ page.date | date: "%Y년 %-m월 %-d일" }}{% endif %}
+          </time></p>
         </div>
       </section>
       <section class="blog-body">
@@ -17,10 +23,9 @@
         </section>
 
         {{ content }}
-        <section class="post-nav">
-          <a href="#">Don't Be Interesting</a>
-          <a href="#">Yet Another Longer Title Post</a>
-        </section>
+
+        {% include post_nav.html %}
+
       </section>
     </article>
 

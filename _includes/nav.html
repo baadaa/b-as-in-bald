@@ -1,12 +1,12 @@
     <nav id="overlay-bg" class="hidden noscroll unselectable" aria-hidden="true">
       <ul class="menu unselectable">
-        <li><a href="/" title="Home">Home</a></li>
-        <li><a href="/about/" title="About">About</a></li>
-        <li><a href="/portfolio/" title="Portfolio">Portfolio</a></li>
-        <li><a href="/blog/" title="Blog">Blog</a></li>
-        <li><a href="/contact/" title="Contact">Contact</a></li>
+        <li><a href="{{ prefix }}" title="Home">{{ site.nav['home'][page.lang] }}</a></li>
+        <li><a href="{{ prefix }}about/" title="About">{{ site.nav['about'][page.lang] }}</a></li>
+        <li><a href="{{ prefix }}portfolio/" title="Portfolio">{{ site.nav['portfolio'][page.lang] }}</a></li>
+        <li><a href="{{ prefix }}blog/" title="Blog">{{ site.nav['blog'][page.lang] }}</a></li>
+        <li><a href="{{ prefix }}contact/" title="Contact">{{ site.nav['contact'][page.lang] }}</a></li>
       </ul>
-      <ul class="social-links">
+        <ul class="social-links">
         <li>
           <a href="https://www.linkedin.com/in/bumhan" title="LinkedIn" target="_blank">
           <img src="/img/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
@@ -29,7 +29,17 @@
         </li>
       </ul>
       <ul class="langs">
-        <li class="eng"><a href="#" title="English">English</a></li>
-        <li class="ko"><a href="#" title="Korean">한글</a></li>
+        {% for postTrans in postsTrans %}
+          {% if postTrans.lang == "en" %}
+            {% assign ln = "English" %}
+              {% else %} {% assign ln = "한글" %}
+          {% endif %}
+          <li class="{{ postTrans.lang }}">
+            <a href="{{ postTrans.url }}" title="{{ ln }}">
+              {% if postTrans.lang == page.lang %}<b>{{ ln }}</b>
+                {% else %}{{ ln }} {% endif %}
+            </a>
+          </li>
+        {% endfor %}
       </ul>
     </nav>

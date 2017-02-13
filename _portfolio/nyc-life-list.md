@@ -4,6 +4,8 @@ title: "NYC Life List App"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 tile_image: "fpo_442x330.png"
+lang: en
+ref: lifelist
 tags:
   - UX/UI design
   - front-end development

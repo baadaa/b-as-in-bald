@@ -2,9 +2,11 @@
 layout: portfolio-grid
 title: B. Portfolio
 permalink: "/portfolio/"
+lang: en
+ref: portfolio
 ---
+{% assign works = site.portfolio | where: "lang", "en" %}
     <section class="thumbnails container">
-
       <h1>Portfolio</h1>
       <ul class="filters">
         <li><span class="tag selected-filter" data-filter="all">all</span></li>
@@ -14,7 +16,7 @@ permalink: "/portfolio/"
         <li><span class="tag" data-filter=".infographic">infographic</span></li>
         <li><span class="tag" data-filter=".visual">visual design</span></li>
       </ul>
-      {% for work in site.portfolio %}
+      {% for work in works %}
       <section class="thumb-box mix {% for cat in work.category %}{{ cat }} {% endfor %}">
         <span class="thumb-img">
           <a href="{{ work.url }}">

@@ -1,0 +1,29 @@
+---
+layout: portfolio-grid
+title: B. Portfolio
+permalink: "/k/portfolio/"
+lang: ko
+ref: portfolio
+---
+{% assign works = site.portfolio | where: "lang", "ko" %}
+    <section class="thumbnails container">
+      <h1>작업물</h1>
+      <ul class="filters">
+        <li><span class="tag selected-filter" data-filter="all">전체</span></li>
+        <li><span class="tag" data-filter=".motion">모션</span></li>
+        <li><span class="tag" data-filter=".interactive">웹/앱</span></li>
+        <li><span class="tag" data-filter=".identity">아이덴티티</span></li>
+        <li><span class="tag" data-filter=".infographic">인포그래픽</span></li>
+        <li><span class="tag" data-filter=".visual">비주얼디자인</span></li>
+      </ul>
+      {% for work in works %}
+      <section class="thumb-box mix {% for cat in work.category %}{{ cat }} {% endfor %}">
+        <span class="thumb-img">
+          <a href="{{ work.url }}">
+            <img src="/img/portfolio/{{ work.tile_image }}">
+          </a>
+        </span>
+        <span class="thumb-caption">{{ work.title }}</span>
+      </section>
+      {% endfor %}
+    </section>

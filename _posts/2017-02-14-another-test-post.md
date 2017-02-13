@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Something to write about. Perhaps a Longer title that wraps."
+title: "Another test post."
 date: 2017-02-14
 header_image: "fpo-blog-header.png"
+lang: en
+ref: another-t
 tags:
   - life
   - letter to myself
