@@ -7,7 +7,7 @@ bg_color: "#EE0"
 header_color: "#000!important"
 lang: ko
 ref: jan
-permalink: "/k/blog/:path"
+permalink: "/k/blog/:title"
 tags:
   - life
   - letter to myself

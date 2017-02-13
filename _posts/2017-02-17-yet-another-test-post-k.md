@@ -5,7 +5,7 @@ date: 2017-02-17
 header_image: "fpo-blog-header.png"
 lang: ko
 ref: yanother
-permalink: "/k/blog/:path"
+permalink: "/k/blog/:title"
 tags:
   - life
   - letter to myself

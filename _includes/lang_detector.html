@@ -1,0 +1,8 @@
+{% assign postsTrans = site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% if postsTrans.size == 0 %}
+  {% assign postsTrans = site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% endif %}
+{% if page.lang == "en" %}
+  {% assign prefix = "/" %}
+{% else %} {% assign prefix = "/k/" %}
+{% endif %}

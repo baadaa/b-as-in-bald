@@ -5,7 +5,7 @@ date: 2017-01-14
 header_image: "fpo-blog-header.png"
 lang: ko
 ref: stp
-permalink: "/k/blog/:path"
+permalink: "/k/blog/:title"
 tags:
   - letter to myself
   - another tag

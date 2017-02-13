@@ -1,12 +1,5 @@
+{% include lang_detector.html %}
 <!doctype html>
-{% assign postsTrans = site.posts | where:"ref", page.ref | sort: 'lang' %}
-{% if postsTrans.size == 0 %}
-  {% assign postsTrans = site.pages | where:"ref", page.ref | sort: 'lang' %}
-{% endif %}
-{% if page.lang == "en" %}
-  {% assign prefix = "/" %}
-{% else %} {% assign prefix = "/k/" %}
-{% endif %}
 <html class="no-js" lang="{{ page.lang }}" xml:lang="{{ page.lang }}" xmlns= "http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
@@ -19,7 +12,7 @@
     <link rel="apple-touch-icon" href="/img/headshot.jpg">
     <link rel="shortcut icon" href="/favicon.ico" type="image/icon">
     <link rel="icon" href="/favicon.ico" type="image/icon">
-
+    {% include alternate_lang_link.html %}
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700,900">
