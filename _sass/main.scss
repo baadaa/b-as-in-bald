@@ -279,6 +279,18 @@ header.nav-bar {
     font-style: italic;
     margin-bottom: 0.4rem;
   }
+  .r-detail {
+    display: block;
+    display: none;
+    background:#EEE;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .grp {
+    display: block;
+  }
   @media screen and (min-width: $midSize) {
     text-align: left;
     width: 280px;
