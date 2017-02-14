@@ -2,6 +2,9 @@
 {% if postsTrans.size == 0 %}
   {% assign postsTrans = site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% endif %}
+{% if postsTrans.size == 0 %}
+  {% assign postsTrans = site.portfolio | where:"ref", page.ref | sort: 'lang' %}
+{% endif %}
 {% if page.lang == "en" %}
   {% assign prefix = "/" %}
 {% else %} {% assign prefix = "/k/" %}
