@@ -1,0 +1,10 @@
+{% if page.layout == 'portfolio' %}
+  {% assign imlink = "/img/portfolio/" %}
+{% elsif page.layout == 'post' %}
+  {% assign imlink = "/img/blog/" %}
+{% else %}
+  {% assign imlink = "/img/hero-img.png" %}
+{% endif %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ site.url }}{{ imlink }}{{ page.header_image }}" />

@@ -232,6 +232,7 @@ header.nav-bar {
 }
 .intro-line {
   display: block;
+  line-height: 1.4rem;
   margin: 0.5rem 0 0.5rem 0;
   @media screen and (min-width: $midSize) {
     margin-bottom: 1rem;
@@ -287,6 +288,10 @@ header.nav-bar {
     line-height: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
+  }
+  small {
+    font-size: 0.9rem;
+    color:#AAA;
   }
   .grp {
     display: block;
@@ -881,11 +886,90 @@ header.nav-bar {
 // ==========================================================================
 // About and Contact pages
 // ========================================================================== */
+.contact.container {
+  @include flexbox;
+  @include align-items(center);
+  @include flex-wrap(wrap);
+  @include flex-direction(column);
+  // @include justify-content(center);
+
+  $colors: $cyan, $green, $yellow;
+
+  @-webkit-keyframes bg {
+    0% { background-color: nth($colors, 1); }
+    33% { background-color: nth($colors, 2); }
+    66% { background-color: nth($colors, 3); }
+    100% { background-color: nth($colors, 1); }
+  }
+  @keyframes bg {
+    0% { background-color: nth($colors, 1); }
+    33% { background-color: nth($colors, 2); }
+    66% { background-color: nth($colors, 3); }
+    100% { background-color: nth($colors, 1); }
+  }
+
+  .circle {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
+
+    padding: 0;
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+    img {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.3rem;
+      vertical-align: center;
+    }
+    p {
+      line-height: 1.5rem;
+      margin-bottom: 0.5rem;
+      &:first-of-type {
+        margin-top: 1.5rem;
+      }
+      small {
+        color:rgba(255,255,255,0.7);
+        font-size: 0.7rem;
+      }
+    }
+    @media screen and (min-width: 900px) {
+      @include justify-content(flex-start);
+
+      p:first-of-type {
+        margin-top: 10vw;
+      }
+    }
+    // text-align: center;
+    -webkit-animation: bg 7s infinite;
+    animation: bg 7s infinite;
+    color:#FFF;
+    width: 60vw;
+    height: 60vw;
+    min-height: 250px;
+    min-width: 250px;
+    border: 6px solid white;
+    border-radius: 50%;
+    box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.15);
+    transition: transform .2s;
+    &:hover {
+      -webkit-transform: scale(1.07);
+      -ms-transform: scale(1.07);
+      transform: scale(1.07);
+    }
+  }
+}
+
 .contact, .about {
   &.container {
     // min-height: calc(100% - 5.3rem);
+    // background-color:#FFF;
     min-height: 100%;
   }
+
   // @include flexbox;
   // @include flex-wrap(wrap);
   // @include align-items(flex-start);
@@ -909,6 +993,8 @@ header.nav-bar {
     text-align: center;
     margin: 0;
   }
+
+
 }
 /*
  * Remove text-shadow in selection highlight:

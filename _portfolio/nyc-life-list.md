@@ -3,7 +3,7 @@ layout: portfolio
 title: "NYC Life List App"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
-tile_image: "fpo_442x330.png"
+tile_image: "nyc-life-list-442x330.gif"
 lang: en
 ref: lifelist
 tags:
