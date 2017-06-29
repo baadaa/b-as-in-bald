@@ -4,11 +4,11 @@
     <article class="portfolio-entry">
       <section class="portfolio-header" style="background-image: url('/img/portfolio/{{ page.header_image }}'); background-color:#FFF;">
         <div class="title-container">
-          <span class="breadcrumb"><a class="shadow"
+          <span class="breadcrumb"><a style="color: {{ page.header_color }}" class="shadow"
             {% if page.lang == "en" %} href="/portfolio/">Portfolio
             {% else %} href="/k/portfolio/">포트폴리오{% endif %}
             </a></span>
-          <h1 class="shadow">{{ page.title }}</h1>
+          <h1 style="color: {{ page.header_color }}" class="shadow">{{ page.title }}</h1>
         </div>
       </section>
       <section class="portfolio-body">
