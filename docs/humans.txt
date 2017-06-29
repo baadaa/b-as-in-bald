@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# BUILT BY
+
+    Bumhan Yu (Designer/Developer)
+    Twitter: @baadaa
+    Contact: bumhan dot yu [at] gmail.com
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    jQuery, Modernizr, Normalize.css, SwipeBox
+    Jekyll
+    
