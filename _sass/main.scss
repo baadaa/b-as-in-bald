@@ -121,7 +121,18 @@ header.nav-bar {
     }
   }
 
+  .top-msg {
+    color: #DF5E8B;
+    font-size: 0.8rem;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
   .menu-btn {
+
+
     margin-right: 1em;
     background: url('../img/menu-collapsed.svg') no-repeat center;
     width: 1.5em;

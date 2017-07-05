@@ -10,7 +10,7 @@ permalink: "/portfolio/:title/"
 tags:
   - UX/UI design
   - front-end development
-tile_image: "fpo_442x330.png"
+tile_image: "myfridge-442x330.jpg"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"

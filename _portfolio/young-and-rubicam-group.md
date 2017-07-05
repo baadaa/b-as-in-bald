@@ -9,7 +9,7 @@ tags:
   - UX/UI design
   - front-end development
   - prepress
-tile_image: "fpo_442x330.png"
+tile_image: "yrg-442x330.jpg"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"
@@ -33,7 +33,7 @@ category:
 </div>
 
   Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
-  
+
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
