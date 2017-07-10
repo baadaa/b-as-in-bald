@@ -32,8 +32,39 @@
         B<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 20 20">
         <circle cx="10" cy="15" r="5" fill="#FFF"></circle></svg></a>
       </div>
-      <div class="top-msg">
-        <!-- <span>Used to work as a paperboy.</span> -->
-      </div>
+      <nav class="top-nav">
+        <ul class="inline-nav">
+          <li><a href="{{ prefix }}" title="Home">{{ site.nav['home'][page.lang] }}</a></li>
+          <li><a href="{{ prefix }}about/" title="About">{{ site.nav['about'][page.lang] }}</a></li>
+          <li><a href="{{ prefix }}portfolio/" title="Portfolio">{{ site.nav['portfolio'][page.lang] }}</a></li>
+          <li><a href="{{ prefix }}blog/" title="Blog">{{ site.nav['blog'][page.lang] }}</a></li>
+          <li><a href="{{ prefix }}contact/" title="Contact">{{ site.nav['contact'][page.lang] }}</a></li>
+          <li>
+            <ul id="inline-langs">
+              {% for postTrans in postsTrans %}
+                {% if postTrans.lang == "en" %}
+                  {% assign lnimg = "en.jpg" %}
+                  {% assign lng = "English" %}
+                    {% else %}
+                    {% assign lnimg = "ko.jpg" %}
+                    {% assign lng = "한글" %}
+                {% endif %}
+                <li>
+                  <a href="{{ postTrans.url }}" title="{{ lng }}">
+
+                    <img src="/img/{{ lnimg }}"
+                    {% if postTrans.lang == page.lang %}
+                      class="">
+                      {% else %}
+                      class="trans">
+                    {% endif %}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
       <div class="menu-btn unselectable"></div>
     </header>

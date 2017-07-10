@@ -69,6 +69,12 @@ body {
 
 .shadow {
   text-shadow: 1px 3px 3px rgba(0,0,0,0.7);
+  &.bg {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5),
+                1px 2px 3px rgba(0,0,0,0.5),
+                1px 3px 3px rgba(0,0,0,0.5),
+                1px -1px 3px rgba(0,0,0,0.5)
+  }
 }
 
 .container {
@@ -121,9 +127,48 @@ header.nav-bar {
     }
   }
 
-  .top-msg {
+  .top-nav{
     color: #DF5E8B;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    ul.inline-nav {
+      list-style: none;
+      @include flexbox;
+      @include align-items(center);
+      a {
+        text-decoration: none;
+        color: lighten($berry, 25%);
+      }
+      li {
+        padding: 0;
+        margin: 0 1rem;
+        &:last-child {
+          margin-right: 3rem;
+        }
+      }
+    }
+    ul#inline-langs {
+      @include flexbox;
+      @include align-items(center);
+      list-style: none;
+      width: 1rem;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        line-height: 0.8rem;
+        img {
+          width: 0.8rem;
+        }
+        img.trans {
+          opacity: 0.3;
+          filter: grayscale(10%) saturate(0%);
+        }
+        &:last-child {
+          margin-left: 0.5rem;
+        }
+      }
+    }
 
     @media screen and (max-width: 600px) {
       display: none;
@@ -131,8 +176,6 @@ header.nav-bar {
   }
 
   .menu-btn {
-
-
     margin-right: 1em;
     background: url('../img/menu-collapsed.svg') no-repeat center;
     width: 1.5em;
@@ -141,6 +184,10 @@ header.nav-bar {
     &.open {
       background: url('../img/menu-expanded.svg') no-repeat center;
     }
+    @media screen and (min-width: 601px) {
+      display: none;
+    }
+
   }
 
 
@@ -691,6 +738,11 @@ header.nav-bar {
       a {
         text-decoration: none;
         color:rgba(255, 255, 255, 0.5);
+      }
+      &.bg {
+        background: rgba(255,255,255,0.3);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
       }
     }
     h1 {

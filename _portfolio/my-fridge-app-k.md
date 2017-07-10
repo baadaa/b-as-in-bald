@@ -7,6 +7,7 @@ date: 2017-03-04
 lang: ko
 ref: myfridge
 permalink: "/portfolio/:title/"
+breadcrumb_bg: true
 tags:
   - UX/UI design
   - front-end development

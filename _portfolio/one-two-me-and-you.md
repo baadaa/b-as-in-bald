@@ -1,17 +1,15 @@
 ---
 layout: portfolio
-title: "My Fridge App"
-header_image: "myfridge.jpg"
-header_color: "#FFF"
-date: 2017-03-04
+title: "One, Two, me and you."
+header_image: "one-two-me-you-head.gif"
+header_color: "#555!important"
+header_noshadow: true
+date: 2017-03-14
 lang: en
-ref: myfridge
-permalink: "/portfolio/:title/"
-breadcrumb_bg: true
+ref: 2014greeting
 tags:
-  - UX/UI design
-  - front-end development
-tile_image: "myfridge-442x330.jpg"
+  - motion design
+tile_image: "2014-greeting-442x330.gif"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"
@@ -20,8 +18,7 @@ images:
     link: "fpo_442x330.png"
     alt: "another alt"
 category:
-  - interactive
-  - visual
+  - motion
 ---
 <div class="project-info">
   <span>Role:</span> design, develop
@@ -30,6 +27,6 @@ category:
   Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://rememberfridge.com/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/myfridge" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
+  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
 </div>

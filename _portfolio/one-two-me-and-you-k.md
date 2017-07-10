@@ -1,16 +1,14 @@
 ---
 layout: portfolio
-title: "뉴욕 라이프 리스트 앱"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
-tile_image: "nyc-life-list-442x330.gif"
+title: "당신과 나, 두 개의 점."
+header_image: "one-two-me-you-head.gif"
+header_color: "#666!important"
+date: 2017-03-14
 lang: ko
-ref: lifelist
-breadcrumb_bg: true
-permalink: "/k/portfolio/:title/"
+ref: 2014greeting
 tags:
-  - UX/UI design
-  - front-end development
+  - motion design
+tile_image: "2014-greeting-442x330.gif"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"
@@ -19,15 +17,13 @@ images:
     link: "fpo_442x330.png"
     alt: "another alt"
 category:
-  - interactive
+  - motion
 ---
 <div class="project-info">
-  <span>책임:</span> 디자인, 코딩
-  <span>언어:</span> HTML, JavaScript
+  <span>Role:</span> design, develop
+  <span>Languages:</span> HTML, JavaScript
 </div>
-
-  뉴욕 길거리에서 가장 절실히 필요한 3가지의 주요 자원을 찾아주는 웹 애플리케이션. *WiFi hotspots, subway entrances, and restrooms*. Have peace of mind with this responsive, single-page web application.
-
+  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
