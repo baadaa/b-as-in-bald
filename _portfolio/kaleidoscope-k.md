@@ -27,7 +27,7 @@ category:
   <span>언어:</span> HTML, JavaScript
 </div>
 <div class="emb-video vimeo wide">
-  <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
   어쩌구 저쩌구 이러쿵 저러쿵 <em>뭐라, 뭐라뭐라, 그래그래</em>. 으싸으싸 쿵쿵쿵.
 <div class="buttons">

@@ -19,7 +19,7 @@ category:
   <span>Languages:</span> HTML, JavaScript
 </div>
 <div class="emb-video vimeo wide">
-  <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
 
