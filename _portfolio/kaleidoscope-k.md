@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "칼레이도스코프 티저영상"
-header_image: "kaleido-head.jpg"
+header_image: "kaleido.jpg"
 header_color: "#FFF"
 date: 2017-01-14
 lang: ko
@@ -26,9 +26,12 @@ category:
   <span>책임:</span> 디자인, 코딩
   <span>언어:</span> HTML, JavaScript
 </div>
+<div class="emb-video vimeo wide">
+  <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
   어쩌구 저쩌구 이러쿵 저러쿵 <em>뭐라, 뭐라뭐라, 그래그래</em>. 으싸으싸 쿵쿵쿵.
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://vimeo.com/baadaa" title="More Videos.." target="_blank"><img src="/img/outerlink.svg" alt="Link" style="width: 15px;">View B's Vimeo Page</a>
+  </span>
 </div>
