@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "SODA: Space of Design and Architecture"
+title: "Museum SoDA"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000!important"
 date: 2017-01-14

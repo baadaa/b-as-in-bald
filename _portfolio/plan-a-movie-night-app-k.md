@@ -1,11 +1,13 @@
 ---
 layout: portfolio
 title: "Plan a Movie Night App"
-header_image: "nyc-lifelist.jpg"
+header_image: "pamn-header.jpg"
 header_color: "#000!important"
+header_noshadow: true
 date: 2017-01-14
 lang: ko
 ref: pamn
+breadcrumb_bg: true
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design

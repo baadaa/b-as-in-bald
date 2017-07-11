@@ -1,15 +1,16 @@
 ---
 layout: portfolio
-title: "Young & Rubicam Group"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+title: "영 앤 루비캠 그룹"
+header_image: "yrg-pattern.png"
+header_color: "#003B75"
 lang: ko
 ref: yrg
+breadcrumb_bg: true
+header_noshadow: true
 permalink: "/k/portfolio/:title/"
 tags:
-  - UX/UI design
-  - front-end development
-  - prepress
+  - identity design
+  - visual design
 tile_image: "yrg-442x330.jpg"
 images:
   - thumb: "fpo_442x330.png"
