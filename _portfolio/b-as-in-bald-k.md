@@ -1,11 +1,12 @@
 ---
 layout: portfolio
 title: "B as in Bald"
-header_image: "nyc-lifelist.jpg"
+header_image: "baldie.gif"
 header_color: "#000!important"
 date: 2017-01-14
 lang: ko
 ref: bald
+header_noshadow: true
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design
