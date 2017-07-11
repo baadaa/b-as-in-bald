@@ -1,16 +1,17 @@
 ---
 layout: portfolio
-title: "SODA: Space of Design and Architecture"
-header_image: "nyc-lifelist.jpg"
+title: "소다미술관"
+header_image: "soda.jpg"
 header_color: "#000!important"
 date: 2017-01-14
 lang: ko
 ref: soda
+header_noshadow: true
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design
   - front-end development
-tile_image: "fpo_442x330.png"
+tile_image: "soda-442x330.gif"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"

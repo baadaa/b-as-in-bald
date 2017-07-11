@@ -950,6 +950,29 @@ header.nav-bar {
   }
 }
 
+.emb-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+
+  &.vimeo {
+    padding-top: 0;
+  }
+  &.wide {
+    padding-bottom: 56.34%;
+  }
+  embed, iframe, object, video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  }
+}
+
 // ==========================================================================
 // About and Contact pages
 // ========================================================================== */

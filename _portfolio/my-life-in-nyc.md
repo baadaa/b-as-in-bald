@@ -1,11 +1,12 @@
 ---
 layout: portfolio
 title: "My Life in NYC"
-header_image: "nyc-lifelist.jpg"
+header_image: "myny-header.png"
 header_color: "#000!important"
 date: 2017-01-14
 lang: en
 ref: lifenyc
+header_noshadow: true
 tags:
   - UX/UI design
   - front-end development

@@ -1,11 +1,12 @@
 ---
 layout: portfolio
-title: "My Life in NYC"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+title: "뉴욕 일상 보고서"
+header_image: "myny-header.png"
+header_color: "#000"
 date: 2017-01-14
 lang: ko
 ref: lifenyc
+header_noshadow: true
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design

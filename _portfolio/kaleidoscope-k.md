@@ -1,15 +1,15 @@
 ---
 layout: portfolio
 title: "칼레이도스코프 티저영상"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+header_image: "kaleido-head.jpg"
+header_color: "#FFF"
 date: 2017-01-14
 lang: ko
 ref: kaleidoscope
 permalink: "/k/portfolio/:title/"
 tags:
-  - UX/UI design
-  - front-end development
+  - 모션디자인
+  - 컨셉
 tile_image: "kaleidoscope-442x330.gif"
 images:
   - thumb: "fpo_442x330.png"

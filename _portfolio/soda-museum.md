@@ -1,15 +1,16 @@
 ---
 layout: portfolio
 title: "Museum SoDA"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+header_image: "soda.jpg"
+header_color: "#000"
 date: 2017-01-14
 lang: en
 ref: soda
+header_noshadow: true
 tags:
   - UX/UI design
   - front-end development
-tile_image: "fpo_442x330.png"
+tile_image: "soda-442x330.gif"
 images:
   - thumb: "fpo_442x330.png"
     link: "final-project-sketches_bumhan-yu-2.png"
