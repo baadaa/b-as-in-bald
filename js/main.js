@@ -9,7 +9,8 @@ $(document).ready(function() {
       var lang = document.documentElement.lang.toLowerCase();
         if (lang === "ko") {
           // $('.breadcrumb, .title-container, .portfolio-body, .blog-body, nav').addClass('ko');
-          $('body').addClass('ko');
+          // $('body').addClass('ko');
+          $('nav, section').addClass('ko');
         }
     },
     bindEvents: function() {
