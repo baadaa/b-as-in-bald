@@ -6,6 +6,11 @@ $(document).ready(function() {
     init: function() {
       this.getCurrentYear();
       this.bindEvents();
+      var lang = document.documentElement.lang.toLowerCase();
+        if (lang === "ko") {
+          // $('.breadcrumb, .title-container, .portfolio-body, .blog-body, nav').addClass('ko');
+          $('body').addClass('ko');
+        }
     },
     bindEvents: function() {
       $('.menu-btn').on('click', this.navToggle.bind(this));
