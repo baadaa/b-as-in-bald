@@ -11,25 +11,18 @@ tags:
   - 모션디자인
   - 컨셉
 tile_image: "kaleidoscope-442x330.gif"
-images:
-  - thumb: "fpo_442x330.png"
-    link: "final-project-sketches_bumhan-yu-2.png"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
 category:
   - motion
   - visual
 ---
 <div class="project-info">
-  <span>책임:</span> 디자인, 코딩
-  <span>언어:</span> HTML, JavaScript
+<span>책임:</span> 디자인, 코딩
+<span>언어:</span> HTML, JavaScript
 </div>
 <div class="emb-video vimeo wide">
   <iframe src="https://player.vimeo.com/video/34394816?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-  어쩌구 저쩌구 이러쿵 저러쿵 <em>뭐라, 뭐라뭐라, 그래그래</em>. 으싸으싸 쿵쿵쿵.
+Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
 <div class="buttons">
   <span class="unselectable">
   <a href="https://vimeo.com/baadaa" title="More Videos.." target="_blank"><img src="/img/outerlink.svg" alt="Link" style="width: 15px;">View B's Vimeo Page</a>

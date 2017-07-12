@@ -2,11 +2,12 @@
 layout: portfolio
 title: "뉴욕 라이프 리스트 앱"
 header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+header_color: "#000"
 tile_image: "nyc-life-list-442x330.gif"
 lang: ko
 ref: lifelist
 breadcrumb_bg: true
+header_noshadow: true
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design

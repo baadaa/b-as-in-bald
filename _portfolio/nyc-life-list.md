@@ -2,11 +2,12 @@
 layout: portfolio
 title: "NYC Life List App"
 header_image: "nyc-lifelist.jpg"
-header_color: "#FFF!important"
+header_color: "#000"
 tile_image: "nyc-life-list-442x330.gif"
 lang: en
 ref: lifelist
 breadcrumb_bg: true
+header_noshadow: true
 tags:
   - UX/UI design
   - front-end development

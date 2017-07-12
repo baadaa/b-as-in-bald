@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: "코로실 리디자인 컨셉"
-header_image: "nyc-lifelist.jpg"
-header_color: "#000!important"
+header_image: "koroseal-header.jpg"
+header_color: "#000"
+header_noshadow: true
+breadcrumb_bg: true
 date: 2017-02-14
 lang: ko
 ref: koroseal

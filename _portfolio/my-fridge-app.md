@@ -2,12 +2,13 @@
 layout: portfolio
 title: "My Fridge App"
 header_image: "myfridge.jpg"
-header_color: "#FFF"
+header_color: "#000"
 date: 2017-03-04
 lang: en
 ref: myfridge
 permalink: "/portfolio/:title/"
 breadcrumb_bg: true
+header_noshadow: true
 tags:
   - UX/UI design
   - front-end development
