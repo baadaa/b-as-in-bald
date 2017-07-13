@@ -9,24 +9,24 @@ lang: en
 ref: 2014greeting
 tags:
   - motion design
+  - concept development
 tile_image: "2014-greeting-442x330.gif"
-images:
-  - thumb: "fpo_442x330.png"
-    link: "final-project-sketches_bumhan-yu-2.png"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
 category:
   - motion
 ---
 <div class="project-info">
-  <span>Role:</span> design, develop
-  <span>Languages:</span> HTML, JavaScript
+  <span>Role:</span> designer, writer, voice-over
+  <span>Tools:</span> After Effects
 </div>
-  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
+<div class="emb-video vimeo wide">
+  <iframe src="https://player.vimeo.com/video/82980433?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+The day before New Year's eve, I felt seriously inspired to create a personal greeting card&mdash;realizing that it is all the people I've encountered in life that makes me who I am now.
+
+It took me ten straight hours to complete this piece from start to finish&mdash;_writing, sketching, recording, animating, and HTML email coding_&mdash;. Sent out via email on the New Year's Eve at sunrise, the video message was extremely well-received from family, friends, colleagues, and clients.
+
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://vimeo.com/baadaa" title="More Videos.." target="_blank"><img src="/img/outerlink.svg" alt="Link" style="width: 15px;">View B's Vimeo Page</a>
+  </span>
 </div>
