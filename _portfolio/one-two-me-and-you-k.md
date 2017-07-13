@@ -16,7 +16,7 @@ category:
 ---
 <div class="project-info">
   <span>책임:</span> 디자인, 각본, 나래이션
-  <span>도구:</span> 애프터 이펙트
+  <span>도구:</span> 애프터이펙트
 </div>
 <div class="emb-video vimeo wide">
   <iframe src="https://player.vimeo.com/video/82980433?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

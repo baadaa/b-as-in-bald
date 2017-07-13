@@ -16,7 +16,7 @@ category:
 ---
 <div class="project-info">
   <span>Role:</span> designer, writer, voice-over
-  <span>Tools:</span> After Effects
+  <span>Tool:</span> After Effects
 </div>
 <div class="emb-video vimeo wide">
   <iframe src="https://player.vimeo.com/video/82980433?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
