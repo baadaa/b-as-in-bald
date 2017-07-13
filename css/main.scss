@@ -711,6 +711,19 @@ header.nav-bar {
     }
   }
 
+  ul li {
+    line-height: 130%;
+    padding-bottom: 0.3rem;
+    color: #666;
+    ul {
+      margin-top: 0.3rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $berry;
+  }
   .blog-header, .portfolio-header {
     position: relative;
     padding-top: 1rem;
