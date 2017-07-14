@@ -6,7 +6,7 @@ lang: ko
 ref: portfolio
 description: "A few work samples."
 ---
-{% assign works = site.portfolio | where: "lang", "ko" %}
+{% assign works = site.portfolio | where: "lang", "ko" | sort: 'date' %}
     <section class="thumbnails container">
       <h1>작업물</h1>
       <ul class="filters">

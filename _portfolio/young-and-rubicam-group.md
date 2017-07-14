@@ -5,6 +5,7 @@ header_image: "yrg-pattern.png"
 header_color: "#003B75"
 lang: en
 ref: yrg
+date: 2018-02-14
 breadcrumb_bg: true
 header_noshadow: true
 description: "Corporate identity system"

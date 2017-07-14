@@ -3,7 +3,7 @@ layout: portfolio
 title: "SOLID Brand Portal"
 header_image: "myfridge.jpg"
 header_color: "#000"
-date: 2017-03-04
+date: 2015-03-04
 lang: en
 ref: myfridge
 permalink: "/portfolio/:title/"
