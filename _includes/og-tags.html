@@ -11,7 +11,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 {% if imlink == "/img/hero-img-rectangle.png" %}
-  <meta property="og:image" content="{{ site.url | absolute_url }}{{ imlink }}" />
+  <meta property="og:image" content="{{ site.url }}{{ imlink }}" />
 {% else %}
-  <meta property="og:image" content="{{ site.url | absolute_url }}{{ imlink }}{{ page.header_image }}" />
+  <meta property="og:image" content="{{ site.url }}{{ imlink }}{{ page.header_image }}" />
 {% endif %}
