@@ -3,8 +3,15 @@
 {% elsif page.layout == 'post' %}
   {% assign imlink = "/img/blog/" %}
 {% else %}
-  {% assign imlink = "/img/hero-img.png" %}
+  {% assign imlink = "/img/hero-img-rectangle.png" %}
 {% endif %}
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="fb:app_id" content="1372287862879415">
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+{% if imlink == "/img/hero-img-rectangle.png" %}
+  <meta property="og:image" content="{{ site.url }}{{ imlink }}" />
+{% else %}
   <meta property="og:image" content="{{ site.url }}{{ imlink }}{{ page.header_image }}" />
+{% endif %}
