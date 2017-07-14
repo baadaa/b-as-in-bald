@@ -4,6 +4,8 @@ title: "당신과 나, 두 개의 점."
 header_image: "one-two-me-you-head.gif"
 header_color: "#555!important"
 header_noshadow: true
+permalink: "/k/portfolio/:title/"
+description: "Motion graphic tale of two dots - you and me."
 date: 2016-03-14
 lang: ko
 ref: 2014greeting

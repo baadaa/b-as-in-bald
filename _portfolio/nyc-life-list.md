@@ -8,6 +8,7 @@ lang: en
 ref: lifelist
 breadcrumb_bg: true
 header_noshadow: true
+description: "Open source web app that finds three crucial elements in New York street life: wifi, subway, and restrooms."
 tags:
   - UX/UI design
   - front-end development

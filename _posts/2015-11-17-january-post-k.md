@@ -5,6 +5,7 @@ date: 2015-11-17
 header_image: "fpo-blog-header.png"
 bg_color: "#EE0"
 header_color: "#000!important"
+description: "lorem ipsum"
 lang: ko
 ref: jan
 permalink: "/k/blog/:title"

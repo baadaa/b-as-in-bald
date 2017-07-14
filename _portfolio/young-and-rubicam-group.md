@@ -7,6 +7,7 @@ lang: en
 ref: yrg
 breadcrumb_bg: true
 header_noshadow: true
+description: "Corporate identity system"
 tags:
 - identity design
 - visual design

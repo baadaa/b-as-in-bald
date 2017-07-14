@@ -6,6 +6,7 @@ header_color: "#000!important"
 date: 2017-03-14
 lang: en
 ref: hana
+description: "Personal identity system"
 tags:
   - identity design
   - motion design

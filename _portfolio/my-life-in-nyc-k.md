@@ -8,6 +8,7 @@ lang: ko
 ref: lifenyc
 header_noshadow: true
 permalink: "/k/portfolio/:title/"
+description: "Visualizing life changes before and after life in New York"
 tags:
   - UX/UI design
   - front-end development

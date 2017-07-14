@@ -3,6 +3,7 @@ layout: post
 title: "Strong test post here."
 date: 2017-01-14
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: en
 ref: stp
 tags:

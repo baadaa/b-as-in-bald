@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: en
 ref: bald
 header_noshadow: true
+description: "Personal identity system"
 tags:
   - UX/UI design
   - front-end development

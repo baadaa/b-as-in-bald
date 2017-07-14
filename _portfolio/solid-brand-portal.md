@@ -7,6 +7,7 @@ date: 2017-03-04
 lang: en
 ref: myfridge
 permalink: "/portfolio/:title/"
+description: "Comprehensive wiki website that helps clients easily and effectively manage their brand assets to better brand communication."
 breadcrumb_bg: true
 header_noshadow: true
 tags:

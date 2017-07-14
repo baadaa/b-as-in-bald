@@ -3,6 +3,7 @@ layout: post
 title: "December post."
 date: 2016-12-17
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: en
 ref: dec
 tags:

@@ -6,6 +6,7 @@ header_color: "#FFF"
 date: 2017-01-14
 lang: en
 ref: kaleidoscope
+description: "Conceptual motion graphic piece"
 tags:
   - motion design
   - concept development

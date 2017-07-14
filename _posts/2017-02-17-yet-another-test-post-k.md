@@ -3,6 +3,7 @@ layout: post
 title: "짤막한 제목으로다가."
 date: 2017-02-17
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: ko
 ref: yanother
 permalink: "/k/blog/:title"

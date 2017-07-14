@@ -8,6 +8,7 @@ breadcrumb_bg: true
 date: 2017-02-14
 lang: en
 ref: koroseal
+description: "Corporate website restructuring and redesigning"
 tags:
   - UX/UI design
   - motion design

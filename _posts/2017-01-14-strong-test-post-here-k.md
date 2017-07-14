@@ -3,6 +3,7 @@ layout: post
 title: "또 하나의 한글로 된 글."
 date: 2017-01-14
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: ko
 ref: stp
 permalink: "/k/blog/:title"

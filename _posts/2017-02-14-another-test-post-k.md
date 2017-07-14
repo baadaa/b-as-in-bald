@@ -3,6 +3,7 @@ layout: post
 title: "긴 제목 짧은 제목 골고루 다양하게 그렇게 그렇게 가는 거다 랄랄라 뭐라뭐라 짱짱짱."
 date: 2017-02-14
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: ko
 ref: another-t
 permalink: "/k/blog/:title"

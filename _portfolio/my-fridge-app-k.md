@@ -6,7 +6,8 @@ header_color: "#000"
 date: 2017-03-04
 lang: ko
 ref: myfridge
-permalink: "/portfolio/:title/"
+permalink: "/k/portfolio/:title/"
+description: "Open source web app that help better manage food inventory in refrigerator and keep track of fresh items."
 breadcrumb_bg: true
 header_noshadow: true
 tags:

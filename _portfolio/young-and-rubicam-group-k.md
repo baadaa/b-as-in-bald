@@ -8,6 +8,7 @@ ref: yrg
 breadcrumb_bg: true
 header_noshadow: true
 permalink: "/k/portfolio/:title/"
+description: "Corporate identity system"
 tags:
   - identity design
   - visual design

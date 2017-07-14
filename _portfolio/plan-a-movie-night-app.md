@@ -8,6 +8,7 @@ date: 2017-01-14
 lang: en
 ref: pamn
 breadcrumb_bg: true
+description: "iOS app that help organize a movie night events by assessing participants' tastes and suggesting the best film to watch together."
 tags:
   - UX/UI design
   - front-end development

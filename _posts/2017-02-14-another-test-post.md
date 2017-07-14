@@ -3,6 +3,7 @@ layout: post
 title: "Another test post."
 date: 2017-02-14
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: en
 ref: another-t
 tags:

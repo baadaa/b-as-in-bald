@@ -3,6 +3,7 @@ layout: post
 title: "무슨 소리를 하는 거야 바보 똥개."
 date: 2017-02-10
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: ko
 ref: ant
 permalink: "/k/blog/:title"

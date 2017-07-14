@@ -8,6 +8,7 @@ lang: ko
 ref: soda
 header_noshadow: true
 permalink: "/k/portfolio/:title/"
+description: "Visual identity system for an experimental museum for architecture and design."
 tags:
   - UX/UI design
   - front-end development

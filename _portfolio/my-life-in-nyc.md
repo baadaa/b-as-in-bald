@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: en
 ref: lifenyc
 header_noshadow: true
+description: "Visualizing life changes before and after life in New York"
 tags:
   - UX/UI design
   - front-end development

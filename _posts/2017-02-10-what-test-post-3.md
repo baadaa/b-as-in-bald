@@ -3,6 +3,7 @@ layout: post
 title: "What test post"
 date: 2017-02-10
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: en
 ref: ant
 tags:

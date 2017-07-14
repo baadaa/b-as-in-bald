@@ -3,6 +3,7 @@ layout: post
 title: "무슨 제목을 써야 할랑가 모르겠지만 이게 그거다."
 date: 2017-02-01
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: ko
 ref: ntp
 permalink: "/k/blog/:title"

@@ -6,6 +6,7 @@ header_image: "fpo-blog-header.png"
 lang: ko
 ref: dec
 permalink: "/k/blog/:title"
+description: "lorem ipsum"
 tags:
   - life
   - letter to myself

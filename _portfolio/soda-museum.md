@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: en
 ref: soda
 header_noshadow: true
+description: "Visual identity system for an experimental museum for architecture and design."
 tags:
   - UX/UI design
   - front-end development

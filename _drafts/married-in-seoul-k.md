@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: ko
 ref: married
 permalink: "/k/portfolio/:title/"
+description: "lorem ipsum"
 tags:
   - UX/UI design
   - front-end development

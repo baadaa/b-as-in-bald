@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: ko
 ref: bald
 header_noshadow: true
+description: "Personal identity system"
 permalink: "/k/portfolio/:title/"
 tags:
   - UX/UI design

@@ -6,7 +6,8 @@ header_color: "#000"
 date: 2017-03-04
 lang: ko
 ref: myfridge
-permalink: "/portfolio/:title/"
+permalink: "/k/portfolio/:title/"
+description: "Comprehensive wiki website that helps clients easily and effectively manage their brand assets to better brand communication."
 breadcrumb_bg: true
 header_noshadow: true
 tags:

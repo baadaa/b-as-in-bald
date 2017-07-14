@@ -7,6 +7,7 @@ date: 2017-01-14
 lang: ko
 ref: kaleidoscope
 permalink: "/k/portfolio/:title/"
+description: "Conceptual motion graphic piece"
 tags:
   - 모션디자인
   - 컨셉

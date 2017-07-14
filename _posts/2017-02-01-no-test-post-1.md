@@ -3,6 +3,7 @@ layout: post
 title: "No test post."
 date: 2017-02-01
 header_image: "fpo-blog-header.png"
+description: "lorem ipsum"
 lang: en
 ref: ntp
 tags:
