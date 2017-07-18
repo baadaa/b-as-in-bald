@@ -7,6 +7,7 @@ date: 2017-03-14
 lang: ko
 ref: hana
 description: "Personal identity system"
+permalink: "/k/portfolio/:title/"
 tags:
   - identity design
   - motion design

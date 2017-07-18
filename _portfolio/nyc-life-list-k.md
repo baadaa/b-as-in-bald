@@ -3,12 +3,12 @@ layout: portfolio
 title: "뉴욕 라이프 리스트 앱"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000"
+header_noshadow: true
+breadcrumb_bg: true
 tile_image: "nyc-life-list-442x330.gif"
 lang: ko
 ref: lifelist
 date: 2017-02-14
-breadcrumb_bg: true
-header_noshadow: true
 permalink: "/k/portfolio/:title/"
 description: "Open source web app that finds three crucial elements in New York street life: wifi, subway, and restrooms."
 tags:

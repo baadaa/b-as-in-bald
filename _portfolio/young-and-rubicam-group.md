@@ -3,11 +3,11 @@ layout: portfolio
 title: "Young & Rubicam Group"
 header_image: "yrg-pattern.png"
 header_color: "#003B75"
+header_noshadow: true
+breadcrumb_bg: true
 lang: en
 ref: yrg
 date: 2018-02-14
-breadcrumb_bg: true
-header_noshadow: true
 description: "Corporate identity system"
 tags:
 - identity design

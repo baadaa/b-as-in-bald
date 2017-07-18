@@ -3,10 +3,10 @@ layout: portfolio
 title: "뉴욕 일상 보고서"
 header_image: "myny-header.png"
 header_color: "#000"
+header_noshadow: true
 date: 2017-01-14
 lang: ko
 ref: lifenyc
-header_noshadow: true
 permalink: "/k/portfolio/:title/"
 description: "Visualizing life changes before and after life in New York"
 tags:

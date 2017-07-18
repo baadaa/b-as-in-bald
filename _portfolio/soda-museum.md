@@ -3,10 +3,10 @@ layout: portfolio
 title: "Museum SoDA"
 header_image: "soda.jpg"
 header_color: "#000"
+header_noshadow: true
 date: 2017-01-14
 lang: en
 ref: soda
-header_noshadow: true
 description: "Visual identity system for an experimental museum for architecture and design."
 tags:
   - UX/UI design

@@ -3,11 +3,11 @@ layout: portfolio
 title: "영 앤 루비캠 그룹"
 header_image: "yrg-pattern.png"
 header_color: "#003B75"
+header_noshadow: true
+breadcrumb_bg: true
 date: 2018-02-14
 lang: ko
 ref: yrg
-breadcrumb_bg: true
-header_noshadow: true
 permalink: "/k/portfolio/:title/"
 description: "Corporate identity system"
 tags:

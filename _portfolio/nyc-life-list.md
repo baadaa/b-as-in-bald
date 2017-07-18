@@ -3,12 +3,12 @@ layout: portfolio
 title: "NYC Life List App"
 header_image: "nyc-lifelist.jpg"
 header_color: "#000"
+header_noshadow: true
+breadcrumb_bg: true
 tile_image: "nyc-life-list-442x330.gif"
 lang: en
 ref: lifelist
 date: 2017-02-14
-breadcrumb_bg: true
-header_noshadow: true
 description: "Open source web app that finds three crucial elements in New York street life: wifi, subway, and restrooms."
 tags:
   - UX/UI design

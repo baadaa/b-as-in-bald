@@ -3,10 +3,10 @@ layout: portfolio
 title: "My Life in NYC"
 header_image: "myny-header.png"
 header_color: "#000!important"
+header_noshadow: true
 date: 2017-01-14
 lang: en
 ref: lifenyc
-header_noshadow: true
 description: "Visualizing life changes before and after life in New York"
 tags:
   - UX/UI design

@@ -4,10 +4,10 @@ title: "Plan a Movie Night App"
 header_image: "pamn-header.jpg"
 header_color: "#000!important"
 header_noshadow: true
+breadcrumb_bg: true
 date: 2017-01-14
 lang: ko
 ref: pamn
-breadcrumb_bg: true
 description: "iOS app that help organize a movie night events by assessing participants' tastes and suggesting the best film to watch together."
 permalink: "/k/portfolio/:title/"
 tags:

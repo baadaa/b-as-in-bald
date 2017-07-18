@@ -3,13 +3,13 @@ layout: portfolio
 title: "마이 프릿지 앱"
 header_image: "myfridge.jpg"
 header_color: "#000"
+header_noshadow: true
+breadcrumb_bg: true
 date: 2017-03-04
 lang: ko
 ref: myfridge
 permalink: "/k/portfolio/:title/"
 description: "Open source web app that help better manage food inventory in refrigerator and keep track of fresh items."
-breadcrumb_bg: true
-header_noshadow: true
 tags:
   - UX/UI 디자인
   - 프론트엔드

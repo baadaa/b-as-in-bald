@@ -3,10 +3,10 @@ layout: portfolio
 title: "소다미술관"
 header_image: "soda.jpg"
 header_color: "#000!important"
+header_noshadow: true
 date: 2017-01-14
 lang: ko
 ref: soda
-header_noshadow: true
 permalink: "/k/portfolio/:title/"
 description: "Visual identity system for an experimental museum for architecture and design."
 tags:
