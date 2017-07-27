@@ -1195,8 +1195,11 @@ header.nav-bar {
         padding-top: 100%;
       }
       a {
-        color:#000;
+        color:#FFF;
         text-decoration: none;
+      }
+      &.language a {
+        color:#6E6E6E;
       }
       .content {
         position: absolute;
@@ -1224,19 +1227,22 @@ header.nav-bar {
         height: 0;
         border-left: 0.6rem solid transparent;
         border-right: 0.6rem solid transparent;
-        border-bottom: 0.6rem solid $berry;
+        border-bottom: 0.6rem solid #111;
       }
     }
     .language {
-      background:#FFE;
+      // background:#FFE;
+      background-image: url('../img/languages.svg');
       @include order(1);
     }
     .experience {
-      background:#FFD;
+      // background:#FFD;
+      background-image: url('../img/experience.svg');
       @include order(3);
     }
     .human {
-      background:#FEE;
+      // background:#FEE;
+      background-image: url('../img/human.svg');
       @include flex-basis(100%);
       &::before {
       padding-top: 50%;
@@ -1244,16 +1250,19 @@ header.nav-bar {
       @include order(5);
     }
     .curiosity {
-      background:#EFE;
+      // background:#EFE;
+      background-image: url('../img/curiosity.svg');
       @include order(7);
     }
     .hats {
-      background:#FFE;
+      // background:#FFE;
+      background-image: url('../img/many-hats.svg');
       @include order(9);
     }
     .foot {
       @include flex-basis(100%);
-      background:#FDE;
+      // background:#FDE;
+      background-image: url('../img/footnotes.svg');
       &::before {
       padding-top: 50%;
       }
@@ -1291,8 +1300,8 @@ header.nav-bar {
       box-sizing: border-box;
       width: 100%;
       padding: 1rem;
-      background:#EEE;
-      box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+      background:#666;
+      box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
       h1 {
         font-size: 1rem;
       }
