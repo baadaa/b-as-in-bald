@@ -4,7 +4,6 @@ title: "솔리드 브랜드 포탈"
 header_image: "solid-mockup.jpg"
 header_color: "#000"
 header_noshadow: true
-breadcrumb_bg: true
 date: 2015-03-04
 lang: ko
 ref: solid

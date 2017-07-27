@@ -9,8 +9,10 @@ lang: en
 ref: lifenyc
 description: "Visualizing life changes before and after life in New York"
 tags:
-  - UX/UI design
-  - front-end development
+  - visual design
+  - infographic
+  - editorial design
+  - prepress
 tile_image: "myny-442x330.jpg"
 images:
   - thumb: "fpo_442x330.png"
@@ -24,10 +26,10 @@ category:
   - visual
 ---
 <div class="project-info">
-  <span>Role:</span> design, develop
-  <span>Languages:</span> HTML, JavaScript
+  <span>Role:</span> designer, writer, photographer, illustrator
 </div>
-  Find three most needed things in New York Life: <em>WiFi hotspots, subway entrances, and restrooms</em>. Have peace of mind with this responsive, single-page web application.
+  After I had spent the first five years in New York, I realized my entire life shapeshifted in practically all aspects, both personally and professionally. Looking at my old and new passport photos side by side&mdash;_a clean-shaven academic with nerdy haircut versus a bearded bald designer_&mdash;inspiration kicked in to create a visual quinquennial report that outlines my life before and after New York.
+
 <div class="buttons">
   <span class="unselectable">
   <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>

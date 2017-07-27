@@ -13,4 +13,3 @@
     CSS3, HTML5, JavaScript
     jQuery, Modernizr, Normalize.css, SwipeBox
     Jekyll
-    

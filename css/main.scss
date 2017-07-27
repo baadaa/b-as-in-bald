@@ -96,12 +96,14 @@ body {
 
 footer {
   display: block;
+  clear: both;
   text-align: right;
   font-size: 0.6rem;
   background: #808080;
   color: #FFF;
   padding: 0.2rem 1rem;
   height: 1rem;
+  z-index: 999!important;
 }
 
 // ==========================================================================
@@ -1070,17 +1072,13 @@ header.nav-bar {
   }
 }
 
-.contact, .about {
+.contact {
   &.container {
     // min-height: calc(100% - 5.3rem);
     // background-color:#FFF;
     min-height: 100%;
   }
 
-  // @include flexbox;
-  // @include flex-wrap(wrap);
-  // @include align-items(flex-start);
-  // @include justify-content(flex-start);
   padding: {
     top: 3rem;
     left: 4vw;
@@ -1100,7 +1098,210 @@ header.nav-bar {
     text-align: center;
     margin: 0;
   }
+}
+.about {
+  &.container {
+    .intro {
+      min-height: calc(100vh - 3rem);
+      padding-top: 3rem;
+      background: {
+        image: url(../img/portfolio/baldie.jpg);
+        size: cover;
+        position: center;
+      }
+      h1, h2 {
+        line-height: 150%;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        @media screen and (min-width: 600px) {
+          margin-top: 5rem;
+        }
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
 
+      p {
+        font: {
+          size: 1rem;
+          family: Georgia, serif;
+        }
+        color: #888888;
+        width: 13rem;
+        margin: 1rem auto 0;
+        line-height: 1.4rem;
+        text-align: center;
+        // background: #FF0;
+
+        @media screen and (min-width: 600px) {
+          width: 15rem;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+        }
+      }
+      .scroll {
+        display: block;
+        position: absolute;
+        bottom: 1rem;
+        left: calc(50% - 15px);
+      }
+    }
+  }
+  .quote {
+    padding: 3rem 0;
+    background: {
+      image: url(../img/escheresque_ste.png);
+      repeat: repeat;
+    }
+    p {
+      color:#FFF;
+      margin: 0 auto;
+      text-align: center;
+      font: {
+        style: italic;
+        weight: 400;
+        size: 1rem;
+      }
+      line-height: 150%;
+      width: 17rem;
+      // background:#F00;
+    }
+    .sassure {
+      margin-top: 1rem;
+      font: {
+        size: 0.8rem;
+        style: normal;
+      }
+    }
+  }
+  .grid {
+    width: 100%;
+    margin: 0;
+    @include flexbox;
+    @include flex-wrap(wrap);
+    section {
+      box-sizing: border-box;
+      position: relative;
+      @include flex(1,1,50%);
+      &::before {
+        content:"";
+        display: block;
+        padding-top: 100%;
+      }
+      a {
+        color:#000;
+        text-decoration: none;
+      }
+      .content {
+        position: absolute;
+        font: {
+          weight: 700;
+          size: 0.8rem;
+        }
+        line-height: 100%;
+        padding: 1rem 0 0 1rem;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+      }
+      // &.active {
+      //   border: solid 2px #000;
+      // }
+      &.active::after {
+        position: absolute;
+        content: "";
+        left: calc(50% - 0.3rem);
+        bottom: 0rem;
+        width: 0;
+        height: 0;
+        border-left: 0.6rem solid transparent;
+        border-right: 0.6rem solid transparent;
+        border-bottom: 0.6rem solid $berry;
+      }
+    }
+    .language {
+      background:#FFE;
+      @include order(1);
+    }
+    .experience {
+      background:#FFD;
+      @include order(3);
+    }
+    .human {
+      background:#FEE;
+      @include flex-basis(100%);
+      &::before {
+      padding-top: 50%;
+      }
+      @include order(5);
+    }
+    .curiosity {
+      background:#EFE;
+      @include order(7);
+    }
+    .hats {
+      background:#FFE;
+      @include order(9);
+    }
+    .foot {
+      @include flex-basis(100%);
+      background:#FDE;
+      &::before {
+      padding-top: 50%;
+      }
+      @include order(11);
+    }
+
+    .order4{
+      @include order(4);
+    }
+    .order6{
+      @include order(6);
+    }
+    .order10{
+      @include order(10);
+    }
+    .order13{
+      @include order(13);
+    }
+
+
+    @media screen and (min-width: 600px) {
+      section {
+        @include flex-basis(25%);
+      }
+      .human, .foot {
+        @include flex-basis(50%);
+      }
+      .human {
+        @include order(0);
+      }
+
+    }
+    .full {
+      display: none;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 1rem;
+      background:#EEE;
+      box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+      h1 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+    }
+  }
 
 }
 /*

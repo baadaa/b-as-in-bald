@@ -10,8 +10,10 @@ ref: lifenyc
 permalink: "/k/portfolio/:title/"
 description: "Visualizing life changes before and after life in New York"
 tags:
-  - UX/UI design
-  - front-end development
+- visual design
+- infographic
+- editorial design
+- prepress
 tile_image: "myny-442x330.jpg"
 images:
   - thumb: "fpo_442x330.png"
