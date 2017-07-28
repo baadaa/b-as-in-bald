@@ -1186,6 +1186,8 @@ header.nav-bar {
     @include flexbox;
     @include flex-wrap(wrap);
     section {
+      border: none;
+      background-repeat: no-repeat;
       box-sizing: border-box;
       position: relative;
       @include flex(1,1,50%);
@@ -1231,18 +1233,18 @@ header.nav-bar {
       }
     }
     .language {
-      // background:#FFE;
+      background:#F1E6A9;
       background-image: url('../img/languages.svg');
       @include order(1);
     }
     .experience {
-      // background:#FFD;
-      background-image: url('../img/experience.svg');
+      background:#2E8489;
+      background-image: url('../img/experience-2.svg');
       @include order(3);
     }
     .human {
       // background:#FEE;
-      background-image: url('../img/human.svg');
+      background-image: url('../img/human-2.svg');
       @include flex-basis(100%);
       &::before {
       padding-top: 50%;
@@ -1250,19 +1252,20 @@ header.nav-bar {
       @include order(5);
     }
     .curiosity {
-      // background:#EFE;
+      background:#002F43;
       background-image: url('../img/curiosity.svg');
       @include order(7);
     }
     .hats {
-      // background:#FFE;
+      background:#338488;
       background-image: url('../img/many-hats.svg');
       @include order(9);
     }
     .foot {
       @include flex-basis(100%);
-      // background:#FDE;
-      background-image: url('../img/footnotes.svg');
+      background:#AAA997;
+      background-repeat: no-repeat;
+      background-image: url('../img/footnotes-2.svg');
       &::before {
       padding-top: 50%;
       }
