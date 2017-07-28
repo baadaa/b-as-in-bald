@@ -19,6 +19,7 @@ $(document).ready(function() {
       $(document).keydown(this.checkForEscapeKey.bind(this));
       $('.grp').on('click', this.expandResume.bind(this));
       $('.grid section a').on('click', this.aboutExpand.bind(this));
+      $('.grid').on('click', '.close-full', this.closeAboutPanel.bind(this));
       $(window).on("resize", function(){ // remove expanded divs in about page
           $('div.full').remove();
           $('section').removeClass("active");
@@ -60,8 +61,12 @@ $(document).ready(function() {
       $('.r-detail').not(itemDetail).hide(300);
     },
     aboutClose: function(){
-      $('div.full').slideUp(100); // close any sliding panel currently open
+      $('div.full').slideUp(200); // close any sliding panel currently open
       $('div.full').remove(); // remove from DOM
+    },
+    closeAboutPanel: function() {
+      this.aboutClose();
+      $('section').removeClass('active');
     },
     determineFlexOrder: function(width, sectionName) {
       // Determine the ordering of flexbox,
@@ -99,7 +104,6 @@ $(document).ready(function() {
         $full = $("<div />", {"class":"full"}), // the slding panel div jQ element
         winWidth = $(window).width(), // current window width
         winHeight = $(window).height(); // current window height
-
 
       // if currently open, close it and remove 'active' class
       if ($section.hasClass('active')) {
@@ -156,7 +160,6 @@ $(document).ready(function() {
       var str = '<span>' +
                 '<h1>' + title + '</h1>' +
                 '<img src="'+ img +'">' +
-                // '<div class="emb-video vimeo wide" style="margin-bottom: 0.5rem;"><iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>' +
                 '<p>' + desc + '</p>' +
                 '<div class="close-full"></div>' +
                 '</span>';
