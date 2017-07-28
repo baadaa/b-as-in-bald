@@ -1246,7 +1246,7 @@ header.nav-bar {
       @include order(3);
     }
     .human {
-      // background:#FEE;
+      background:#788FAB;
       background-image: url('../img/human-2.svg');
       @include flex-basis(100%);
       &::before {
