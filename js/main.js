@@ -2,7 +2,6 @@ $(document).ready(function() {
   var b = {
     UI: {
       menuIsHidden: true,
-      videoPlaying: false
     },
     init: function() {
       this.getCurrentYear();
@@ -21,7 +20,6 @@ $(document).ready(function() {
       $('.grp').on('click', this.expandResume.bind(this));
       $('.grid section a').on('click', this.aboutExpand.bind(this));
       $(window).on("resize", function(){ // remove expanded divs in about page
-          if (this.UI.videoPlaying) { return; }
           $('div.full').remove();
           $('section').removeClass("active");
       });
@@ -155,12 +153,10 @@ $(document).ready(function() {
 
     },
     getAboutContent: function(img, title, desc) {
-      this.UI.videoPlaying = true;
       var str = '<span>' +
                 '<h1>' + title + '</h1>' +
-                // '<img src="'+ img +'">' +
-                '<div class="emb-video vimeo wide" style="margin-bottom: 0.5rem;"><iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>' +
-                // <iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/208750976">Bumhan on Fatherhood</a> from <a href="https://vimeo.com/baadaa">Bumhan Yu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                '<img src="'+ img +'">' +
+                // '<div class="emb-video vimeo wide" style="margin-bottom: 0.5rem;"><iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>' +
                 '<p>' + desc + '</p>' +
                 '<div class="close-full"></div>' +
                 '</span>';
