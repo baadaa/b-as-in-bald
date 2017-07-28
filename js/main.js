@@ -93,6 +93,7 @@ $(document).ready(function() {
         sectionClassNames = $section.attr('class'), // selected section class name, which can be more than one
         split = sectionClassNames.split(/\s+/g), // split class names, if more than one
         sectionName = split[0],
+        img = $(target).data('img'), // image in sliding panel
         title = $(target).data('title'), // title in sliding panel
         desc = $(target).data('description'), // description in sliding panel
         $full = $("<div />", {"class":"full"}), // the slding panel div jQ element
@@ -109,7 +110,7 @@ $(document).ready(function() {
 
       var flexOrder = this.determineFlexOrder(winWidth, sectionName); // get flexOrder
       $full.addClass(flexOrder);
-      $full.html(this.getAboutContent(title, desc)); // get content
+      $full.html(this.getAboutContent(img, title, desc)); // get content
       $($section).after($full); // add to DOM
 
       var panelHeight = $full.height(),
@@ -151,9 +152,15 @@ $(document).ready(function() {
       // }
 
     },
-    getAboutContent: function(title, desc) {
-      var str = '<h1>' + title + '</h1>' +
-                '<p>' + desc + '</p>';
+    getAboutContent: function(img, title, desc) {
+      var str = '<span>' +
+                '<h1>' + title + '</h1>' +
+                // '<img src="'+ img +'">' +
+                '<div class="emb-video vimeo wide" style="margin-bottom: 0.5rem;"><iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>' +
+                // <iframe src="https://player.vimeo.com/video/208750976?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/208750976">Bumhan on Fatherhood</a> from <a href="https://vimeo.com/baadaa">Bumhan Yu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                '<p>' + desc + '</p>' +
+                '<div class="close-full"></div>' + 
+                '</span>';
       return str;
     }
   };
