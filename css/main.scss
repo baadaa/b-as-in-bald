@@ -1234,6 +1234,8 @@ header.nav-bar {
     }
     .language {
       background:#F1E6A9;
+      border: 0;
+      padding: 0;
       background-image: url('../img/languages.svg');
       @include order(1);
     }
