@@ -1001,7 +1001,12 @@ header.nav-bar {
   @include flex-wrap(wrap);
   @include flex-direction(column);
   // @include justify-content(center);
-
+  background: {
+    image: url('../img/portfolio/baldie.jpg');
+    size: cover;
+    position: 50% 100%;
+    position: bottom;
+  }
   $colors: $cyan, $green, $yellow;
 
   @-webkit-keyframes bg {
@@ -1045,19 +1050,14 @@ header.nav-bar {
         font-size: 0.7rem;
       }
     }
-    @media screen and (min-width: 900px) {
-      @include justify-content(flex-start);
-
-      p:first-of-type {
-        margin-top: 10vw;
-      }
-    }
     // text-align: center;
     -webkit-animation: bg 7s infinite;
     animation: bg 7s infinite;
     color:#FFF;
     width: 60vw;
     height: 60vw;
+    max-width: 20rem;
+    max-height: 20rem;
     min-height: 250px;
     min-width: 250px;
     border: 6px solid white;
