@@ -36,22 +36,31 @@ category:
   - interactive
   - visual
 ---
-<div class="project-info">
-  <span>역할:</span> 디자인, 프로그래밍, 가이드라인 작성
-  <span>사용언어:</span> HTML/CSS, 마크다운
-  <span>사용도구:</span> DokuWiki (PHP w/o DB)
-</div>
-  냉장고에 무슨 재료들이 들어있는지, 언제 사서 언제 유통기한이 끝나는지, 일일이 기억하기는 번거로운 일입니다. 하지만 손놓고 대충 지내다가는 아까운 식재료가 상해서 버리게 되기 일쑤이지요. [마이 프릿지](https://rememberfridge.com)는 냉장고 관리를 손쉽게 할 수 있게끔 설계된 무료 웹 앱입니다. [rememberfridge.com](https://rememberfridge.com)에서 사용해 보세요.
-
-### 주요 사항
-- 구글/페이스북 계정 연동으로 언제 어디서든 로긴해서 사용 가능
-- 냉장고 내역 관리 기능
-  - 냉장실/냉동실 분리하여 손쉽게 내용 추가 및 삭제
-  - 추가한 날짜 및 유효기간 기록 기능
-  - 물품별 사진 첨부 기능
-  - 등록된 물건의 수량 변경 기능
-- 쇼핑 리스트 기능
-- 오픈소스, 무료
+<section class="project-summary">
+  <h1>클라이언트가 브랜드 커뮤니케이션 관리를 자체적으로 관리할 수 있게 도와주는 위키 웹사이트.</h1>
+  <section class="info">
+    <h3>역할:</h3>
+    <p>디자인, 프로그래밍, 가이드라인 작성, 트레이닝</p>
+  </section>
+  <section class="info">
+    <h3>사용언어:</h3>
+    <p><small>HTML/CSS</small>, 마크다운</p>
+  </section>
+  <section class="info">
+    <h3>사용도구:</h3>
+    <p>DokuWiki (<small>PHP</small> without database)</p>
+  </section>
+  <section class="info">
+    <h3>Challenge:</h3>
+    <p>The client has a national network with dozens of locations, and was growing fast. Because effective visual and verbal communication was critical for the client's business, they typically had to rely on design agency anytime they needed even the simplest assets like logo and colors to use for local ads&mdash;in order for their branches <em>not</em> to recreate brand assets incorrectly.
+    </p>
+  </section>
+  <section class="info">
+    <h3>Solution:</h3>
+    <p>An online destination accessible from anywhere was the key. For ease of use and maintainability, I decided that DokuWiki was the perfect platform for the client, which provides simple <small>WYSIWYG</small> interface and markdown support. After basic training client teams could manage and update content themselves.
+    </p>
+  </section>
+</section>
 
 <div class="buttons">
   <span class="unselectable">

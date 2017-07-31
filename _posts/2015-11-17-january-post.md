@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Something to write about. Not a good title here. Perhaps a Longer title that wraps."
+title: "It's not <em>what</em>. It's <em>who</em>."
 date: 2015-11-17
-header_image: "fpo-blog-header.png"
-bg_color: "#EE0"
-header_color: "#000!important"
+header_image: "test.jpg"
+bg_color: "#FFF"
+header_color: "#333!important"
 description: "lorem ipsum"
 lang: en
 ref: jan
