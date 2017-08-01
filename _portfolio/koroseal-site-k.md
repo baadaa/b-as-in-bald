@@ -5,7 +5,7 @@ header_image: "koroseal-header.jpg"
 header_color: "#000"
 header_noshadow: true
 breadcrumb_bg: true
-date: 2017-02-14
+date: 2017-02-15
 lang: ko
 ref: koroseal
 permalink: "/k/portfolio/:title/"

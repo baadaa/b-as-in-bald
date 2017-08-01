@@ -4,7 +4,7 @@ title: "B as in Bald"
 header_image: "baldie.gif"
 header_color: "#000!important"
 header_noshadow: true
-date: 2017-01-14
+date: 2017-02-14
 lang: ko
 ref: bald
 description: "Personal identity system"

@@ -4,7 +4,7 @@ title: "소다미술관"
 header_image: "soda.jpg"
 header_color: "#000!important"
 header_noshadow: true
-date: 2017-01-14
+date: 2017-01-17
 lang: ko
 ref: soda
 permalink: "/k/portfolio/:title/"

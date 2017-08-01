@@ -35,8 +35,8 @@ category:
     </p>
   </section>
   <section class="info">
-    <h3>Sprint:</h3>
-    <p>It took me ten straight hours to complete this piece from start to finish&mdash;<em>writing, sketching, recording, animating, and HTML email coding</em>&mdash;. Sent out via email on the New Year's Eve at sunrise, the video message was extremely well-received from family, friends, colleagues, and clients.
+    <h3>Production:</h3>
+    <p>It took me ten straight hours to complete this piece from start to finish&mdash;<em>writing, sketching, recording, animating, and HTML email coding</em>. Sent out via email on the New Year's Eve at sunrise, the video message was extremely well-received from family, friends, colleagues, and clients.
     </p>
   </section>
 </section>

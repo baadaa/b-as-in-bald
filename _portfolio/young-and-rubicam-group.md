@@ -7,7 +7,7 @@ header_noshadow: true
 breadcrumb_bg: true
 lang: en
 ref: yrg
-date: 2018-02-14
+date: 2017-03-14
 description: "Corporate identity system"
 tags:
 - identity design

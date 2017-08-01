@@ -4,7 +4,7 @@ title: "Museum SoDA"
 header_image: "soda.jpg"
 header_color: "#000"
 header_noshadow: true
-date: 2017-01-14
+date: 2017-01-17
 lang: en
 ref: soda
 description: "Visual identity system for an experimental museum for architecture and design."
