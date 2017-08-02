@@ -843,10 +843,24 @@ header.nav-bar {
           margin-bottom: 0.4rem;
 
         }
-        p {
+        p, ul {
           font-size: 1rem;
           line-height: 1.4rem;
         }
+        ul {
+          margin: 0 0 0.2rem 0;
+          padding-left: 1rem;
+          li {
+            padding-bottom: 0.2rem;
+            ul {
+              font-size: 0.9rem;
+              line-height: 1.3rem;
+              margin-top: 0.2rem;
+              margin-bottom: 0.2rem;
+            }
+          }
+        }
+
 
         @media screen and (min-width: $midSize) {
           @include flex-direction(row);
@@ -857,11 +871,28 @@ header.nav-bar {
             font-size: 1.1rem;
             line-height: 1.7rem;
           }
-          p {
+          p, ul {
             @include flex(9, 9, 40rem);
             margin-bottom: 0.7rem;
             font-size: 1.1rem;
             line-height: 1.7rem;
+          }
+          ul {
+            // display: block;
+            list-style-position: inside;
+            margin-left: 0;
+            padding-left: 0rem;
+            li {
+              margin: 0;
+              padding-left: 1rem;
+              ul {
+                font-size: 1rem;
+                line-height: 1.6rem;
+                margin-top: 0.4rem;
+                margin-bottom: 0.2rem;
+                margin-left: 1rem;
+              }
+            }
           }
         }
       }

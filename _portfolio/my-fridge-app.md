@@ -36,23 +36,42 @@ category:
   - interactive
   - visual
 ---
-<div class="project-info">
-  <span>Role:</span> designer, developer
-  <span>Languages:</span> HTML, JavaScript
-  <span>Tools:</span> Firebase, OAuth (G/Fb)
-</div>
-  Keeping track of what's in your fridge can be a hassle&mdash;_what's there, when you bought it, and when it goes bad_. [My Fridge web app](https://rememberfridge.com) is built to help minimize food waste and better manage fridge inventory. See some of the sample screens below, and try out the live app at [rememberfridge.com](https://rememberfridge.com).
-
-### Key features
-- Google/Facebook sign-in for easy access from multiple devices
-- Manage fridge and freezer inventory
-  - Quickly add/remove items per section
-  - Track added date and expiration date
-  - Attach a photo of each item
-  - Update quantity of individual item
-- Manage shopping list
-- Open source and free to use
-
+<section class="project-summary">
+  <h1>Open source web app that help better manage food inventory in refrigerator and keep track of fresh items.</h1>
+  <section class="info">
+    <h3>Duties:</h3>
+    <p>design, develop</p>
+  </section>
+  <section class="info">
+    <h3>Languages:</h3>
+    <p>JavaScript, <small>HTML/(S)CSS</small></p>
+  </section>
+  <section class="info">
+    <h3>Tools:</h3>
+    <p>Firebase, OAuth (Google &amp; Facebook)</p>
+  </section>
+  <section class="info">
+    <h3>Background:</h3>
+    <p>Keeping track of what's in your fridge can be a hassle&mdash;<em>what's there, when you bought it, and when it goes bad</em>. This responsive web app is built to help minimize food waste and better manage fridge
+    </p>
+  </section>
+  <section class="info">
+    <h3>Key features:</h3>
+    <ul>
+      <li>Google/Facebook sign-in for easy access from multiple devices</li>
+      <li>Manage fridge and freezer inventory
+        <ul>
+          <li>Quickly add/remove items per section</li>
+          <li>Track added date and expiration date</li>
+          <li>Attach a photo of each item</li>
+          <li>Update quantity of individual item</li>
+        </ul>
+      </li>
+      <li>Manage shopping list</li>
+      <li>Open source and free to use</li>
+    </ul>
+  </section>
+</section>
 <div class="buttons">
   <span class="unselectable">
   <a href="https://rememberfridge.com/" title="Launch live app" target="_blank">Launch Live App</a></span>
