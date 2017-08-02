@@ -2,14 +2,13 @@ $(document).ready(function() {
   var b = {
     UI: {
       menuIsHidden: true,
+      cachedWidth: $(window).width() // to prevent mobile scroll from triggering window.resize
     },
     init: function() {
       this.getCurrentYear();
       this.bindEvents();
       var lang = document.documentElement.lang.toLowerCase();
         if (lang === "ko") {
-          // $('.breadcrumb, .title-container, .portfolio-body, .blog-body, nav').addClass('ko');
-          // $('body').addClass('ko');
           $('nav, section').addClass('ko');
         }
     },
@@ -21,8 +20,12 @@ $(document).ready(function() {
       $('.grid section a').on('click', this.aboutExpand.bind(this));
       $('.grid').on('click', '.close-full', this.closeAboutPanel.bind(this));
       $(window).on("resize", function(){ // remove expanded divs in about page
+        var newWidth = $(window).width();
+        if (newWidth !== b.UI.cachedWidth) {
           $('div.full').remove();
           $('section').removeClass("active");
+          b.UI.cachedWidth = newWidth;
+        }
       });
     },
     checkForEscapeKey: function(e) {
