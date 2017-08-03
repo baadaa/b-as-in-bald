@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "Koroseal redesign concept"
+title: "B2B Corp Site Redesign"
 header_image: "koroseal-header.jpg"
 header_color: "#000"
 header_noshadow: true
@@ -8,44 +8,34 @@ breadcrumb_bg: true
 date: 2017-02-15
 lang: en
 ref: koroseal
-description: "Corporate website restructuring and redesigning"
+description: "Site redesign concept for an interior product client"
 tags:
   - UX/UI design
   - motion design
 tile_image: "koroseal-442x330.gif"
-images:
-  - thumb: "fpo_442x330.png"
-    link: "final-project-sketches_bumhan-yu-2.png"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
 category:
   - motion
   - interactive
 ---
+<small><b>NOTE:</b> Due to confidentiality under NDA, client name and other proprietary details are removed.</small>
+<div class="emb-video vimeo koro">
+  <iframe src="https://player.vimeo.com/video/228280461?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 <section class="project-summary">
-  <h1>Open source web app that finds three crucial elements in New York street life: <em>wifi, subway, and restrooms.</em></h1>
+  <h1>Site redesign concept for an interior product client</h1>
   <section class="info">
     <h3>Duties:</h3>
-    <p>design, develop</p>
-  </section>
-  <section class="info">
-    <h3>Languages:</h3>
-    <p>JavaScript, <small>HTML/(S)CSS</small></p>
-  </section>
-  <section class="info">
-    <h3>Tools:</h3>
-    <p>Google Maps API, NYC Open Data API, Geocod.io, csvjson.com</p>
+    <p>UX/UI design, motion development</p>
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>Living and working in New York city means spending quite some time on the streets, and there are three most needed elements in New York street life that just can't be found when we desperately need them: <em>Wifi hotspots, subway entrances, and restrooms</em>.
+    <p>An internationally renowned interior surface product company was struggling with their multitude of product types and keeping up with outdated legacy <small>CMS</small> system. They offered a myriad of architectural products, and confusing categorization and archaic <small>CMS</small> made it extremely difficult for clients to find what they want and for internal teams to manage inventory and update content. <a href="/img/portfolio/k01.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"><small>(See what their old site looked like)</small></a><a href="/img/portfolio/k02.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k03.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k04.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k05.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k06.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k07.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a><a href="/img/portfolio/k08.jpg" class="swipebox" title="Client's original site (client name and brand elements are removed due to NDA)" rel="koro"></a>
     </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>This responsive web app finds the nearest access you have, whether it's subway entrance, WiFi signal, or a public restroom that you need. Taking advantage of <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data</a> and a handful of NYC restroom datasets available online <em>(<a href="http://www.toiletfinder.com/" target="_blank">here</a>, <a href="http://diaroogle.com/toilets" target="_blank">here</a>, and <a href="http://m3.mappler.net/nyrestroom/" target="_blank">here</a>)</em>, I mapped out each geolocation details. Users can simply drag the map and click each icon, or search location by address or/and zip code. For smoother user experience and reduce server requests, each API call response is stored at <code>localStorage</code>, which ensures to minimize unnecessary API calls and thus faster response to user actions.
+    <p>We completely restructured the site user flow and reorganized entire product category system. Each of their product categories were so interrelated in complicated specs that no off-the-shelf <small>CMS</small> could handle, so we proposed a custom-<small>CMS</small> with tailored modules such as product configurator and proprietary collage tools. For in-depth filtering and searching across product portfolio was indispensable for users, we also planned out exhaustive database structure to implement comprehensive functionality. I developed the full site wireframe, designed the user flow, built visual mockups, and created the motion presentation for clients.
     </p>
   </section>
 </section>
