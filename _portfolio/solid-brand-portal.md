@@ -36,7 +36,11 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>Comprehensive wiki website that helps clients easily and effectively manage their brand assets for better brand communication.</h1>
+  <h1>Comprehensive wiki website that helps clients easily and effectively manage their brand assets for impeccable brand communication&mdash;replacing bulky brand guideline books</h1>
+  <section class="info">
+    <h3>Agency:</h3>
+    <p><a href="http://themoderns.com" target="_blank">The Moderns</a></p>
+  </section>
   <section class="info">
     <h3>Duties:</h3>
     <p>design, development, writing, training</p>

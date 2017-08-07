@@ -26,6 +26,10 @@ category:
 <section class="project-summary">
   <h1>실내건축 B2B 업체의 사이트 리디자인 프로젝트</h1>
   <section class="info">
+    <h3>에이전시:</h3>
+    <p><a href="http://themoderns.com" target="_blank">더 모던스</a></p>
+  </section>
+  <section class="info">
     <h3>역할:</h3>
     <p>UX/UI 디자인, 모션디자인</p>
   </section>

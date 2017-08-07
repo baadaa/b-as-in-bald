@@ -37,7 +37,11 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>클라이언트가 브랜드 커뮤니케이션 관리를 자체적으로 관리할 수 있게 도와주는 위키 웹사이트.</h1>
+  <h1>효율적인 브랜드 매니지먼트를 위한 위키 웹사이트.</h1>
+  <section class="info">
+    <h3>에이전시:</h3>
+    <p><a href="http://themoderns.com" target="_blank">더 모던스</a></p>
+  </section>
   <section class="info">
     <h3>역할:</h3>
     <p>디자인, 프로그래밍, 가이드라인 작성, 트레이닝</p>

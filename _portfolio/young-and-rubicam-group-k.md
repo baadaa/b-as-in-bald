@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "영 앤 루비캠 그룹"
-header_image: "yrg-pattern.png"
+header_image: "yrg.jpg"
 header_color: "#003B75"
 header_noshadow: true
 breadcrumb_bg: true
@@ -9,7 +9,7 @@ date: 2017-03-24
 lang: ko
 ref: yrg
 permalink: "/k/portfolio/:title/"
-description: "Corporate identity system"
+description: "Developing a new visual identity system for a multi-national, multi-agency group of creative firms"
 tags:
   - identity design
   - visual design
@@ -38,7 +38,11 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>Open source web app that finds three crucial elements in New York street life: <em>wifi, subway, and restrooms.</em></h1>
+  <h1>Developing a new visual identity system for a multi-national, multi-agency group of creative firms</h1>
+  <section class="info">
+    <h3>Agency:</h3>
+    <p><a href="http://yrgrp.com" target="_blank">Young &amp; Rubicam Group</a> w/ <a href="http://landor.com" target="_blank">Landor Associates</a></p>
+  </section>
   <section class="info">
     <h3>Duties:</h3>
     <p>design, develop</p>

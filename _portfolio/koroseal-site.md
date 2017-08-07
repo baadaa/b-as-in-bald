@@ -25,6 +25,10 @@ category:
 <section class="project-summary">
   <h1>Site redesign concept for an interior product client</h1>
   <section class="info">
+    <h3>Agency:</h3>
+    <p><a href="http://themoderns.com" target="_blank">The Moderns</a></p>
+  </section>
+  <section class="info">
     <h3>Duties:</h3>
     <p>UX/UI design, motion development</p>
   </section>
