@@ -33,6 +33,9 @@ images:
   - thumb: "yrg-glassdoor-442x330.jpg"
     link: "yrg-glassdoor-drawing.png"
     alt: "Interior drawing"
+  - thumb: "yrg-stationery_thumb.jpg"
+    link: "yrg-stationery.jpg"
+    alt: "Corporate stationery set"
 category:
   - identity
   - visual

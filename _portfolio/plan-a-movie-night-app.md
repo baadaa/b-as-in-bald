@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "Plan a Movie Night App"
+title: "Movie Night iOS App"
 header_image: "pamn-header.jpg"
 header_color: "#000"
 header_noshadow: true
@@ -14,12 +14,21 @@ tags:
   - front-end development
 tile_image: "pamn-442x330.jpg"
 images:
-  - thumb: "fpo_442x330.png"
-    link: "final-project-sketches_bumhan-yu-2.png"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
+  - thumb: "pamn_sketch-thumb.jpg"
+    link: "pamn_sketch.jpg"
+    alt: "initial UX hand-sketches"
+  - thumb: "pamn-keyscreens_thumb.png"
+    link: "pamn-keyscreens.jpg"
+    alt: "key screens at a glance"
+  - thumb: "pamn-movies_thumb.png"
+    link: "pamn-movies.png"
+    alt: "Movies section of the app"
+  - thumb: "pamn-events_thumb.png"
+    link: "pamn-events.png"
+    alt: "Events section of the app"
+  - thumb: "pamn-friends_thumb.png"
+    link: "pamn-friends.png"
+    alt: "Friends section of the app"
 category:
   - interactive
   - visual
@@ -62,6 +71,6 @@ category:
 
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="/img/portfolio/pamn_draft_r1.pdf" title="Download initial UX draft" target="_blank">Download initial UX draft</a></span>
+  <span class="unselectable"><a href="https://github.com/baadaa/plan-a-movie-night" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
 </div>

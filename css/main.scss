@@ -379,10 +379,12 @@ header.nav-bar {
     @include flex(1, 1, 3rem);
     border-radius: 0.5rem;
     display: block;
+    cursor: pointer;
     text-align: center;
     background: $yellow;
     margin: 1rem 0.7rem 1rem 0;
-    padding: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    line-height: 100%;
     color: #FFF;
     font: {
       size: 0.9rem;

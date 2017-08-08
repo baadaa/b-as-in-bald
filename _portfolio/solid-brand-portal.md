@@ -13,9 +13,9 @@ tags:
   - front-end development
 tile_image: "solid-442x330.jpg"
 images:
-  - thumb: "fridge01-thumb.jpg"
-    link: "fridge01.jpg"
-    alt: "Login screen"
+  - thumb: "solid-screen_thumb.jpg"
+    link: "solid-screen.jpg"
+    alt: "Responsive layout"
   - thumb: "fridge03-thumb.jpg"
     link: "fridge03.jpg"
     alt: "Inventory view"

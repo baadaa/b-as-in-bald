@@ -44,8 +44,3 @@ category:
     </p>
   </section>
 </section>
-<div class="buttons">
-  <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
-</div>

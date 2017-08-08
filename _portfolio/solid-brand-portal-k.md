@@ -14,9 +14,9 @@ tags:
   - 프론트엔드
 tile_image: "solid-442x330.jpg"
 images:
-  - thumb: "fridge01-thumb.jpg"
-    link: "fridge01.jpg"
-    alt: "Login screen"
+  - thumb: "solid-screen_thumb.jpg"
+    link: "solid-screen.jpg"
+    alt: "Responsive layout"
   - thumb: "fridge03-thumb.jpg"
     link: "fridge03.jpg"
     alt: "Inventory view"
@@ -37,7 +37,7 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>효율적인 브랜드 매니지먼트를 위한 위키 웹사이트.</h1>
+  <h1>효율적인 브랜드 매니지먼트를 위한 위키 웹사이트. </h1>
   <section class="info">
     <h3>에이전시:</h3>
     <p><a href="http://themoderns.com" target="_blank">더 모던스</a></p>

@@ -38,7 +38,7 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>Open source web app that help better manage food inventory in refrigerator and keep track of fresh items.</h1>
+  <h1>냉장고 구석에서 잊혀져 있다 버려지는 음식과 식재료는 이제 그만. 구입일과 유통기한을 한 눈에 편리하게 관리할 수 있는 웹 애플리케이션.</h1>
   <section class="info">
     <h3>역할:</h3>
     <p>디자인, 프로그램</p>
