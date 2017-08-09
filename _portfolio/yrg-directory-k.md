@@ -18,9 +18,8 @@ category:
   - motion
   - interactive
 ---
-<small><b>참고:</b> 기밀유지계약으로 인해 구체적인 명칭과 세부사항은 삭제하였습니다.</small>
-<div class="emb-video vimeo koro">
-  <iframe src="https://player.vimeo.com/video/228280461?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="emb-video vimeo wide">
+  <iframe src="https://player.vimeo.com/video/44960534?title=0&byline=0&portrait=0" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <section class="project-summary">

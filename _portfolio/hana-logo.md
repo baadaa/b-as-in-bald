@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Hana Yu"
-header_image: "nyc-lifelist.jpg"
+header_image: "fpo_442x330.png"
 header_color: "#000!important"
 date: 2017-03-14
 lang: en
@@ -23,7 +23,7 @@ category:
   - interactive
 ---
 <section class="project-summary">
-  <h1>Open source web app that finds three crucial elements in New York street life: <em>wifi, subway, and restrooms.</em></h1>
+  <h1>TO BE WRITTEN</h1>
   <section class="info">
     <h3>Duties:</h3>
     <p>design, develop</p>
@@ -33,22 +33,13 @@ category:
     <p>JavaScript, <small>HTML/(S)CSS</small></p>
   </section>
   <section class="info">
-    <h3>Tools:</h3>
-    <p>Google Maps API, NYC Open Data API, Geocod.io, csvjson.com</p>
-  </section>
-  <section class="info">
-    <h3>Challenge:</h3>
-    <p>Living and working in New York city means spending quite some time on the streets, and there are three most needed elements in New York street life that just can't be found when we desperately need them: <em>Wifi hotspots, subway entrances, and restrooms</em>.
-    </p>
-  </section>
-  <section class="info">
-    <h3>Solution:</h3>
-    <p>This responsive web app finds the nearest access you have, whether it's subway entrance, WiFi signal, or a public restroom that you need. Taking advantage of <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data</a> and a handful of NYC restroom datasets available online <em>(<a href="http://www.toiletfinder.com/" target="_blank">here</a>, <a href="http://diaroogle.com/toilets" target="_blank">here</a>, and <a href="http://m3.mappler.net/nyrestroom/" target="_blank">here</a>)</em>, I mapped out each geolocation details. Users can simply drag the map and click each icon, or search location by address or/and zip code. For smoother user experience and reduce server requests, each API call response is stored at <code>localStorage</code>, which ensures to minimize unnecessary API calls and thus faster response to user actions.
+    <h3>Background:</h3>
+    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
     </p>
   </section>
 </section>
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://borninnewyork.net/" title="Launch site" target="_blank">Launch Site</a></span>
+  <span class="unselectable"><a href="https://github.com/baadaa/born-in-new-york" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
 </div>

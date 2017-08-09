@@ -40,17 +40,16 @@ category:
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>Living and working in New York city means spending quite some time on the streets, and there are three most needed elements in New York street life that just can't be found when we desperately need them: <em>Wifi hotspots, subway entrances, and restrooms</em>.
-    </p>
+    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex.    </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>This responsive web app finds the nearest access you have, whether it's subway entrance, WiFi signal, or a public restroom that you need. Taking advantage of <a href="https://opendata.cityofnewyork.us/" target="_blank">NYC Open Data</a> and a handful of NYC restroom datasets available online <em>(<a href="http://www.toiletfinder.com/" target="_blank">here</a>, <a href="http://diaroogle.com/toilets" target="_blank">here</a>, and <a href="http://m3.mappler.net/nyrestroom/" target="_blank">here</a>)</em>, I mapped out each geolocation details. Users can simply drag the map and click each icon, or search location by address or/and zip code. For smoother user experience and reduce server requests, each API call response is stored at <code>localStorage</code>, which ensures to minimize unnecessary API calls and thus faster response to user actions.
+    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
     </p>
   </section>
 </section>
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://github.com/baadaa/" title="GitHub Profile" target="_blank">GitHub Profile</a></span>
+  <span class="unselectable"><a href="https://github.com/baadaa/b-as-in-bald/" title="GitHub repo of this site" target="_blank">GitHub Repo of this site</a></span>
 </div>

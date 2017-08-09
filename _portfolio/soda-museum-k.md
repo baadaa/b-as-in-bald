@@ -24,19 +24,19 @@ category:
   - identity
 ---
 <section class="project-summary">
-  <h1>iOS app that help organize a movie night events by assessing participants' tastes and suggesting the best film to watch together.</h1>
+  <h1>Flexible identity system for an experimental museum in Korea of architecture and design.</h1>
   <section class="info">
     <h3>Duties:</h3>
     <p>visual identity design, communication consultation</p>
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>At the core of this self-initiated team project was the need for an impeccable recommendation engine. When organizing a movie night with friends, choosing the film to watch together can be a painful process. The larger the group, the harder to select the perfect movie that <em>everybody</em> would enjoy watching. How do you make it easy to gather friends, pick time and place, and most importantly, select the perfect film to screen?
+    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
     </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>The app would present you a wide range of films in an <small>IMDb</small>-like manner, through which users can browse and learn more about each film. At each review, users are asked three simple questions: <em>1) did you watch this film? 2) would you watch it with your friends? 3) how bad do you want to watch it?</em> As user's answers accumulate, the app cross-references and analyzes movie tastes between friends connected via Facebook. Now, when ready for a gathering, simply choose the date and time, send invitation to friends, and the app will take care of the rest by recommending the impeccable film to watch together.
+    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
     </p>
   </section>
 </section>
