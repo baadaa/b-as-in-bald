@@ -59,6 +59,6 @@ category:
 
 <div class="buttons">
   <span class="unselectable">
-  <a href="#" title="Download PDF" target="_blank">PDF 다운로드</a></span>
+  <a href="/download/my-life-in-nyc-ebook.pdf" title="Download PDF" target="_blank">PDF 다운로드</a></span>
   <span class="unselectable"><a href="http://www.blurb.com/b/2755937-my-life-in-nyc" title="Purchase the book" target="_blank">책 구입하기</a></span>
 </div>

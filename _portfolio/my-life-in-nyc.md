@@ -58,6 +58,6 @@ category:
 
 <div class="buttons">
   <span class="unselectable">
-  <a href="#" title="Download PDF" target="_blank">Download PDF version</a></span>
+  <a href="/download/my-life-in-nyc-ebook.pdf" title="Download PDF" target="_blank">Download PDF version</a></span>
   <span class="unselectable"><a href="http://www.blurb.com/b/2755937-my-life-in-nyc" title="Purchase the book" target="_blank">Purchase the book</a></span>
 </div>
