@@ -42,6 +42,8 @@ nav:
         en: "Contact"
         ko: "연락처"
 
+plugins:
+  - jekyll-redirect-from
 # Pagination settings
 # gems:
 #   [jekyll-paginate] -- this is not being used, for it messes up with multilingual support

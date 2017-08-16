@@ -403,6 +403,8 @@ header.nav-bar {
     img {
       width: 1.1rem;
       margin-right: 0.5rem;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
   }
   @media screen and (min-width: $midSize) {

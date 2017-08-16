@@ -71,6 +71,6 @@ category:
 
 <div class="buttons">
   <span class="unselectable">
-  <a href="/img/portfolio/pamn_draft_r1.pdf" title="Download initial UX draft" target="_blank">Download initial UX draft</a></span>
+  <a href="/download/pamn_draft_r1.pdf" title="Download initial UX draft" target="_blank">Download initial UX draft</a></span>
   <span class="unselectable"><a href="https://github.com/baadaa/plan-a-movie-night" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
 </div>
