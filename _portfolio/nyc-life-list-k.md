@@ -56,13 +56,13 @@ category:
   </section>
   <section class="info">
     <h3>기타 사항:</h3>
-    <p>서버 리퀘스트를 최소화하고 사용자 대기 시간을 단축시키기 위해서, 각각의 API세션은 <code>localStorage</code> 기반으로 사용자 브라우저에 저장하도록 설계하였습니다. 
+    <p>서버 리퀘스트를 최소화하고 사용자 대기 시간을 단축시키기 위해서, 각각의 API세션은 <code>localStorage</code> 기반으로 사용자 브라우저에 저장하도록 설계하였습니다.
     </p>
   </section>
 </section>
 
 <div class="buttons">
   <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
+  <a href="https://baadaa.github.io/nyc-life-list/" title="웹 앱 바로가기" target="_blank">웹 앱 바로가기</a></span>
+  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">깃허브 저장소 바로가기</a></span>
 </div>
