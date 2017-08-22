@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "영 앤 루비캠 그룹"
-header_image: "yrg.jpg"
+header_image: "yrg-header.gif"
 header_color: "#003B75"
 header_noshadow: true
 breadcrumb_bg: true

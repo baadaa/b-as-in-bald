@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Young & Rubicam Group"
-header_image: "yrg.jpg"
+header_image: "yrg-header.gif"
 header_color: "#003B75"
 header_noshadow: true
 breadcrumb_bg: true
