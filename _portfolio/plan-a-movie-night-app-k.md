@@ -30,6 +30,9 @@ images:
   - thumb: "pamn-movie-details-thumb.gif"
     link: "pamn-movie-details.gif"
     alt: "Viewing movie details and entering insight"
+  - thumb: "pamn-rsvp_thumb.gif"
+    link: "pamn-rsvp.gif"
+    alt: "Browsing events and RSVPing"
 category:
   - interactive
   - visual
