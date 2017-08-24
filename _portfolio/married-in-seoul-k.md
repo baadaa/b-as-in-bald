@@ -18,15 +18,29 @@ tags:
   - 영상편집
 tile_image: "mis-home_442x330.gif"
 images:
+  - thumb: "by-logo.gif"
+    link: "by-logo-big.gif"
+    alt: "Logo for the newly married couple"
   - thumb: "mis-home_442x330.gif"
     link: "mis-home.gif"
     alt: "Intro section of the home page"
   - thumb: "mis-photos_442x330.gif"
     link: "mis-photos.gif"
     alt: "Photo essay sections of the site"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "http://google.com"
+  - thumb: "by-invitation_thumb.gif"
+    link: "by-invitation.gif"
+    alt: "Wedding invitation mockup"
+  - thumb: "by-coaster_thumb.jpg"
+    link: "by-coaster.jpg"
+    alt: "Coasters for guests to write messages on."
+  - thumb: "ny-greetings.gif"
+    link: "https://vimeo.com/163962331"
+    alt: "Shout-outs from New York video (edited at 4:3 ratio per venue screening requirements)"
+    video: true
+  - thumb: "song-for-bride.gif"
+    link: "https://vimeo.com/163962316"
+    alt: "Marriage vow and serenade for bride video (edited at 4:3 ratio per venue screening requirements)"
+    video: true
 category:
   - interactive
   - visual
