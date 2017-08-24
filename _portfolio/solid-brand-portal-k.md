@@ -8,7 +8,7 @@ date: 2015-03-04
 lang: ko
 ref: solid
 permalink: "/k/portfolio/:title/"
-description: "Comprehensive wiki website that helps clients easily and effectively manage their brand assets to better brand communication."
+description: "복잡한 브랜딩 커뮤니케이션 관리를 에이전시에 의존하지 않고 스스로 처리하게 해주는 위키 포털 사이트 툴"
 tags:
   - UX/UI 디자인
   - 프론트엔드
@@ -17,27 +17,27 @@ images:
   - thumb: "solid-screen_thumb.jpg"
     link: "solid-screen.jpg"
     alt: "Responsive layout"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
+  - thumb: "solid-overview_thumb.gif"
+    link: "solid-overview.gif"
+    alt: "Site sections overview"
+  - thumb: "solid-visual_thumb.gif"
+    link: "solid-visual.gif"
+    alt: "Visual Identity section of the site"
+  - thumb: "solid-collateral_thumb.gif"
+    link: "solid-collateral.gif"
+    alt: "Business Collateral section of the site"
+  - thumb: "solid-marketing_thumb.gif"
+    link: "solid-marketing.gif"
+    alt: "Marketing Materials section of the site"
+  - thumb: "solid-field_thumb.gif"
+    link: "solid-field.gif"
+    alt: "In-the-Field Materials section of the site"
 category:
   - interactive
   - visual
 ---
 <section class="project-summary">
-  <h1>효율적인 브랜드 매니지먼트를 위한 위키 웹사이트. </h1>
+  <h1>복잡한 브랜딩 커뮤니케이션 관리를 에이전시에 의존하지 않고 스스로 처리하게 해주는 위키 포털 사이트 툴</h1>
   <section class="info">
     <h3>에이전시:</h3>
     <p><a href="http://themoderns.com" target="_blank">더 모던스</a></p>
@@ -52,22 +52,16 @@ category:
   </section>
   <section class="info">
     <h3>사용도구:</h3>
-    <p>DokuWiki (<small>PHP</small> without database)</p>
+    <p>다큐위키 (DB없는 <small>PHP</small> 툴)</p>
   </section>
   <section class="info">
-    <h3>Challenge:</h3>
-    <p>The client has a national network with dozens of locations, and was growing fast. Because effective visual and verbal communication was critical for the client's business, they typically had to rely on design agency anytime they needed even the simplest assets like logo and colors to use for local ads&mdash;in order for their branches <em>not</em> to recreate brand assets incorrectly.
+    <h3>상황:</h3>
+    <p>클라이언트는 전미 수십개 지사를 보유하고 신규 브랜드를 론치했고, 빠른 속도로 규모를 키워가는 중이었습니다. 시각적 커뮤니케이션에 크게 의존하는 서비스 업종의 특성상 모든 생산과정에서 정확한 색재현과 꼼꼼한 프로덕션이 필요했고, 에이전시에 대한 사업 의존도가 높은 상태였습니다. 특히 새로운 브랜치 오피스를 확장할 때마다 유니폼, 차량, 현지 광고 등의 일상 업무가 필요했는데, 매번 에이전시에 의존하기보다는 클라이언트 스스로 관련 업무를 처리하는 비중을 높이고 싶어했기에 자기 관리 툴이 시급했습니다.
     </p>
   </section>
   <section class="info">
-    <h3>Solution:</h3>
-    <p>An online destination accessible from anywhere was the key. For ease of use and maintainability, I decided that DokuWiki was the perfect platform for the client, which provides simple <small>WYSIWYG</small> interface and markdown support. After basic training client teams could manage and update content themselves.
+    <h3>대안:</h3>
+    <p>언제 어디서건 필요할 때 온라인에서 관련 정보를 열람하고 다운받을 수 있는 해법이 필수적이었습니다. 내용 관리 및 업데이트를 에이전시에 의존하지 않고 클라이언트 스스로 처리할 수 있으면, 복잡한 CMS 백엔드 기술보다는 훨씬 간소화된 인터페이스가 필요했습니다. 다큐위키(DokuWiki)는 서버 세팅이 간소하고 DB에 의존하지 않으므로 관리가 수월한데다, 직관적 <small>WYSIWYG</small> 에디터와 손쉬운 관리자 UI를 보유했지마 클라이언트 상황에 최적으로 추천하였습니다. 관리자 툴에 대해서 간단한 트레이닝을 제공한 뒤에는 클라이언트의 내부 팀이 내용 관리와 업데이트를 스스로 관리할 수 있게 되었습니다.
     </p>
   </section>
 </section>
-
-<div class="buttons">
-  <span class="unselectable">
-  <a href="https://rememberfridge.com/" title="웹 앱 바로가기" target="_blank">웹 앱 바로가기</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/myfridge" title="깃허브 저장소 바로가기" target="_blank">깃허브 저장소 바로가기</a></span>
-</div>

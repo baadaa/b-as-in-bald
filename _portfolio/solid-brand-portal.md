@@ -16,21 +16,21 @@ images:
   - thumb: "solid-screen_thumb.jpg"
     link: "solid-screen.jpg"
     alt: "Responsive layout"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "TBD"
+  - thumb: "solid-overview_thumb.gif"
+    link: "solid-overview.gif"
+    alt: "Site sections overview"
+  - thumb: "solid-visual_thumb.gif"
+    link: "solid-visual.gif"
+    alt: "Visual Identity section of the site"
+  - thumb: "solid-collateral_thumb.gif"
+    link: "solid-collateral.gif"
+    alt: "Business Collateral section of the site"
+  - thumb: "solid-marketing_thumb.gif"
+    link: "solid-marketing.gif"
+    alt: "Marketing Materials section of the site"
+  - thumb: "solid-field_thumb.gif"
+    link: "solid-field.gif"
+    alt: "In-the-Field Materials section of the site"
 category:
   - interactive
   - visual
@@ -55,7 +55,7 @@ category:
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>The client has a national network with dozens of locations, and was growing fast. Because effective visual and verbal communication was critical for the client's business, they typically had to rely on design agency anytime they needed even the simplest assets like logo and colors to use for local ads&mdash;in order for their branches <em>not</em> to recreate brand assets incorrectly.
+    <p>The client has just launched a new brand of national network with dozens of locations, and was growing fast. Because effective visual and verbal communication was critical for the client's business, they typically had to rely on design agency anytime they needed even the simplest assets like logo and colors to use for local ads&mdash;in order for their branches <em>not</em> to recreate brand assets incorrectly.
     </p>
   </section>
   <section class="info">
@@ -64,9 +64,3 @@ category:
     </p>
   </section>
 </section>
-
-<div class="buttons">
-  <span class="unselectable">
-  <a href="https://rememberfridge.com/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/myfridge" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
-</div>
