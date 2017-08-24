@@ -1,9 +1,15 @@
 {% for image in page.images %}
 <section class="thumb-box">
   <span class="thumb-img">
+    {% if image.video == true %}
+    <a href="{{ image.link }}" rel="portfolio" class="swipebox" title="{{ image.alt }}">
+      <img src="/img/portfolio/{{ image.thumb }}" title="{{ image.alt }}">
+    </a>
+    {% else %}
     <a href="/img/portfolio/{{ image.link }}" rel="portfolio" class="swipebox" title="{{ image.alt }}">
       <img src="/img/portfolio/{{ image.thumb }}" title="{{ image.alt }}">
     </a>
+    {% endif %}
   </span>
 </section>
 {% endfor %}
