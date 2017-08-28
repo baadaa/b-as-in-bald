@@ -864,6 +864,16 @@ header.nav-bar {
             }
           }
         }
+        ul.nostyle {
+          list-style: none;
+          padding-left: 1rem;
+          text-indent: -1rem;
+          li {
+            padding-left: 0;
+            font-size: inherit;
+            line-height: inherit;
+          }
+        }
 
 
         @media screen and (min-width: $midSize) {

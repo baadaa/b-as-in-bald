@@ -48,31 +48,28 @@ category:
   - visual
 ---
 <section class="project-summary">
-  <h1>Create a happy, memorable experience for both newly-weds and guests&mdash;visually story of two people's lives, engaging event props, immersive video contents, all in one place. Personal project for my own wedding.</h1>
+  <h1>Create a happy, memorable experience for both newly-weds and guests&mdash;interweaving visual storytelling, designed props, immersive video contents, and on- and offline engagements.</h1>
   <section class="info">
-    <h3>Duties:</h3>
-    <p>art direction, event direction, design, develop, production, writing</p>
+    <h3>Roles:</h3>
+    <p>designer/developer (print, motion, interactive), writing, bridegroom</p>
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>In just five months, we had to finish securing the venue, designing/producing all the materials, and planning the event. Aside from the tight timeframe, Young-Mi and I were both busy working full-time&mdash;in <em>New York</em> while preparing for the wedding in <em>Seoul</em>, half the globe away.</p>
+    <p>The wedding was scheduled to take place in Seoul where our families are, but all the planning and preparation had to be done remotely in New York where we live&mdash;while busy working full-time. Knowing nothing about the venue our parents helped reserve, we had to work only from floor plan and a few photographs for planning. Certain materials needed to be bilingual, since we had two groups of audience&mdash;Americans who don't speak Korean and Koreans who don't speak English. Aside from designing and planning for the event, another real challenge was to find a reliable vendor to produce the materials locally in Seoul.</p>
   </section>
   <section class="info">
-    <h3>Website:</h3>
-    <p>We had two groups of audience&mdash;Americans who don't speak Korean and Koreans who don't speak English, and it was a <em>given</em> that we needed a bilingual site as a central piece. To make it more than another boring wedding invitation site, I wanted to bring more of authentic personal stories of ours, sharing how these two individuals grew up and ended up together. Taking advantage of readily available <small>WordPress</small> plugins, I built a visual essay with <small>RSVP</small> and guestbook weaved into it&mdash;which I later turned into a static <small>HTML/CSS</small> site for better performance.</p>
-  </section>
-  <section class="info">
-    <h3>Video Interview:</h3>
-    <p>We compiled a reel of video greetings from our New York friends, and screened at the wedding in Seoul. While none from our New York circle could come to Seoul, they could virtually be a part of the event, and for the Korean guest who knew nothing about our New York life could take a glimpse into what we've built in America.</p>
-  </section>
-  <section class="info">
-    <h3>Serenade for&nbsp;the Bride:</h3>
-    <p>I was going to sing for Young-Mi as part of the event, and needed a backdrop imagery. What better way is there to commemorate our days together than to show what we've been through together? I've collected and curated hundreds and hundreds of photos and videos we had taken while dating, and created a collage piece. Once an instrumental track was mixed into it, we were ready for karaoke.</p>
-  </section>
-  <section class="info">
-    <h3>Printed Materials:</h3>
-    <p>Designing materials was not so big of a challenge but producing them remotely was. I had no experience with print vendors in Korea and didn't know any quality print shop either. TO BE WRITTEN.
+    <h3>Solution:</h3>
+    <p>I gathered as much information as possible of the space and its equipment settings through myriads of emails and phone calls over the time zones. While designing print materials and the event itself per given parameters, I focused on creating the central bilingual website as a visual and interactive narrative. The idea was to present the stories of two very different individuals and how they converge into bigger story in visually compelling and engaging format&mdash;inviting visitors to celebrate not only the wedding event but also the lives of two people, by getting to know them more.
     </p>
+  </section>
+  <section class="info">
+    <h3>Materials:</h3>
+    <ul class="nostyle">
+    <li><b>Website</b>: Taking advantage of readily available <small>WordPress</small> plugins, I built a visual essay with <small>RSVP</small> and guestbook weaved into it&mdash;which I later turned into a static <small>HTML/CSS</small> site for better performance.</li>
+    <li><b>Video Greetings</b>: We compiled a reel of video greetings from our New York friends, and screened at the wedding in Seoul. While none from our New York circle could come to Seoul, they could virtually be a part of the event, and for the Korean guest who knew nothing about our New York life could take a glimpse into what we've built in America.</li>
+    <li><b>Seranade and Vow</b>: Commemorating the days together, I collected and curated hundreds of photos and videos taken since we had first met, and created a collage video piece. With a musical instrumental track mixed in, the reel served as a backdrop as we said wedding vows and I serenaded for the bride.</li>
+    <li><b>Printed Objects</b>: <em>Wedding invitation</em> was printed in Seoul and mailed in advance. <em>Coasters</em> and <em>pens</em>, designed for guests to write messages for newly-weds, were produced in the U.S. and placed on each seat before the ceremony. <em>Postcards</em> were also printed in the U.S. and placed at the reception desk, so each guest could take one.</li>
+    </ul>
   </section>
 </section>
 <div class="buttons">
