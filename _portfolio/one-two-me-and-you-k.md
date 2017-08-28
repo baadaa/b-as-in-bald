@@ -5,7 +5,7 @@ header_image: "one-two-me-you-head.gif"
 header_color: "#555!important"
 header_noshadow: true
 permalink: "/k/portfolio/:title/"
-description: "Motion graphic tale of two dots - you and me."
+description: "두 개의 점, 사람과 사이를 빛내는 새해 인사"
 date: 2016-03-14
 lang: ko
 ref: 2014greeting

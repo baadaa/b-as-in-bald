@@ -7,7 +7,7 @@ date: 2017-01-14
 lang: ko
 ref: makefriends
 permalink: "/k/portfolio/:title/"
-description: "From hundreds of brands, how do people choose one over others? Out of billions of people on earth, how do you identify your friends from strangers?"
+description: "수백개의 브랜드, 수천개의 상품이 넘쳐나는 시장에서, 우리는 어떻게 좋아하는 브랜드와 싫어하는 브랜드를 구분하고 관계를 형성할까요? 수십억의 인구가 살아가는 지구상에서, 우리는 어떻게 친구와 남을 구분하고 관계를 맺을까요?"
 tags:
   - 모션디자인
   - 컨셉

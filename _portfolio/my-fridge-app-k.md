@@ -9,7 +9,7 @@ date: 2017-03-04
 lang: ko
 ref: myfridge
 permalink: "/k/portfolio/:title/"
-description: "Open source web app that help better manage food inventory in refrigerator and keep track of fresh items."
+description: "냉장고 구석에서 잊혀져 있다 버려지는 음식과 식재료는 이제 그만. 구입일과 유통기한을 한 눈에 편리하게 관리할 수 있는 웹 애플리케이션."
 tags:
   - UX/UI 디자인
   - 프론트엔드

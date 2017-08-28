@@ -7,7 +7,7 @@ date: 2017-01-14
 lang: ko
 ref: kaleidoscope
 permalink: "/k/portfolio/:title/"
-description: "Conceptual motion graphic piece"
+description: "프루스트의 마들렌을 아시나요? 비자발적 기억과 감각을 생생히 되살려줄 수 있는 요리가 있다면, 그런 요리를 접대하는 레스토랑이 있다면, 찾아가 보시겠습니까?"
 tags:
   - 모션디자인
   - 컨셉

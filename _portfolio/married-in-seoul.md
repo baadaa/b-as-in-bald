@@ -6,7 +6,7 @@ header_color: "#000!important"
 header_noshadow: true
 breadcrumb_bg: true
 date: 2017-01-14
-description: "A story of two people&mdash;both happened to be born in Seoul and living in New York&mdash;growing up and becoming a couple. The site functions as a visual diary, a wedding invitation, and a guestbook."
+description: "Create a happy, memorable experience for both newly-weds and guests&mdash;interweaving visual storytelling, designed props, immersive video contents, and on- and offline engagements."
 lang: en
 ref: married
 tags:

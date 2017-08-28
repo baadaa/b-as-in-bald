@@ -8,7 +8,7 @@ date: 2017-01-15
 lang: ko
 ref: lifenyc
 permalink: "/k/portfolio/:title/"
-description: "Visualizing life changes before and after life in New York"
+description: "뉴욕에서 맞은 삶의 변화를 시각적으로 정리한다면"
 tags:
   - visual design
   - infographic
