@@ -1,46 +1,45 @@
 ---
 layout: portfolio
 title: "Museum SoDA"
-header_image: "soda.jpg"
+header_image: "soda-2.gif"
 header_color: "#000"
 header_noshadow: true
 date: 2017-01-17
 lang: en
 ref: soda
-description: "Visual identity system for an experimental museum for architecture and design."
+description: "Flexible identity system based on modularity for an experimental museum in Korea&mdash;<em>Space of Design and Architecture</em>&mdash;with versatility for motion, physicality, and interactivity."
 tags:
-  - UX/UI design
-  - front-end development
+  - identity design
+  - concept development
 tile_image: "soda-442x330.gif"
 images:
   - thumb: "soda-sketch-thumb.jpg"
     link: "soda-sketch.jpg"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
+    alt: "Initial concept sketches at the first meeting"
+  - thumb: "soda-442x330.gif"
+    link: "soda-442x330.gif"
+    alt: "Some possible iterations of the logomark"
+  - thumb: "soda-flipping_thumb.gif"
+    link: "soda-flipping.gif"
+    alt: "Looping motion of the mark"
 category:
   - identity
+  - motion
 ---
 <section class="project-summary">
-  <h1>Flexible identity system for an experimental museum in Korea of architecture and design.</h1>
+  <h1>Flexible identity system based on modularity for an experimental museum in Korea&mdash;<span style="font-style: normal;"><a href="http://museumsoda.org/" target="_blank">Space of Design and Architecture</a></span>&mdash;with versatility for motion, physicality, and interactivity.</h1>
   <section class="info">
     <h3>Duties:</h3>
     <p>visual identity design, communication consultation</p>
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
+    <p>The clients took over an abandoned construction project&mdash;<em>originally intended as a large public bath facility</em>&mdash;with the ambition to redevelop it as <em>an experimental museum</em>: the very first museum of its kind in Korea that provides <em>spatial experience</em> as part of offering with clear focus on design and architecture. With less than six months until the launch date, however, they did not yet have visual identity system yet in place. While architectural development and exhibition planning were well on their way, they urgently needed to start promoting the project launch and designing collateral materials&mdash;and an overall communication design was largely absent.
     </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
+    <p>The core philosophy of the project was to <em>rediscover, reinterpret, and redesign</em> elements&mdash;often overlooked&mdash;in life in order to create unforeseen values. I thought that no monolithic mark could convey such openness and malleability, and wanted to develop <em>not only a logomark but a design system</em>. After a few rounds of pencil sketches, it became very clear we would resort to basic geometry of square and circle. By disassembly and reassembly, just as <em>SoDA</em>'s foundational concept, limitless combinations can take place to generate any shape and form. Once the design package was delivered, including a few iterations in motion graphics as a starter, the client took over and started to manage the brand communications themselves.
     </p>
   </section>
 </section>
-<div class="buttons">
-  <span class="unselectable">
-  <a href="https://baadaa.github.io/nyc-life-list/" title="Launch live app" target="_blank">Launch Live App</a></span>
-  <span class="unselectable"><a href="https://github.com/baadaa/NYC-Life-List" title="GitHub repo" target="_blank">View GitHub Repo</a></span>
-</div>
