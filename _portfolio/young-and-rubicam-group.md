@@ -12,7 +12,7 @@ description: "Developing a new visual identity system for a multi-national, mult
 tags:
 - identity design
 - visual design
-tile_image: "yrg-442x330.jpg"
+tile_image: "yrg-graphics-442x330.gif"
 images:
   - thumb: "yrg-business-442x330.jpg"
     link: "yrg-business-card.jpg"
@@ -43,7 +43,7 @@ category:
   <h1>Developing a new visual identity system for a multi-national, multi-agency group of creative firms</h1>
   <section class="info">
     <h3>Agency:</h3>
-    <p><a href="http://yrgrp.com" target="_blank">Young &amp; Rubicam Group</a> w/ <a href="http://landor.com" target="_blank">Landor Associates</a></p>
+    <p><a href="http://yrgrp.com" target="_blank">Young &amp; Rubicam Group</a> w/ <a href="http://landor.com" target="_blank_">Landor Associates</a></p>
   </section>
   <section class="info">
     <h3>Duties:</h3>
@@ -51,12 +51,12 @@ category:
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
+    <p>Going through a name change from <em>Young &amp; Rubicam Brands</em> to <em>Young &amp; Rubicam Group</em>, the firm needed a new visual identity system developed. A holding company consisting of top-notch agencies in premium marketing and communications services, they hoped to better signal the unified platform for the partner companies without overpowering individual brand visual identities.
     </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
+    <p>Under the main creative direction&mdash;<em>the use of ampersand to communicate collectivity and multi-color palette to celebrate the variety</em>&mdash;I first developed the color scheme in collaboration with Landor Associates. Once the logotype and ampersand graphic established, I worked closely with Global Brand Officer to create a series of real-life applications: from stationery sets to corporate events, to interactive web apps, and to interior/exterior signage systems. The overarching visual concept was the multiplicity of ampersands in vibrant colors to communicate <em>a wide range of expertise in unison</em>.
     </p>
   </section>
 </section>
