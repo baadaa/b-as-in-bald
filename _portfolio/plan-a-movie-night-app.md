@@ -12,7 +12,7 @@ description: "iOS app that help organize movie night events by assessing partici
 tags:
   - UX/UI design
   - front-end development
-tile_image: "pamn-442x330.jpg"
+tile_image: "pamn-442x330.gif"
 images:
   - thumb: "pamn_sketch-thumb.jpg"
     link: "pamn_sketch.jpg"
