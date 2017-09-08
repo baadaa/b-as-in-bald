@@ -23,6 +23,13 @@ images:
   - thumb: "yrg-graphics-442x330.gif"
     link: "yrg-graphics.png"
     alt: "Identity graphics"
+  - thumb: "gclf.gif"
+    link: "https://vimeo.com/43983326"
+    alt: "Global Leaders Forum: event preparation, posters, video editing (type work)"
+    video: true
+  - thumb: "yrg-posters_thumb.jpg"
+    link: "yrg-posters.jpg"
+    alt: "Conceptual posters to promote partner companies"
   - thumb: "yrg-banner-442x330.jpg"
     link: "yrg-banners.jpg"
     alt: "Standing banners"
