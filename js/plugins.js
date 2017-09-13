@@ -46,7 +46,7 @@
 				nextSlide: null,
 				prevSlide: null,
 				loopAtEnd: true,
-				autoplayVideos: true,
+				autoplayVideos: false,
 				queryStringData: {},
 				toggleClassOnLoad: ''
 			},
