@@ -7,21 +7,35 @@ header_noshadow: true
 date: 2017-02-14
 lang: en
 ref: bald
-description: "Personal identity system"
+description: "Total visual communication system for creative consultation: identity system, responsive web hub, and blog"
 tags:
   - UX/UI design
+  - visual design
   - front-end development
 tile_image: "b-442x330.gif"
 images:
-  - thumb: "fpo_442x330.png"
-    link: "final-project-sketches_bumhan-yu-2.png"
-    alt: "sample alt tag"
-  - thumb: "fpo_442x330.png"
-    link: "fpo_442x330.png"
-    alt: "another alt"
+  - thumb: "b-pattern-thumb.gif"
+    link: "b-pattern.gif"
+    alt: "Pattern graphics"
+  - thumb: "fpo.gif"
+    link: "fpo.gif"
+    alt: "to come"
+  - thumb: "fpo.gif"
+    link: "fpo.gif"
+    alt: "to come"
+  - thumb: "fpo.gif"
+    link: "fpo.gif"
+    alt: "to come"
+  - thumb: "fpo.gif"
+    link: "fpo.gif"
+    alt: "to come"
+  - thumb: "fpo.gif"
+    link: "fpo.gif"
+    alt: "to come"
 category:
   - identity
   - interactive
+  - visual
 ---
 <section class="project-summary">
   <h1>Total visual communication system for creative consultation: identity system, responsive web hub, and blog</h1>
@@ -34,17 +48,17 @@ category:
     <p>JavaScript, <small>HTML/(S)CSS</small></p>
   </section>
   <section class="info">
-    <h3>Tools:</h3>
+    <h3>Dev Tools:</h3>
     <p>Jekyll, GitHub Pages</p>
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis.
+    <p>Some call it <em>shoemaker's shoes problem</em>: I've been busy making visual solutions for clients yet never fully developed my own communication system. Upon starting my own independent consultancy after years of full-time career in the agency world, I had to be equipped with a clear platform for operation. Ultimately, I needed to convey that I'm not just another web designer who codes or another front-end developer who is good at <small>Photoshop</small>, and that I am a conceptual thinker, problem-solver, and builder who can perform fluently across media&mdash;upon atoms or bits.
     </p>
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>TO BE WRITTEN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nec odio sit amet pellentesque. Proin hendrerit aliquam magna. Cras eget lorem diam. Nam vel nulla hendrerit, fermentum lectus at, facilisis ex. Cras ac urna bibendum, dictum mi sit amet, volutpat turpis. Sed tempor vestibulum varius. In in nunc id dui viverra convallis. Proin nec feugiat lacus. Curabitur nec ullamcorper nulla, ut mattis ipsum. Cras finibus metus sit amet cursus convallis. Fusce ut sagittis felis, id tempus ligula. Morbi tincidunt nunc varius dui auctor, tempus posuere sem vestibulum. Sed id orci sed urna iaculis porta quis eu lorem. Donec porta vestibulum turpis.
+    <p>The immediate goal was two-fold: 1) to create a visual identity system with cross-platform versatility, and 2) to develop an online platform as a professional hub. Once I designed a logotype out of basic geometry, a vibrant color palette and motion elements were applied. To translate the motion and flexibility to print, I created a series of abstract patterns using the same geometric element and printed on the back of business cards. Website is handcrafted from scratch in <small>HTML/(S)CSS/JS</small> and finalized with <small>Jekyll</small>. Everything was built with the modularity and flexibility in mind&mdash;from graphics to interactive components&mdash;and as an extended goal, each element will expand in scale and in content over time.
     </p>
   </section>
 </section>
