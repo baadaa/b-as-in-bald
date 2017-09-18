@@ -60,7 +60,7 @@ category:
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>An online destination accessible from anywhere was the key. For ease of use and maintainability, I decided that DokuWiki was the perfect platform for the client, which provides simple <small>WYSIWYG</small> interface and markdown support. After basic training client teams could manage and update content themselves.
+    <p>An online destination accessible from anywhere was the key. For ease of use and maintainability, I decided that DokuWiki was the perfect platform for the client, which provides simple <small>WYSIWYG</small> interface and markdown support. After basic training client teams could manage and update content themselves. (NOTE: This project is built to function as a <em>brand guideline</em> rather than a <em>front-end (code) style guide</em>.)
     </p>
   </section>
 </section>
