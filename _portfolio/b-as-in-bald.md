@@ -14,12 +14,12 @@ tags:
   - front-end development
 tile_image: "b-442x330.gif"
 images:
+  - thumb: "b-card-1.gif"
+    link: "https://vimeo.com/234397284"
+    alt: "Business card series: modular graphics based on the same geometry as the logo"
   - thumb: "b-pattern-thumb.gif"
     link: "b-pattern.gif"
     alt: "Pattern graphics"
-  - thumb: "fpo.gif"
-    link: "fpo.gif"
-    alt: "to come"
   - thumb: "fpo.gif"
     link: "fpo.gif"
     alt: "to come"
