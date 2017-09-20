@@ -33,7 +33,7 @@ category:
   </section>
   <section class="info">
     <h3>Challenge:</h3>
-    <p>With the extensive employee database covering its entire agency network across the world, Young &amp; Rubicam Group had a very powerful internal search tool with sophisticated filtering algorithm. If looking for talents with specific expertise and experience, you could easily find them no matter which child company of YRG network they work for. Despite its usefulness, the usage rate of this tool was remarkably low. The key issue was poor UI/UX that made it difficult and confusing to use the site.
+    <p>With the extensive employee database covering its entire agency network across the world, Young &amp; Rubicam Group had a very powerful internal search tool with sophisticated filtering algorithm. If looking for talents with specific expertise and experience, you could easily find them no matter which child company of YRG network they work for. Despite its usefulness, the usage rate of this tool was remarkably low. The key issue was poor UI/UX that had been designed 15+ years earlier, which made it difficult and confusing to use the site.
     </p>
   </section>
   <section class="info">
