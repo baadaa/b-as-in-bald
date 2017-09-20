@@ -9,8 +9,9 @@ lang: en
 ref: soda
 description: "Flexible identity system based on modularity for an experimental museum in Korea&mdash;<em>Space of Design and Architecture</em>&mdash;with versatility for motion, physicality, and interactivity."
 tags:
-  - identity design
   - concept development
+  - identity design
+  - motion design
 tile_image: "soda-442x330.gif"
 images:
   - thumb: "soda-sketch-thumb.jpg"
@@ -34,6 +35,7 @@ images:
 category:
   - identity
   - motion
+  - visual
 ---
 <section class="project-summary">
   <h1>Flexible identity system based on modularity for an experimental museum in Korea&mdash;<span style="font-style: normal;"><a href="http://museumsoda.org/" target="_blank">Space of Design and Architecture</a></span>&mdash;with versatility for motion, physicality, and interactivity.</h1>
