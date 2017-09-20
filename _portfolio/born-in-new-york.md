@@ -21,11 +21,11 @@ images:
     alt: "Hana's Logo"
   - thumb: "y-gr_r1.gif"
     link: "https://www.youtube.com/watch?v=Cu4ZyeColoc"
-    alt: "Young-Mi on Motherhood"
+    alt: "Interview series: Young-Mi on Motherhood"
     video: true
   - thumb: "b-gr_r1.gif"
     link: "https://www.youtube.com/watch?v=d62ZWZirF5g"
-    alt: "Bumhan on Fatherhood"
+    alt: "Interview series: Bumhan on Fatherhood"
     video: true
   - thumb: "announcement-2017.gif"
     link: "announcement-2017-big.gif"
@@ -35,7 +35,7 @@ images:
     alt: "Born in New York Blog"
   - thumb: "birth.gif"
     link: "https://www.youtube.com/watch?v=PSaQuMJvFNg"
-    alt: "The Birth"
+    alt: "Document video series: The Birth"
     video: true
 category:
   - identity
