@@ -67,7 +67,7 @@ category:
     <ul class="nostyle">
     <li><b>Website</b>: Taking advantage of readily available <small>WordPress</small> plugins, I built a visual essay with <small>RSVP</small> and guestbook weaved into it&mdash;which I later turned into a static <small>HTML/CSS</small> site for better performance.</li>
     <li><b>Video Greetings</b>: We compiled a reel of video greetings from our New York friends, and screened at the wedding in Seoul. While none from our New York circle could come to Seoul, they could virtually be a part of the event, and for the Korean guest who knew nothing about our New York life could take a glimpse into what we've built in America.</li>
-    <li><b>Seranade and Vow</b>: Commemorating the days together, I collected and curated hundreds of photos and videos taken since we had first met, and created a collage video piece. With a musical instrumental track mixed in, the reel served as a backdrop as we said wedding vows and I serenaded for the bride.</li>
+    <li><b>Serenade and Vow</b>: Commemorating the days together, I collected and curated hundreds of photos and videos taken since we had first met, and created a collage video piece. With a musical instrumental track mixed in, the reel served as a backdrop as we said wedding vows and I serenaded for the bride.</li>
     <li><b>Printed Objects</b>: <em>Wedding invitation</em> was printed in Seoul and mailed in advance. <em>Coasters</em> and <em>pens</em>, designed for guests to write messages for newly-weds, were produced in the U.S. and placed on each seat before the ceremony. <em>Postcards</em> were also printed in the U.S. and placed at the reception desk, so each guest could take one.</li>
     </ul>
   </section>
