@@ -62,7 +62,12 @@ category:
   </section>
   <section class="info">
     <h3>Solution:</h3>
-    <p>The immediate goal was two-fold: 1) to create a visual identity system with cross-platform versatility, and 2) to develop an online platform as a professional hub. As for point #1, I conceptualized around minimal geometry that can construct from simplest shapes to the most complicated fractal structures, which connotes my professional versatility. Once I designed a logotype out of basic geometry, a vibrant color palette and motion elements were applied. To translate the motion and flexibility to print, I created a series of abstract patterns using the same geometric element and printed on the back of business cards. Website is handcrafted from scratch in <small>HTML/(S)CSS/JS</small> and finalized with <small>Jekyll</small>. Everything was built with the modularity and flexibility in mind&mdash;from graphics to interactive components&mdash;and as an extended goal, each element will expand in scale and in content over time.
+    <p>The immediate goal was two-fold: 1) to create a visual identity system with cross-platform versatility, and 2) to develop an online platform as a professional hub. As for point #1, I conceptualized around minimal geometry that can construct from simplest shapes to the most complicated fractal structures, which connotes my professional versatility. Once I designed a logotype out of basic geometry, a vibrant color palette and motion elements were applied. To translate the motion and flexibility to print, I created a series of abstract patterns using the same geometric element and printed on the back of business cards.
+    </p>
+  </section>
+  <section class="info">
+    <h3>Dev Notes:</h3>
+    <p>Website is handcrafted from scratch in <small>HTML/(S)CSS/JS</small> and finalized with <small>Jekyll</small>. All content sections are available in both English and Korean, each properly tagged with language meta data for proper <small>SEO</small>. <code>&lt;head&gt;</code> section was carefully crafted with practical meta data, including Open Graph tags. Everything was built with the modularity and flexibility in mind&mdash;from graphics to interactive components&mdash;and as an extended goal, each element will expand in scale and in content over time.
     </p>
   </section>
 </section>
