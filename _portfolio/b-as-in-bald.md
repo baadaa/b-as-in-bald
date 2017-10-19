@@ -26,12 +26,12 @@ images:
   - thumb: "b-phone-case_thumb.jpg"
     link: "b-phone-case.jpg"
     alt: "Personal-branded phone case concept"
+  - thumb: "b-sketches_thumb.jpg"
+    link: "b-sketches.jpg"
+    alt: "Some of initial notes and sketches"
   - thumb: "b-pattern-thumb.gif"
     link: "b-pattern.gif"
     alt: "Pattern graphics"
-  - thumb: "fpo.gif"
-    link: "fpo.gif"
-    alt: "to come"
   - thumb: "fpo.gif"
     link: "fpo.gif"
     alt: "to come"
@@ -67,7 +67,7 @@ category:
   </section>
   <section class="info">
     <h3>Dev Notes:</h3>
-    <p>Website is handcrafted from scratch in <small>HTML/(S)CSS/JS</small> and finalized with <small>Jekyll</small>. All content sections are available in both English and Korean, each properly tagged with language meta data for proper <small>SEO</small>. <code>&lt;head&gt;</code> section was carefully crafted with practical meta data, including Open Graph tags. Everything was built with the modularity and flexibility in mind&mdash;from graphics to interactive components&mdash;and as an extended goal, each element will expand in scale and in content over time.
+    <p>Website is handcrafted from scratch in <small>HTML/(S)CSS/JS</small> with mobile-first approach, and finalized with <small>Jekyll</small>. All content sections are available in both English and Korean, each properly tagged with language meta data for proper <small>SEO</small>. <code>&lt;head&gt;</code> section was carefully crafted with practical meta data, including Open Graph tags. Everything was built with the modularity and flexibility in mind&mdash;from graphics to interactive components&mdash;and as an extended goal, each element will expand in scale and in content over time.
     </p>
   </section>
 </section>
