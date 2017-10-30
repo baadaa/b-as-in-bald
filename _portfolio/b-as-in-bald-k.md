@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "B: 대머리"
+title: "대머리 그 남자"
 header_image: "baldie.gif"
 header_color: "#000!important"
 header_noshadow: true
