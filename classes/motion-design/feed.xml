@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/classes/motion-design/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/classes/motion-design/feed.xml" rel="self" type="application/atom+xml" /><link href="/classes/motion-design/" rel="alternate" type="text/html" /><updated>2017-12-08T18:22:48-05:00</updated><id>/classes/motion-design/</id><title type="html">Motion Design</title><subtitle>Motion design class materials and learning resources for students at Rutgers University-Newark.</subtitle><entry><title type="html">Project 2: Kinetic Type</title><link href="/classes/motion-design/assignments/project-2-kinetic-type/" rel="alternate" type="text/html" title="Project 2: Kinetic Type" /><published>2017-02-11T00:00:00-05:00</published><updated>2017-02-11T00:00:00-05:00</updated><id>/classes/motion-design/assignments/project-2-kinetic-type</id><content type="html" xml:base="/classes/motion-design/assignments/project-2-kinetic-type/">&lt;p&gt;For Project 2, you will begin by finding an audio clip of a spoken quote that is of personal interest to you. This audio can be contemporary or historic, can come from a speech, a news broadcast, a movie or television show, a podcast, comedy set, poem, or book — just choose something that you’re excited to work with because both the topic and manner of speech seem interesting to you.&lt;/p&gt;
+
+&lt;p&gt;The audio should be approximately 20-40 seconds long, and should be spoken rather than sung (you will have the opportunity to use music in our final project). From your selected audio clip, you will create a kinetic piece that focuses on typography in motion and the ability of moving type to effectively and thoughtfully communicate the story being told in your audio clip. Sound and carefully considered supporting imagery will also be important in the communication of your message and evolution of your narrative.&lt;/p&gt;
+
+&lt;p&gt;Your finished piece should be a dynamic and unique communicative experience to which kinetic type is central. Remember to include the source/attribution of your audio clip in your piece (we will discuss this in class).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduction to kinetic typography as a narrative tool&lt;/li&gt;
+  &lt;li&gt;Consider &lt;em&gt;traditional&lt;/em&gt; typographic characteristics (&lt;em&gt;typeface, type size, kerning, tracking, leading, etc.&lt;/em&gt;) in addition to characteristics of kinetic type (&lt;em&gt;motion typography and fluid typography&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;Focus on the visual language of typography (its relationship to and visual interpretation of the content)—not just the written language of the words themselves&lt;/li&gt;
+  &lt;li&gt;Continue to investigate the combination of &lt;em&gt;traditional&lt;/em&gt; design attributes (&lt;em&gt;color, composition, shape, depth, tension, contrast&lt;/em&gt;) and &lt;em&gt;time-based&lt;/em&gt; attributes (&lt;em&gt;progression, pacing, rhythm, sequence, velocity, kinetic behavior&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;Continue to investigate the development of a narrative arc&lt;/li&gt;
+  &lt;li&gt;Develop a more advanced and complex relationship between audio and moving visual elements&lt;/li&gt;
+  &lt;li&gt;Continue to develop technical After Effects skills&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;schedule--process&quot;&gt;Schedule / Process&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Goal&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/13 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Project intro&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/15 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Tech demo / studio work time&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Read chapter 9, &lt;em&gt;Typography in Time and Motion,&lt;/em&gt; from Typographic Design: From and Communication (PDF provided below in Resources section). &lt;br /&gt;Brainstorm audio options&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/20 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Group critique storyboards &amp;amp; key frames for 3 concepts&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Your chosen audio clip, cut to the correct length, and Storyboards for 3 distinct concepts (base all of your concepts off of your chosen audio clip). &lt;br /&gt;The number of frames per storyboard will vary depending on your audio selection, but most will likely average 8-12 frames per storyboard concept. &lt;br /&gt;Key frames for these 3 distinct concepts. &lt;br /&gt;Key frames are sketches generally done on the computer that represent a specific point in time in the animation, and should be slightly more fully visualized in terms of the design than the initial storyboards.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/22 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Small group &lt;em&gt;or&lt;/em&gt; Individual critiques &amp;amp; studio work time&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Further development of chosen design direction (present more developed storyboard and revised key frames for chosen concept based on feedback). In class: start animation in After Effects.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/27 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Group critique&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: First draft of kinetic type piece (try to get through 10-15 seconds – approximately half of your full kinetic type piece), and &lt;br /&gt;Revised key frames for chosen concept (both based on feedback)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/1 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Studio work time&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised draft of kinetic type piece.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/6 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Small group critique / studio work time&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised kinetic type draft. Try to have your draft at its full 20-40 second length for today.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/8 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Studio work time&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised kinetic type draft Your draft must be at its full 20-40 seconds by this class (ideally it was already there on Monday).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/11 (Sat) – 3/19 (Sun)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Spring Break&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/20 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Small group critique&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised kinetic type draft (near final).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/22 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Studio work day&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised kinetic type draft (near final) Project.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3/27 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Project due&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;project-deliverables&quot;&gt;Project deliverables&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Final kinetic type motion graphic
+    &lt;ul&gt;
+      &lt;li&gt;Composition size: 1280 x 720&lt;/li&gt;
+      &lt;li&gt;Duration: approximately 20-40 seconds in length&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Drawn storyboards (for 3 concepts)&lt;/li&gt;
+  &lt;li&gt;4-6 key frames (for selected concept)&lt;/li&gt;
+  &lt;li&gt;Rough drafts (as uploads to Vimeo for in-progress critiques)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Typographic Design&lt;/strong&gt;: &lt;a href=&quot;/classes/motion-design/typographic_design_ch9_pages.pdf&quot;&gt;&lt;em&gt;Chapter 9: Typography in Time and Motion&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Storyboard Template&lt;/strong&gt;: &lt;a href=&quot;/resources/storyboard_template.pdf&quot;&gt;&lt;em&gt;Download PDF&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audacity&lt;/strong&gt; (free audio editing software): &lt;a href=&quot;http://www.audacityteam.org/download/&quot;&gt;&lt;em&gt;Download here&lt;/em&gt;&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.howtogeek.com/56264/the-how-to-geek-guide-to-audio-editing-cutting-trimming-arranging/&quot;&gt;A helpful guide for basic cutting, trimming, and arranging audio in Audacity&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/08.Titles/&quot;&gt;&lt;strong&gt;Video CoPilot Titling Part 1 Tutorial&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lynda.com/After-Effects-tutorials/Kinetic-Typography-Techniques-After-Effects/123481-2.html&quot;&gt;&lt;strong&gt;Lynda.com Kinetic Typography Tutorial&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://acmgd.info/md1/technical-resources/&quot;&gt;&lt;strong&gt;Technical Resources&lt;/strong&gt;&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://acmgd.info/md1/resources-for-storyboarding/&quot;&gt;&lt;strong&gt;Resources for Storyboarding&lt;/strong&gt;&lt;/a&gt;: Resource pages courtesy of Professor Jennifer Bernstein.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;categories-of-kinetic-type&quot;&gt;Categories of Kinetic Type&lt;/h2&gt;
+
+&lt;p&gt;Derived from Barbara Bownie’s model of temporal typography in Transforming Type.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Motion Typography&lt;/strong&gt;: in which the letterforms change position over time. Motion typography is subdivided into two subcateogories:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Dynamic Layout&lt;/em&gt;: Letterforms move in relation to one another (moving away / around each other)&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Scrolling Typography&lt;/em&gt;: Letterforms move as a group across a screen, in two or three dimensions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fluid Typography&lt;/strong&gt;: in which letterforms change, morph, and evolve without necessarily changing position&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;- Note that fluid and motion typography can be applied independently or simultaneously.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">Typography has the potential to (literally) take on another dimension when used in motion graphics. As with our previous work, this project will explore the process of combining traditional graphic design elements (such as composition, color, shape, depth, contrast, etc.) with a specific focus on typography and the dynamic, unique communicative potential of type in motion.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/classes/motion-design/images/kinetic.gif" /></entry><entry><title type="html">Project 1: Motion Studies</title><link href="/classes/motion-design/assignments/project-1-motion-studies/" rel="alternate" type="text/html" title="Project 1: Motion Studies" /><published>2017-01-16T00:00:00-05:00</published><updated>2017-01-16T00:00:00-05:00</updated><id>/classes/motion-design/assignments/project-1-motion-studies</id><content type="html" xml:base="/classes/motion-design/assignments/project-1-motion-studies/">&lt;p&gt;For our first project, you will choose one or more of the Gestalt principles listed below (and explained more in-depth at the end of this page) and use them as a point of departure from which to develop the concept and design for a series of three short (10-15 second) motion sequences. The goal of the sequences is to communicate the selected principle, utilizing the traditional design attributes of composition, color, shape, depth, tension, and contrast, while beginning to explore time-based attributes such as pacing, rhythm, and sequence. Design elements to be incorporated are abstract shapes, letterforms, and sound—no representational forms or readable text are to be used for this project (incorporated letterforms should be treated as shapes, not as pieces of words).&lt;/p&gt;
+
+&lt;p&gt;As much as this project is an exercise in formal design skills an introduction to After Effects, it’s also an exercise in using a time-based media to construct a narrative. Even short, simple motion graphics without recognizable imagery or readable text have a tone and mood, a beginning, middle, and end, and the fundamental change and progression that make a narrative.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;gestalt-principles&quot;&gt;&lt;a href=&quot;#gestalt-principles-explained&quot;&gt;Gestalt principles&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#figure-ground&quot;&gt;Figure/Ground&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proximity&quot;&gt;Proximity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#similarity&quot;&gt;Similarity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#symmetry&quot;&gt;Symmetry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#closure&quot;&gt;Closure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#continuation&quot;&gt;Continuation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create a time-based piece that successfully utilizes both &lt;em&gt;traditional&lt;/em&gt; design attributes (color, composition, shape, depth, tension, contrast) and &lt;em&gt;time-based&lt;/em&gt; attributes.&lt;/li&gt;
+  &lt;li&gt;Introduce time-based design attributes such as progression, pacing, rhythm, sequence, velocity and kinetic behavior&lt;/li&gt;
+  &lt;li&gt;Introduction to constructing a narrative arc in time and space&lt;/li&gt;
+  &lt;li&gt;Introduction to the &lt;em&gt;principles of animation&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Introduce and explore effective use of music (i.e. juxtaposition of sound and image)&lt;/li&gt;
+  &lt;li&gt;Introduce using After Effects as a design tool, and develop technical skills and experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;schedule--process&quot;&gt;Schedule / Process&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Goal&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1/18 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Project intro&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1/23 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Group critique storyboards&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Select visual principle(s) and audio clips that you are interested in working with and use these selections to develop 5 sets of storyboards for 5 distinct motion study concepts – sketched by hand. (You should be creating 5 sheets/pages (each 11”x17”) of sketches of design concepts for your selected Gestalt principle.) The exact number of frames per storyboard depends on what is needed for your individual concept and will vary, but overall, since these animations are short, they should only require a few frames each (approximately 4-8 frames per storyboard).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1/25 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Studio work time and tech demo&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Select the 3 storyboard concepts that you wish to move forward with and develop 3-4 key frames for each. Key frames are sketches generally done on the computer that represent a specific point in time in the animation, and should be slightly more fully visualized in terms of the design than the initial storyboards. Also, watch the &lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/01.Introduction/&quot;&gt;&lt;em&gt;VideoCoPilot After Effects Basic Training 01: Introduction tutorial&lt;/em&gt;&lt;/a&gt; before this class to prepare you for our in-class tech demo.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1/30 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Group critique&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: First draft of motion study animations. Have started animating at least 2, if not all 3, of your motion studies in After Effects. Get through as much of the 10-15 seconds per sequence as possible, but the focus should be on the quality of animation rather than the duration. Make sure to upload your in-progress drafts to Vimeo and post them to our group before class starts (leave a some time for this upload process!). &lt;br /&gt;If, as you’re working, you feel that need additional practice or a refresher on what was covered during the our first tech demo, watch &lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/03.Animation/&quot;&gt;&lt;em&gt;VideoCoPilot After Effects Basic Training 03: Animation&lt;/em&gt;&lt;/a&gt;. It covers much of what we will have learned in class.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/1 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Studio work time / individual or small group critiques&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised motion study animations. If you hadn’t started all 3 motion studies for Monday’s class, have the third animation started by this class. It’s ok if you haven’t yet managed to make revisions addressing all feedback from Monday’s class, but still try to have made some substantial progress. &lt;br /&gt;Make sure to upload your in-progress drafts to Vimeo and post them to our group before class starts (leave a some time for this upload process!).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/6 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Small group critiques&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised motion study animations. All sequences should be animated to their full 10-15 second length.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/8 (Wed)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Group critique&lt;/strong&gt;. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Due this class&lt;/strong&gt;&lt;/em&gt;: Revised motion study animations. Try to have them as close to final as possible!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2/13 (Mon)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Project due&lt;/strong&gt;. / Intro Project 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;project-deliverables&quot;&gt;Project deliverables&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drawn Storyboards for 5 concepts&lt;/li&gt;
+  &lt;li&gt;Digital key frames for 3 concepts&lt;/li&gt;
+  &lt;li&gt;Three 10-15 second long animations*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;*Please do not delete in-process drafts of your final project as you revise the project and upload newer versions! I will use the in-process animations to evaluate the progress that you’ve made while working on the project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Audio Files&lt;/strong&gt;: &lt;a href=&quot;/classes/motion-design/resources/project1_audio.zip&quot;&gt;&lt;em&gt;Download starter audio files&lt;/em&gt;&lt;/a&gt; &lt;br /&gt;If you would prefer to find / use your own 10-15 second clips of audio (no vocals) feel free! Otherwise, these are here for you to choose from.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Storyboard Template&lt;/strong&gt;: &lt;a href=&quot;/classes/motion-design/resources/storyboard_template.pdf&quot;&gt;&lt;em&gt;Download PDF&lt;/em&gt;&lt;/a&gt; &lt;br /&gt;It’s fine to make your own storyboards instead of printing and using this template, but if you do: &lt;em&gt;make sure that to work in 16:9&lt;/em&gt; proportioned frames, and keep in mind that this will have to be pinned to the wall and critiqued by the group next class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;After Effects 101 Tutorials&lt;/strong&gt;: (&lt;em&gt;links below&lt;/em&gt;)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/01.Introduction/&quot;&gt;&lt;em&gt;Intro&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/02.Effects/&quot;&gt;&lt;em&gt;Effects&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/03.Animation/&quot;&gt;&lt;em&gt;Animation&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.videocopilot.net/basic/tutorials/10.Rendering/&quot;&gt;&lt;em&gt;Rendering&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lynda.com/After-Effects-tutorials/After-Effects-CC-Essential-Training-2015/371399-2.html&quot;&gt;&lt;strong&gt;Lynda.com AE Essential Training (2015)&lt;/strong&gt;&lt;/a&gt;: These are more in-depth video tutorials than the above After Effects 101 videos. Longer, but also very informative.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://acmgd.info/md1/technical-resources/&quot;&gt;&lt;strong&gt;Technical Resources&lt;/strong&gt;&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://acmgd.info/md1/resources-for-storyboarding/&quot;&gt;&lt;strong&gt;Resources for Storyboarding&lt;/strong&gt;&lt;/a&gt;: Resource pages courtesy of Professor Jennifer Bernstein.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;gestalt-principles-explained&quot;&gt;Gestalt principles explained&lt;/h2&gt;
+&lt;p&gt;Gestalt psychology, developed in the 1920s by German psychologists, is about perception and grouping. The gestalt principles below describe ways that people tend to subconsciously organize visual elements into groups when these elements are arranged in certain ways.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;figure-ground&quot;&gt;Figure-Ground&lt;/h3&gt;
+    &lt;p&gt;The relationship between a perceived object (figure) and the perceived space (ground) that it exists in. Our perception of what is figure and what is ground is not absolute—the relationship of visual elements can cause it to shift.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;proximity&quot;&gt;Proximity&lt;/h3&gt;
+    &lt;p&gt;Objects placed close together are often perceived as a group, rather than as separate shapes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;similarity&quot;&gt;Similarity&lt;/h3&gt;
+    &lt;p&gt;Objects that look or act similar to one another are often perceived as a group.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;symmetry&quot;&gt;Symmetry&lt;/h3&gt;
+    &lt;p&gt;When objects are arranged in a balanced composition, they are often perceived as a whole rather than individually.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;closure&quot;&gt;Closure&lt;/h3&gt;
+    &lt;p&gt;People have a tendency to fill in missing information in order to perceive an object as whole. If enough of a shape is indicated, it can be perceived as whole if incomplete or not fully enclosed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;continuation&quot;&gt;Continuation&lt;/h3&gt;
+    &lt;p&gt;When a viewer’s eye is compelled to follow a path from one object to another, or to follow a certain pattern of motion through time, the individual objects are perceived as a group.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you feel you need further explanation of Gestalt, the following resources are helpful:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://graphicdesign.spokanefalls.edu/tutorials/process/gestaltprinciples/gestaltprinc.htm&quot;&gt;The Gestalt Principles&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.users.totalise.co.uk/~kbroom/Lectures/gestalt.htm&quot;&gt;Gestalt Theory of Visual Perception&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">For our first project, you will choose one or more of the Gestalt principles and use them as a point of departure from which to develop the concept and design for a series of three short (10-15 second) motion sequences.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/classes/motion-design/images/dot_line_gifA.gif" /></entry></feed>
