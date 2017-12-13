@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<title>Tech Demo 2</title>
+<meta name="description" content="">
+
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/manifest.json">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"> -->
+<link rel="apple-touch-icon" sizes="180x180" href="/classes/motion-design/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/classes/motion-design/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/classes/motion-design/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/classes/motion-design/assets/icon/manifest.json">
+<link rel="mask-icon" href="/classes/motion-design/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/classes/motion-design/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="/classes/motion-design/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- CSS -->
+<!-- <link rel="stylesheet" href="/assets/css/main.css" /> -->
+<link rel="stylesheet" href="/classes/motion-design/assets/css/main.css">
+<!-- <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript> -->
+<noscript><link rel="stylesheet" href="/classes/motion-design/assets/css/noscript.css"></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="/classes/motion-design/" class="logo">Motion Design</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <!-- <li class=""><a href="/">Home</a></li> -->
+  <li class=""><a href="/classes/motion-design/" class="icon fa-home" rel="nofollow"></a></li>
+  <li class=""><a href="/classes/motion-design/syllabus-schedule/">Syllabus / Schedule</a></li>
+  <li class=""><a href="/classes/motion-design/assignments/">Assignments</a></li>
+  <li class=""><a href="/classes/motion-design/inspirations/">Inspirations</a></li>
+  <li class=" active "><a href="/classes/motion-design/resources/">Resources</a></li>
+  <!-- <li class=""><a href="/classes/motion-design/contact/">Contact</a></li> -->
+  <!-- <li class=""><a href="/elements/">Elements Reference</a></li> -->
+</ul>
+
+						<ul class="icons">
+  <li><a href="https://vimeo.com/groups/506018" class="icon fa-vimeo" rel="nofollow"><span class="label">Vimeo</span></a></li>
+</ul>
+
+
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">15 Feb 2017</span>
+      				<h1>Tech Demo 2</h1>
+      				<p>Outlines and instructions for in-class tech demon</p>
+      			</header>
+      			<div class="image main">
+<img src="/classes/motion-design/images/techdemo2-01.jpg" alt="">
+							
+						</div>
+      			<h2 id="layer-blending-modes">Layer Blending Modes</h2>
+
+<ul>
+  <li>Very similar to blending modes in other Adobe programs</li>
+  <li>At the very bottom of your timeline panel, towards the left side, is a button that says <code class="highlighter-rouge">Toggle Switches / Modes</code>
+</li>
+  <li>When you click on this button, you have the option to change the mode of each layer by clicking the drop down next to <em>Mode</em>
+</li>
+  <li>You can change modes to adjust the way each layer blends or interacts with the layers beneath it (similar layer modes to other Adobe programs, like Multiply, Overlay, etc)
+    <ul>
+      <li>
+<strong>Note</strong>: there isn’t a direct way to add keyframes to blending modes—once you’ve picked one, it’s applied to that layer for the whole composition. If you want to work around this, you can create precomps of the layers involved in the blending effect (one percomp for each blending mode you wish to transition between) and use <code class="highlighter-rouge">Transform</code> &gt; <code class="highlighter-rouge">Opacity</code> to transition between them</li>
+    </ul>
+  </li>
+  <li>To get back to your switches (things like motion blur) just click the <code class="highlighter-rouge">Toggle Switches / Modes</code> button again</li>
+</ul>
+
+<hr>
+
+<h2 id="layer-masks">Layer Masks</h2>
+
+<ul>
+  <li>Similar to masks in Photoshop or clipping masks in Illustrator—you draw a shape through which underlying footage/image/shape/animation) is visible, and the area outside of this shape is masked (hidden).</li>
+  <li>To implement layer masks:
+    <ul>
+      <li>
+<em>Select the layer</em> you wish to mask in your timeline, and <em>draw a shape</em> using the pen tool or a shape tool on top of it
+        <ul>
+          <li>
+<strong>Note</strong>: When applying a layer mask to a <em>shape layer</em>, an extra step is necessary. Before drawing a mask, make sure to select the <code class="highlighter-rouge">Tool Creates Mask</code> button—located at the very top of your screen in the same row as the pen tool, shape tool, etc, and looks like a black circle on a checkerboard pattern. Once clicked, it will turn blue.</li>
+        </ul>
+      </li>
+      <li>If you have masked a layer that contains video or an animated composition/precomp—basically any moving footage—that layer will continue to play inside the mask</li>
+      <li>Note that under your masked layer in your Timeline, you now have a <em>Mask 1</em> dropdown. You can use this to add keyframes to and adjust your layer mask over time.</li>
+      <li>Mask path can be used to adjust both the position <em>and</em> the shape of the path (you can animate the path using your pen / vertex tools just like you can do with a shape layer)</li>
+    </ul>
+  </li>
+  <li>To move and adjust paths for the mask (<em>this can be tricky</em>):
+    <ul>
+      <li>
+<em>If you just click and drag the shape</em> with your selection tool, it will change the <em>position of the entire layer</em> (mask and background)</li>
+      <li>
+<em>If you click once on your shape before attempting to move or change its path</em>, you’ll then be able to <em>select and adjust each individual vertex</em> (anchor point)</li>
+      <li>
+<em>If you select the specific mask sub-layer</em>—for example, ‘Mask 1’—you will be able to change <em>the position of your mask, but not of the image or footage</em> that it is masking.</li>
+      <li>Adjusting the position of a layer mask with your selection tool can be a little tricky, so I tend to use my arrow keys for this. Set a mask path keyframe, scrub further along your timeline and use your arrow keys to move your layer mask to where you would like its new position to be. Note that the masked image does not move along with the mask.</li>
+    </ul>
+  </li>
+  <li>
+<em>Mask Feather</em> can be used to adjust the <em>sharpness of the mask’s edges</em>
+</li>
+  <li>
+<em>Mask Opacity</em> can be used to adjust the opacity</li>
+  <li>
+<em>Mask Expansion</em> can be used to adjust the <em>size of the mask</em>
+</li>
+  <li>You can also add a limited number of blending modes to the mask, or inverse the masked area by checking the box next to <em>Inverted</em>
+</li>
+</ul>
+
+<hr>
+
+<h2 id="track-mattes">Track Mattes</h2>
+
+<ul>
+  <li>You can also apply a track matte as a way of masking layers. The process is slightly different from making a simple shape layer mask, but it allows for <em>greater flexibility and control</em>.</li>
+  <li>To apply a track matte:
+    <ul>
+      <li>Add a layer of footage (or a composition, or precomp your existing layers) to your timeline, and add a shape layer on top normally.
+        <ul>
+          <li>
+<strong>Note</strong>: when applying track matte, it is important that the layer you plan to use as the mask be placed <em>directly on top of the layer that it will be masking</em> in your timeline window</li>
+        </ul>
+      </li>
+      <li>Click <code class="highlighter-rouge">Toggle Switches / Modes</code> so that you can edit Modes</li>
+      <li>
+<em>Select the layer to be masked</em> (i.e. your layer of footage, <strong>NOT</strong> the shape that you want to become the mask)</li>
+      <li>Click this layer’s <code class="highlighter-rouge">TrkMat</code> dropdown menu, and choose to <code class="highlighter-rouge">Alpha Mat</code> the shape layer you want to use as the mask</li>
+      <li>Your shape layer should now be acting as a layer mask
+        <ul>
+          <li>
+<strong>Note</strong>: With a track matte mask, you can <em>move around the masked layer around while keeping the mask still</em>—which is not something you can do with a regular layer mask).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Another benefit of track mattes is that <em>you can use letterforms as masks using this method</em>. To do this, add a type later on top of whatever footage, etc, you want to mask and treat it in exactly the same way you would a shape layer you’re using as a track matte mask.</li>
+</ul>
+
+<hr>
+
+<h2 id="parenting-layers">Parenting Layers</h2>
+
+<ul>
+  <li>When you parent one layer to another, the <em>child</em> layer will follow all of the animated Transform properties of the <em>parent</em> layer.
+    <ul>
+      <li>Create a parent layer. The animated transform properties of this layer will be applied to all child layers. You can make this layer invisible, if you don’t want this parent layer to be seen.</li>
+      <li>Click <code class="highlighter-rouge">Toggle switches / modes</code> so that you’re viewing <em>modes</em>.</li>
+      <li>Select the <code class="highlighter-rouge">Parent</code> dropdown menu in your child layer(s) and change it from None to the name of the parent layer</li>
+      <li>You can <em>still animate the child layer independently</em> in addition to animating the parent layer. Animating the child layer will have no effect on the movement of the parent layer.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="type-presets">Type Presets</h2>
+
+<ul>
+  <li>
+<em>Animation presets</em> are predetermined specific configurations of layer properties, behaviors, and animations that After Effects has set for you. You can apply animation presets to the layers in your timeline. You may want to experiment with type-specific presets in your kinetic type piece:
+    <ul>
+      <li>Open the <code class="highlighter-rouge">Effects &amp; Presets</code> panel</li>
+      <li>Click the arrow next to <code class="highlighter-rouge">Animation Presets</code> to open that dropdown</li>
+      <li>Click the arrow next to <code class="highlighter-rouge">Text</code> to open the text-specific animation presets</li>
+      <li>Play around with the many options available to you. To apply a preset, select your layer of type in the timeline and then double click on the specific preset you wish to apply</li>
+      <li>Once you have applied a preset to a layer, that layer will have an additional dropdown called <code class="highlighter-rouge">Animator</code> in the timeline. This is where you can set keyframes to make minor adjustments to your preset (the ways in which you are able to adjust the animation varies by preset).</li>
+      <li>
+<strong>Note</strong>: <em>do not rely <strong>ENTIRELY</strong></em> on type presets when working on a kinetic type piece. While they can be useful and save you a lot of time if you’re looking to create the <em>specific kind of motion</em> that the preset creates, you generally have a limited control over the preset. I tend to use presets sparingly.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="converting-shape-layers-to-editable-shape-paths">Converting Shape Layers to Editable Shape paths</h2>
+
+<ul>
+  <li>You can convert your shape layers—_drawn with the rectangle tool, circle tool, polygon tool, etc.<em>—to a shape with an _editable</em> path.</li>
+  <li>Draw your shape using the appropriate shape tool, as usual</li>
+  <li>Open the <code class="highlighter-rouge">Contents</code> dropdown of the layer in timeline, and then open the dropdown for the specific shape you wish to convert.</li>
+  <li>
+<code class="highlighter-rouge">Control</code> + click on that shape’s path. For example, if a single circle is drawn this shape layer, choose <code class="highlighter-rouge">Ellipse Path 1</code>.</li>
+  <li>Select <code class="highlighter-rouge">Convert to Bezier Path</code>. Your shape now has an editable path.</li>
+  <li>Note: In After Effects terms, this is called <em>converting a parametric shape layer path into a Bezier path</em>.</li>
+</ul>
+
+<hr>
+
+<h2 id="morphing-between-shapes">Morphing between Shapes</h2>
+
+<ul>
+  <li>This is a technique you can use to morph between different shapes that’s a bit quicker and more efficient than moving your vertex points around by hand.
+    <ul>
+      <li>Draw two shapes you want to morph between (e.g. a square, a circle, an amorphous blob) each <em>in their own shape layer</em>.</li>
+      <li>If drawn using a shape tool (circles, rectangles, etc), <em>convert their paths to bezier paths</em> using the method above.</li>
+      <li>Set a <code class="highlighter-rouge">Path</code> keyframe for <em>each shape</em>
+</li>
+      <li>Select <em>this keyframe on one layer</em> and copy it. Then scrub forward in time, select your <em>other shape layer’s path sublayer</em>, and paste. This shape layer should now morph between its original shape</li>
+      <li>Repeat with as many shapes for as many transformations you’d like. Try changing transform properties (e.g. rotation, scale, etc) in addition to this shape morph for more dramatic effects.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="line-end-points">Line End Points</h2>
+
+<ul>
+  <li>Use this to keyframe the ends of a line you’ve drawn, to animate them appearing/disappearing.
+    <ul>
+      <li>Make a shape layer, and draw a line using your pen tool.</li>
+      <li>Click on <code class="highlighter-rouge">Add: (&gt;)</code> which appears to the right of that shape layer’s <em>Content</em> dropdown in the timeline</li>
+      <li>Select <code class="highlighter-rouge">Trim Paths</code>. You should now have an additional timeline dropdown menu for this layer called <em>Trim Paths 1</em>.</li>
+      <li>Open Trim Paths layer. Here you can adjust the start and end point of your line and can offset the line from the drawn path.</li>
+      <li>Can add keyframes to animate the line, make it draw on, slide off (using start/end settings)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="write-on-text">Write on Text</h2>
+
+<ul>
+  <li>This creates the illusion that your text is being written/drawn on the screen.
+    <ul>
+      <li>Set your type as you want it to appear</li>
+      <li>With your <em>type layer selected</em>, click <strong>Pen tool</strong> to draw over your letterforms as if you are writing them by hand.
+        <ul>
+          <li>Make sure you do this in the same layer as your type, so that it acts as a <em>layer mask</em> and <strong><em>not</em></strong> as its own shape layer)</li>
+        </ul>
+      </li>
+      <li>Once you have traced all of your type, with this layer selected, click <code class="highlighter-rouge">Effect</code> &gt; <code class="highlighter-rouge">Generate</code> &gt; <code class="highlighter-rouge">Stroke</code> on top bar menu.</li>
+      <li>In the Stroke panel that appears, change the <em>brush size</em> so that it’s large enough to entirely cover up the letterforms beneath</li>
+      <li>Change the <code class="highlighter-rouge">Paint Style</code> setting from Original Image to <em>Reveal Original Image</em>
+</li>
+      <li>You can now use the Start and End options (in the Stroke panel). Set keyframes like when applying trim paths to animate the type so that it looks like it’s being drawn on</li>
+      <li>Write on text can be a little tricky. A useful tutorial in case you’re still having trouble can be found <a href="https://www.youtube.com/watch?v=O2t2YmP8meY">here</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+      		</section>
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li>
+									
+									<a href="/classes/motion-design/resources/" class="button">Back to list</a>
+</li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <!-- Copyright -->
+<div id="copyright">
+  <ul>
+<li>Curriculum developed by <a href="http://acm.newark.rutgers.edu/faculty/jennifer-bernstein/">Jennifer Bernstein</a>
+</li>
+<li>Site prepared by <a href="mailto:bumhan.yu@gmail.com">Bumhan Yu</a>
+</li>
+</ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<!-- <script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script> -->
+<script src="/classes/motion-design/assets/js/jquery.min.js"></script>
+<script src="/classes/motion-design/assets/js/jquery.scrollex.min.js"></script>
+<script src="/classes/motion-design/assets/js/jquery.scrolly.min.js"></script>
+<script src="/classes/motion-design/assets/js/skel.min.js"></script>
+<script src="/classes/motion-design/assets/js/util.js"></script>
+<script src="/classes/motion-design/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+	</body>
+</html>
