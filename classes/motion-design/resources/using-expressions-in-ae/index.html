@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<title>Using Expressions in AE</title>
+<meta name="description" content="">
+
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/manifest.json">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"> -->
+<link rel="apple-touch-icon" sizes="180x180" href="/classes/motion-design/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/classes/motion-design/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/classes/motion-design/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/classes/motion-design/assets/icon/manifest.json">
+<link rel="mask-icon" href="/classes/motion-design/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/classes/motion-design/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="/classes/motion-design/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- CSS -->
+<!-- <link rel="stylesheet" href="/assets/css/main.css" /> -->
+<link rel="stylesheet" href="/classes/motion-design/assets/css/main.css">
+<!-- <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript> -->
+<noscript><link rel="stylesheet" href="/classes/motion-design/assets/css/noscript.css"></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="/classes/motion-design/" class="logo">Motion Design</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <!-- <li class=""><a href="/">Home</a></li> -->
+  <li class=""><a href="/classes/motion-design/" class="icon fa-home" rel="nofollow"></a></li>
+  <li class=""><a href="/classes/motion-design/syllabus-schedule/">Syllabus / Schedule</a></li>
+  <li class=""><a href="/classes/motion-design/assignments/">Assignments</a></li>
+  <li class=""><a href="/classes/motion-design/inspirations/">Inspirations</a></li>
+  <li class=" active "><a href="/classes/motion-design/resources/">Resources</a></li>
+  <!-- <li class=""><a href="/classes/motion-design/contact/">Contact</a></li> -->
+  <!-- <li class=""><a href="/elements/">Elements Reference</a></li> -->
+</ul>
+
+						<ul class="icons">
+  <li><a href="https://vimeo.com/groups/506018" class="icon fa-vimeo" rel="nofollow"><span class="label">Vimeo</span></a></li>
+</ul>
+
+
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">05 Apr 2017</span>
+      				<h1>Using Expressions in AE</h1>
+      				<p>Expressions are a way to animate layers in After Effects without manually placing and adjusting keyframes. Depending on what you're looking to do, expressions can be a fast and efficient way of working.</p>
+      			</header>
+      			<div class="image main">
+<img src="/classes/motion-design/images/expressions-1200x500.jpg" alt="">
+							
+						</div>
+      			<h2 id="what-is-an-expression">What is an Expression?</h2>
+
+<ul>
+  <li>Expressions are based on JavaScript, a programming language, and can <em>dynamically generate motion sequence</em> based on relationships between layer properties.</li>
+  <li>It can be useful when creating a continuous motion through the length of your composition, or working on an animation that is very repetitive or/and based on numerical relationships.</li>
+  <li>Expressions can be applied to:
+    <ul>
+      <li>Any keyframe-able properties (e.g. position, scale, rotation…)</li>
+      <li>Any specific effect values applied to a layer</li>
+    </ul>
+  </li>
+  <li>Very similar to blending modes in other Adobe programs</li>
+</ul>
+
+<hr>
+
+<h2 id="using-expressions-basics">Using Expressions: Basics</h2>
+
+<ul>
+  <li>Open Expression editing field by:
+    <ul>
+      <li>Hold down <code class="highlighter-rouge">Alt/option</code> key and click on the stopwatch icon, next to the specific property</li>
+      <li>
+<strong>OR</strong> click on the specific property in your timeline, and choose from top menu <code class="highlighter-rouge">Animation</code> &gt; <code class="highlighter-rouge">Add Expression</code>
+</li>
+    </ul>
+  </li>
+  <li>A code editing field will open in timeline area. If using an expression you’re already familiar with or/and an expression found online, you can just type it in here. When done typing, <em>click outside</em> of the code editing area.</li>
+  <li>While AE Expressions are based on JavaScript, <em>you don’t have to write JS</em> programs to use them.</li>
+  <li>After effects has a built in <em><strong>Expressions library</strong></em> that you can search through. Click the ‘arrow inside a circle icon’ located the furthest right in this expression’s timeline sublayer to access it.
+    <ul>
+      <li>This library shows you different behaviors/actions that you can apply, and the language that to use to make that happen.</li>
+      <li>To examine how applying expressions works, try a simple rotation expression in After Effects’ library.</li>
+      <li>It’s rarely helpful to just dig around Expression Library when you’re not looking for any specific type of action. If you <em>have a specific type of complex or continuous movement in mind, search for an Expression</em> that makes that specific motion happen.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="applying-an-expression-to-a-property">Applying an Expression to a Property</h2>
+
+<ul>
+  <li>Select the <em>specific layer and property</em> to apply the expression to, and <em>select the icon that opens the expressions library</em>.</li>
+  <li>For this example, choose <code class="highlighter-rouge">Rotation</code> property, and select <code class="highlighter-rouge">Global</code> &gt; <code class="highlighter-rouge">time</code> in Expression Library.</li>
+  <li>Once you select <code class="highlighter-rouge">time</code>, text block will appear in this expression sublayer in timeline. Preview your composition to see how your layer is rotating.</li>
+  <li>This Expression simply applies the <code class="highlighter-rouge">time</code> value to <code class="highlighter-rouge">Rotation</code> property of the layer. That is, <em>1 degree rotation per every second</em>. To adjust its speed, all you need is simple math. (Note that Expressions can involve a fair amount of simple math)</li>
+  <li>After Effects math symbols follow standard programming language convention as below:
+    <ul>
+      <li>
+<code class="highlighter-rouge">+</code>: addition</li>
+      <li>
+<code class="highlighter-rouge">–</code>: subtraction</li>
+      <li>
+<code class="highlighter-rouge">*</code>: multiplication</li>
+      <li>
+<code class="highlighter-rouge">/</code>: division</li>
+    </ul>
+  </li>
+  <li>To increase the speed, use multiplication. Update the existing code as below:
+    <div class="language-javascript highlighter-rouge">
+<pre class="highlight"><code><span class="nx">time</span> <span class="o">*</span> <span class="mi">20</span>
+</code></pre>
+    </div>
+  </li>
+  <li>The updated code now applies <code class="highlighter-rouge">time</code> value multiplied by <code class="highlighter-rouge">20</code> as the rotation degree. You can adjust the multiplication number to change the speed now. You’ve applied properties of motions not with keyframes, but with code.</li>
+  <li>Now try applying <code class="highlighter-rouge">Time</code> expression to the other object’s rotation property, make it rotate at a different speed</li>
+</ul>
+
+<hr>
+
+<h2 id="advanced-use-of-expressions">Advanced Use of Expressions</h2>
+
+<ul>
+  <li>Expressions can become much more complex than this simple example, and often need <code class="highlighter-rouge">null objects</code> to be incorporated.
+    <ul>
+      <li>A <strong>null object</strong> is a layer that <em><strong>contain only properties of motion</strong></em> and <em><strong>is invisible</strong></em>. They are typically used to control other layer(s), often using Expressions.</li>
+      <li>To do this,
+        <ul>
+          <li>Create a null layer, and add <code class="highlighter-rouge">Expression Controls</code> to it by <code class="highlighter-rouge">Effects</code> &gt; <code class="highlighter-rouge">Expression Controls</code> &gt; and select one.</li>
+          <li>Then, <em>parent your individual layer to this</em> null layer.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>You can also link different layers together, so that one is referential of the other. For instance, using a percentage-based value, one layer’s property can be based on another layer’s property.</li>
+  <li>As with basically everything about After Effects, Expressions can get as complicated as you’d like them to be.</li>
+</ul>
+
+<hr>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://helpx.adobe.com/after-effects/using/expression-basics.html">Adobe’s Expression Basics</a></li>
+  <li><a href="https://aescripts.com/">AE Scripts</a></li>
+  <li><a href="http://www.aenhancers.com/">AE Enhancers</a></li>
+  <li><a href="https://cgi.tutsplus.com/tutorials/how-to-create-infographics-that-animate-themselves--ae-26627">Creating Infographics that Animate Themselves</a></li>
+</ul>
+
+      		</section>
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li>
+									
+									<a href="/classes/motion-design/resources/" class="button">Back to list</a>
+</li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <!-- Copyright -->
+<div id="copyright">
+  <ul>
+<li>Curriculum developed by <a href="http://acm.newark.rutgers.edu/faculty/jennifer-bernstein/">Jennifer Bernstein</a>
+</li>
+<li>Site prepared by <a href="mailto:bumhan.yu@gmail.com">Bumhan Yu</a>
+</li>
+</ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<!-- <script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script> -->
+<script src="/classes/motion-design/assets/js/jquery.min.js"></script>
+<script src="/classes/motion-design/assets/js/jquery.scrollex.min.js"></script>
+<script src="/classes/motion-design/assets/js/jquery.scrolly.min.js"></script>
+<script src="/classes/motion-design/assets/js/skel.min.js"></script>
+<script src="/classes/motion-design/assets/js/util.js"></script>
+<script src="/classes/motion-design/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+	</body>
+</html>
